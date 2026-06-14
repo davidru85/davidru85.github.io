@@ -427,6 +427,16 @@ strong {
   display: none;
 }
 
+.btn-cv {
+  border-color: rgba(6, 182, 212, 0.3) !important;
+  background: rgba(6, 182, 212, 0.05) !important;
+}
+
+.btn-cv:hover {
+  background: rgba(6, 182, 212, 0.15) !important;
+  border-color: rgba(6, 182, 212, 0.6) !important;
+}
+
 /* Mobile Menu Button */
 .mobile-menu-toggle {
   display: none;
