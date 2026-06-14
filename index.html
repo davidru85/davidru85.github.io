@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#0A1328"/>
+  <meta name="color-scheme" content="dark"/>
+  
+  <!-- SEO Meta Tags -->
+  <title>David Ruiz Urraca | Senior Mobile Engineer (Android, Flutter, KMP)</title>
+  <meta name="description" content="Professional portfolio and CV of David Ruiz Urraca, Senior Mobile Engineer specializing in Android, Flutter, Kotlin Multiplatform (KMP), and AI-driven development."/>
+  <meta name="keywords" content="David Ruiz Urraca, Senior Mobile Engineer, Android Developer, Flutter Developer, Kotlin Multiplatform, KMP, Jetpack Compose, Mobile Architect"/>
+  <meta name="author" content="David Ruiz Urraca"/>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://davidru85.github.io/"/>
+  <meta property="og:title" content="David Ruiz Urraca | Senior Mobile Engineer"/>
+  <meta property="og:description" content="10+ years of building production Android and cross-platform applications at scale. Check out my portfolio and professional history."/>
+  <meta property="og:image" content="profile.jpg"/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content="https://davidru85.github.io/"/>
+  <meta property="twitter:title" content="David Ruiz Urraca | Senior Mobile Engineer"/>
+  <meta property="twitter:description" content="10+ years of building production Android and cross-platform applications at scale."/>
+  <meta property="twitter:image" content="profile.jpg"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Plus+Jakarta+Sans:wght@300..700&display=swap" rel="stylesheet"/>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  
+  <!-- Background Animated Gradient Orbs -->
+  <div class="bg-orb-container" aria-hidden="true">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header id="main-header" class="glass-header">
+    <div class="header-container">
+      <a href="#hero" class="logo" id="header-logo">
+        <span class="gradient-text">DRU</span>
+      </a>
+      <nav id="nav-menu" class="nav-links">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#contact" class="nav-item btn-contact">Contact</a>
+      </nav>
+      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-glow"></div>
+          <img src="profile.jpg" alt="David Ruiz Urraca profile picture" class="hero-avatar" id="avatar-img"/>
+        </div>
+        <div class="hero-text">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Available for Remote Roles</span>
+          </div>
+          <h1 id="hero-title">DAVID RUIZ URRACA</h1>
+          <h2 class="hero-subtitle">
+            Senior Mobile Engineer / <span id="typing-text" class="gradient-text">Android Developer</span><span class="cursor">|</span>
+          </h2>
+          <p class="hero-lead">
+            With over 10 years of experience building high-scale, production applications, I specialize in crafting robust native Android architectures, building fluid cross-platform apps with Flutter, and championing agentic AI integration in my daily workflow.
+          </p>
+          <div class="hero-actions">
+            <a href="CV David Ruiz Urraca.pdf" download class="btn btn-primary" id="btn-download-pdf">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">Get In Touch</a>
+          </div>
+          <div class="social-links">
+            <a href="https://linkedin.com/in/davidru85" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://github.com/davidru85" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-container scroll-offset">
+      <h2 class="section-title"><span class="gradient-text">Professional Profile</span></h2>
+      <div class="glass-card spotlight-card" id="about-card">
+        <div class="profile-highlight">
+          <p>
+            Senior Mobile Engineer with <strong>10+ years</strong> building production Android applications at scale, with a strong cross-platform track record in <strong>Flutter</strong> and active <strong>Kotlin Multiplatform (KMP)</strong> adoption.
+          </p>
+          <p>
+            Most recently, I owned an internal Android Ads SDK end-to-end at <strong>OLX Group</strong> — managing versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across three consumer apps.
+          </p>
+          <p>
+            In parallel, I am the CTO and sole developer of <strong>Explora Prado (Flutter)</strong>, an app for Museo del Prado that received an <em>Art-Tech 2025 Honorable Mention</em> and was selected for <em>Santander X Explorer 2026</em>.
+          </p>
+          <p>
+            I advocate for generative AI and agentic tooling as core engineering practices — utilizing <strong>Claude Code</strong>, custom skill packages, and structured <code>AGENTS.md</code> / <code>DESIGN.md</code> patterns to ensure AI-assisted development is reproducible, structured, and team-ready.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-container scroll-offset">
+      <h2 class="section-title"><span class="gradient-text">Professional Experience</span></h2>
+      
+      <div class="timeline">
+        
+        <!-- Experience 1: Explora Prado -->
+        <article class="timeline-item glass-card spotlight-card">
+          <div class="timeline-header">
+            <span class="timeline-duration">Jan 2026 – Present</span>
+            <h3 class="role-title">CTO & Lead Mobile Developer</h3>
+            <h4 class="company-name">
+              <a href="https://exploraprado.com" target="_blank" rel="noopener noreferrer">Explora Prado</a> 
+              <span class="location-badge">Spain (Remote)</span>
+            </h4>
+          </div>
+          <div class="timeline-body">
+            <p class="role-desc">
+              Award-winning Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Recipient of the <strong>Art-Tech 2025 Honorable Mention</strong> and selected for the <strong>Santander X Explorer 2026</strong> programme.
+            </p>
+            <ul class="role-bullets">
+              <li>Sole owner of the full technical platform: architecture, implementation, release pipeline, and App Store / Google Play publication.</li>
+              <li>Built the app end-to-end on Flutter/Dart with Clean Architecture + BLoC and a layered data model (DTO / Entity / Model) backed by Firebase and Firestore.</li>
+              <li>Implemented in-app purchases on both stores (in_app_purchase), including purchase verification flow and entitlement persistence — a non-trivial native integration on Android and iOS.</li>
+              <li>Built dynamic multi-language support and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.</li>
+              <li>Scaled output as a solo developer through an AI-first workflow: Claude Code, custom skill packages, and structured AGENTS.md / DESIGN.md documentation.</li>
+              <li>Represent the technical side in the Santander X Explorer 2026 programme.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>BLoC</span>
+              <span>Firebase</span>
+              <span>Firestore</span>
+              <span>In-App Purchases</span>
+              <span>Clean Architecture</span>
+              <span>AI Engineering</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Experience 2: OLX / Letgo -->
+        <article class="timeline-item glass-card spotlight-card">
+          <div class="timeline-header">
+            <span class="timeline-duration">Jul 2021 – Jan 2026</span>
+            <h3 class="role-title">Senior Android Engineer</h3>
+            <h4 class="company-name">OLX / Letgo <span class="location-badge">Barcelona (Remote)</span></h4>
+          </div>
+          <div class="timeline-body">
+            <ul class="role-bullets">
+              <li>Architected and maintained the internal Android Ads SDK powering monetisation across three consumer apps in the OLX portfolio.</li>
+              <li>Designed an api/impl module separation pattern enforcing strict dependency boundaries — improved build times and made partner-team integrations safer and more predictable.</li>
+              <li>Drove privacy-first decisions across the SDK: consent state management, scoped tracking, GDPR and Android Privacy Sandbox compliance.</li>
+              <li>Led migration of critical SDK surfaces from XML to Jetpack Compose and from callback-based async to Kotlin Coroutines & Flow, while maintaining backward compatibility.</li>
+              <li>Owned SDK lifecycle end-to-end: versioning strategy, integration documentation, and mentoring partner-app teams on consumption patterns.</li>
+              <li>Contributed cross-team feature work on consumer apps, reinforcing SDK integration patterns from the consumer side.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Android SDK</span>
+              <span>Kotlin</span>
+              <span>Jetpack Compose</span>
+              <span>Coroutines & Flow</span>
+              <span>API Design</span>
+              <span>Privacy Sandbox</span>
+              <span>GDPR</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Experience 3: Wegow -->
+        <article class="timeline-item glass-card spotlight-card">
+          <div class="timeline-header">
+            <span class="timeline-duration">Sep 2019 – Jul 2021</span>
+            <h3 class="role-title">Senior Android Developer</h3>
+            <h4 class="company-name">Wegow <span class="location-badge">Madrid (Remote)</span></h4>
+          </div>
+          <div class="timeline-body">
+            <ul class="role-bullets">
+              <li>Sole Android engineer — owned the full app end-to-end: architecture, feature delivery, and production stability across a heterogeneous device base.</li>
+              <li>Rebuilt the app from scratch on Kotlin + MVVM / Clean Architecture, migrating from a legacy codebase to a foundation ready for product growth.</li>
+              <li>Drove Java → Kotlin transition and Dagger 1 → Dagger 2 migration while keeping the app continuously shipping.</li>
+              <li>Integrated Spotify streaming, payment gateways for ticket purchases, and geolocation tooling for event discovery.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Kotlin</span>
+              <span>MVVM</span>
+              <span>Dagger 2</span>
+              <span>Spotify SDK</span>
+              <span>Payment Gateways</span>
+              <span>Clean Architecture</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Collapsible Older Experiences Button -->
+        <div class="collapse-trigger-container">
+          <button id="toggle-older-exp" class="btn btn-secondary btn-collapse">
+            <span>Show Older Experience</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div id="older-experiences" class="collapsed-experience">
+          
+          <!-- Experience 4: Instantgo -->
+          <article class="timeline-item glass-card spotlight-card older-exp-item">
+            <div class="timeline-header">
+              <span class="timeline-duration">Jul 2018 – Sep 2019</span>
+              <h3 class="role-title">Android Developer</h3>
+              <h4 class="company-name">Instantgo <span class="location-badge">Madrid (Remote)</span></h4>
+            </div>
+            <div class="timeline-body">
+              <ul class="role-bullets">
+                <li>Owned Android development with full technical autonomy in a fast-moving product team.</li>
+                <li>Delivered features end-to-end using MVVM / Clean Architecture with Kotlin, Dagger, and Firebase.</li>
+              </ul>
+              <div class="tech-tags">
+                <span>Kotlin</span>
+                <span>MVVM</span>
+                <span>Dagger</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 5: Telefónica -->
+          <article class="timeline-item glass-card spotlight-card older-exp-item">
+            <div class="timeline-header">
+              <span class="timeline-duration">Mar 2018 – Jul 2018</span>
+              <h3 class="role-title">Android TV Developer</h3>
+              <h4 class="company-name">Telefónica <span class="location-badge">Madrid</span></h4>
+            </div>
+            <div class="timeline-body">
+              <ul class="role-bullets">
+                <li>Developed features for the Movistar TV Android TV surface with focus on D-pad navigation, leanback UI, and backend integration.</li>
+              </ul>
+              <div class="tech-tags">
+                <span>Android TV</span>
+                <span>Leanback UI</span>
+                <span>D-pad Navigation</span>
+                <span>Media Streaming</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 6: UXSmobile -->
+          <article class="timeline-item glass-card spotlight-card older-exp-item">
+            <div class="timeline-header">
+              <span class="timeline-duration">Dec 2017 – Mar 2018</span>
+              <h3 class="role-title">Android Developer</h3>
+              <h4 class="company-name">UXSmobile <span class="location-badge">Madrid</span></h4>
+            </div>
+            <div class="timeline-body">
+              <ul class="role-bullets">
+                <li>Built new modules for the BMI – Evo Banco app using Clean Architecture, MVP, Kotlin, Retrofit, and Room.</li>
+              </ul>
+              <div class="tech-tags">
+                <span>Kotlin</span>
+                <span>MVP</span>
+                <span>Retrofit</span>
+                <span>Room</span>
+                <span>Fintech</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 7: Mobile One2One -->
+          <article class="timeline-item glass-card spotlight-card older-exp-item">
+            <div class="timeline-header">
+              <span class="timeline-duration">Nov 2016 – Dec 2017</span>
+              <h3 class="role-title">Android Developer</h3>
+              <h4 class="company-name">Mobile One2One <span class="location-badge">Madrid</span></h4>
+            </div>
+            <div class="timeline-body">
+              <ul class="role-bullets">
+                <li>Designed and delivered Android applications for enterprise clients including Carrefour, Alsa, Iberostar, Baleària, and Meliá.</li>
+              </ul>
+              <div class="tech-tags">
+                <span>Android Studio</span>
+                <span>Java</span>
+                <span>Enterprise Apps</span>
+                <span>Client Facing</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 8: AvantGarde IT Services -->
+          <article class="timeline-item glass-card spotlight-card older-exp-item">
+            <div class="timeline-header">
+              <span class="timeline-duration">Sep 2015 – Nov 2016</span>
+              <h3 class="role-title">Android Developer</h3>
+              <h4 class="company-name">AvantGarde IT Services <span class="location-badge">Madrid</span></h4>
+            </div>
+            <div class="timeline-body">
+              <ul class="role-bullets">
+                <li>Built and shipped client-facing Android apps for Indra, DGT, Atenzia, and Brightstar.</li>
+              </ul>
+              <div class="tech-tags">
+                <span>Android SDK</span>
+                <span>Java</span>
+                <span>REST APIs</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-container scroll-offset">
+      <h2 class="section-title"><span class="gradient-text">Technical Skills</span></h2>
+      <div class="skills-grid">
+        
+        <!-- Languages -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-badge highlight">Kotlin</span>
+            <span class="skill-badge highlight">Dart</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">XML</span>
+            <span class="skill-badge">JSON</span>
+          </div>
+        </div>
+
+        <!-- Android -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Android Stack</h3>
+          <div class="skill-tags">
+            <span class="skill-badge highlight">Jetpack Compose</span>
+            <span class="skill-badge highlight">Coroutines & Flow</span>
+            <span class="skill-badge">Clean Architecture</span>
+            <span class="skill-badge">MVVM / MVI</span>
+            <span class="skill-badge">Hilt / Dagger</span>
+            <span class="skill-badge">Retrofit / Ktor</span>
+            <span class="skill-badge">Room</span>
+            <span class="skill-badge">WorkManager</span>
+            <span class="skill-badge">JUnit / MockK</span>
+            <span class="skill-badge">GitHub Actions</span>
+          </div>
+        </div>
+
+        <!-- Flutter -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Flutter Stack</h3>
+          <div class="skill-tags">
+            <span class="skill-badge highlight">BLoC</span>
+            <span class="skill-badge">Clean Architecture</span>
+            <span class="skill-badge">in_app_purchase</span>
+            <span class="skill-badge">Firebase / Firestore</span>
+            <span class="skill-badge">App Check</span>
+            <span class="skill-badge">Flutter Web</span>
+            <span class="skill-badge">Platform Channels</span>
+          </div>
+        </div>
+
+        <!-- Exploring -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Exploring / KMP</h3>
+          <div class="skill-tags">
+            <span class="skill-badge highlight">Kotlin Multiplatform (KMP)</span>
+            <span class="skill-badge">Compose Multiplatform</span>
+            <span class="skill-badge">SQLDelight</span>
+            <span class="skill-badge">Ktor Multiplatform</span>
+          </div>
+        </div>
+
+        <!-- AI Tooling -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">AI & Agentic Tooling</h3>
+          <div class="skill-tags">
+            <span class="skill-badge highlight">Claude Code</span>
+            <span class="skill-badge">Custom Skill Packages</span>
+            <span class="skill-badge">AGENTS.md / DESIGN.md</span>
+            <span class="skill-badge">Ollama</span>
+            <span class="skill-badge">Qwen</span>
+            <span class="skill-badge">MCP (Model Context Protocol)</span>
+          </div>
+        </div>
+
+        <!-- Cloud & Analytics -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Cloud & SDKs</h3>
+          <div class="skill-tags">
+            <span class="skill-badge">Firebase Suite</span>
+            <span class="skill-badge">Google Ads SDK</span>
+            <span class="skill-badge">Amplitude</span>
+            <span class="skill-badge">CleverTap</span>
+            <span class="skill-badge">Crashlytics</span>
+          </div>
+        </div>
+
+        <!-- Tooling -->
+        <div class="glass-card spotlight-card skill-category-card">
+          <h3 class="skill-category-title">Engineering Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-badge">Android Studio</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">Gradle (Kotlin DSL / Groovy)</span>
+            <span class="skill-badge">CI / CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Languages -->
+    <section id="education" class="section-container scroll-offset">
+      <div class="edu-lang-grid">
+        
+        <!-- Education Card -->
+        <div class="glass-card spotlight-card edu-card">
+          <h2 class="section-title compact"><span class="gradient-text">Education</span></h2>
+          <div class="edu-item">
+            <span class="timeline-duration">2003 – 2006 / 2011 – 2012</span>
+            <h3 class="edu-degree">B.Sc. Computer Science (Information Systems Management)</h3>
+            <h4 class="edu-school">Universidad de La Rioja <span class="location-badge">Spain</span></h4>
+            <p class="edu-details">
+              Final Year Project implemented on the Android platform — Grade: <strong>9/10</strong>
+            </p>
+          </div>
+        </div>
+
+        <!-- Languages Card -->
+        <div class="glass-card spotlight-card lang-card">
+          <h2 class="section-title compact"><span class="gradient-text">Languages</span></h2>
+          <div class="lang-list">
+            <div class="lang-item">
+              <div class="lang-header">
+                <span class="lang-name">Spanish</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-bar-container"><div class="lang-bar" style="width: 100%;"></div></div>
+            </div>
+            <div class="lang-item">
+              <div class="lang-header">
+                <span class="lang-name">English</span>
+                <span class="lang-level">Upper-intermediate (C1 Proficiency)</span>
+              </div>
+              <div class="lang-bar-container"><div class="lang-bar" style="width: 80%;"></div></div>
+            </div>
+            <div class="lang-item">
+              <div class="lang-header">
+                <span class="lang-name">Portuguese</span>
+                <span class="lang-level">Elementary</span>
+              </div>
+              <div class="lang-bar-container"><div class="lang-bar" style="width: 30%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-container scroll-offset contact-section">
+      <h2 class="section-title"><span class="gradient-text">Get In Touch</span></h2>
+      <div class="glass-card spotlight-card contact-card">
+        <p class="contact-prompt">
+          Interested in working together or want to discuss mobile architecture, Flutter systems, or AI agent integrations? Feel free to reach out!
+        </p>
+        
+        <div class="contact-details">
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <a href="mailto:david@ruizurraca.com" class="contact-value" id="email-link">david@ruizurraca.com</a>
+            </div>
+            <button class="btn-copy" id="btn-copy-email" aria-label="Copy email to clipboard">
+              <span id="copy-tooltip">Copy</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+34644627262" class="contact-value">+34 644 627 262</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 0 0-7.36 16.76L3 21l4.24-1.64A10 10 0 1 0 12 2z"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Location</span>
+              <span class="contact-value text-muted">Spain (Remote / Madrid & Barcelona options)</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 David Ruiz Urraca. All rights reserved.</p>
+      <p class="footer-meta">Designed for premium aesthetics. Built with HTML, CSS, and JS.</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
