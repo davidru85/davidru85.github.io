@@ -88,8 +88,8 @@ When the user asks to **add or change information on the WebCV** (`index.html`),
 ## Open TODOs (see comment block in `index.html` Projects section)
 
 - Replace project thumbnail placeholders (`.project-thumb` monogram blocks) with real screenshots dropped into a `screenshots/` folder.
-- Replace `—` placeholder metrics (downloads, store rating) with real figures.
-- Replace disabled `href="#"` App Store / Google Play links with real store URLs once available.
+- **Explora Prado is NOT published yet.** Its App Store / Google Play links must stay in the pre-launch state (`<span class="project-link project-link--pending" aria-disabled="true">… · Coming Soon</span>`), not live `<a href>` store URLs. Only switch them to real links once the app is actually on the stores. The Wegow store link is live because Wegow is published — that is the correct pattern for a released app.
+- **Do not show download/rating metrics for unreleased apps.** Explora Prado must not claim figures like "5K+ downloads" or "4.9 store rating" until it is published and those numbers are real. Use honest pre-launch metrics instead (e.g. "2026 · launching soon", "3 platforms").
 
 ## Guardrails
 
@@ -97,3 +97,7 @@ When the user asks to **add or change information on the WebCV** (`index.html`),
 - Don't break responsive layout, accessibility, print styles, or reduced-motion support.
 - Preserve SEO/meta/structured-data integrity on any `<head>` or content change.
 - Verify changes by serving locally and checking hero, mobile menu, collapsible older-experience toggle, copy-email button, and scroll-spy nav highlighting still work.
+- **PDF: a single professional experience must never split across pages.** Each experience entry carries `break-inside: avoid` so it stays whole on one page. After regenerating the PDF, visually verify no role is cut between pages (a small gap at the bottom of a page is acceptable; a split entry is not).
+- **Radar chart ("Skill Proficiency") labels must never be clipped.** The SVG `viewBox` must be wide enough to contain the edge labels in BOTH languages (the Spanish labels are longer, so size for those). Current value: `viewBox="-95 -70 510 460"`. If labels change, re-verify the longest ones still fit inside the viewBox.
+- **Never claim store presence (live links, downloads, ratings) for an app that isn't published.** See the Explora Prado TODO above.
+- The downloadable PDF is generated from `CV_David_Ruiz_Urraca.md` with WeasyPrint via a build script (kept in the working/output folder, not committed). When CV content changes, regenerate and replace `CV David Ruiz Urraca.pdf`, then verify page count and that no experience is split.

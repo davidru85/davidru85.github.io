@@ -17,7 +17,7 @@ Welcome to my professional CV and portfolio repository! This project hosts my in
 I am a **Senior Mobile Engineer** with **10+ years of experience** specializing in native **Android** (Jetpack Compose, Kotlin), cross-platform **Flutter** (Dart, BLoC), and **Kotlin Multiplatform (KMP)**. I am passionate about clean architecture, test-driven development (TDD), and leveraging generative AI/agentic tooling to accelerate engineering workflows.
 
 ### Key Highlights:
-- **CTO & Lead Developer at [Explora Prado](https://exploraprado.com)**: Built a self-guided digital experience for Museo del Prado from scratch using Flutter. Recipient of the *Art-Tech 2025 Honorable Mention* and selected for *Santander X Explorer 2026*. Available on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado).
+- **CTO & Lead Developer at [Explora Prado](https://exploraprado.com)**: Built a self-guided digital experience for Museo del Prado from scratch using Flutter. Recipient of the *Art-Tech 2025 Honorable Mention* and selected for *Santander X Explorer 2026*. Launching soon on the App Store and Google Play.
 - **Senior Android Engineer at OLX / Letgo**: Owned the internal Android Ads SDK powering monetization across three major consumer apps with tens of millions of active users.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
 
