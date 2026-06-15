@@ -59,9 +59,9 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ## 🗣️ Speaking &amp; Open Source
 
-*   **Android Development Instructor**: Led hands-on technical training as an instructor for professional Android development courses. Focused on Kotlin adoption, clean architecture frameworks, and modern Jetpack libraries.
+*   **Android Development Instructor (Internal)**: Led hands-on Android training internally within the company, upskilling engineering colleagues on Kotlin adoption, clean architecture, and modern Jetpack libraries.
 *   **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
-*   **SDK Guidelines &amp; Documentation**: Author of internal integration playbooks, GDPR consent management directives, and modular library architectures utilized by cross-platform developer teams.
+*   **Internal SDK Guidelines &amp; Documentation**: Authored internal company playbooks for SDK integration, GDPR consent management, and modular library architecture, used by partner teams within the organisation.
 
 ---
 

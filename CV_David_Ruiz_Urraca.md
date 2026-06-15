@@ -111,9 +111,9 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 
 ## SPEAKING & OPEN SOURCE
 
-- **Android Development Instructor**: Led hands-on technical training as an instructor for professional Android development courses. Focused on Kotlin adoption, clean architecture frameworks, and modern Jetpack libraries.
+- **Android Development Instructor (Internal)**: Led hands-on Android training internally within the company, upskilling engineering colleagues on Kotlin adoption, clean architecture, and modern Jetpack libraries.
 - **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
-- **SDK Guidelines & Documentation**: Author of internal integration playbooks, GDPR consent management directives, and modular library architectures utilized by cross-platform developer teams.
+- **Internal SDK Guidelines & Documentation**: Authored internal company playbooks for SDK integration, GDPR consent management, and modular library architecture, used by partner teams within the organisation.
 
 ---
 
