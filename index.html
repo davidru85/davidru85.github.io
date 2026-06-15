@@ -17,14 +17,18 @@
   <meta property="og:url" content="https://davidru85.github.io/"/>
   <meta property="og:title" content="David Ruiz Urraca | Senior Mobile Engineer"/>
   <meta property="og:description" content="10+ years of building production Android and cross-platform applications at scale. Check out my portfolio and professional history."/>
-  <meta property="og:image" content="profile.jpg"/>
+  <meta property="og:image" content="https://davidru85.github.io/profile.jpg"/>
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
   <meta property="twitter:url" content="https://davidru85.github.io/"/>
   <meta property="twitter:title" content="David Ruiz Urraca | Senior Mobile Engineer"/>
   <meta property="twitter:description" content="10+ years of building production Android and cross-platform applications at scale."/>
-  <meta property="twitter:image" content="profile.jpg"/>
+  <meta property="twitter:image" content="https://davidru85.github.io/profile.jpg"/>
+
+  <!-- Canonical + Favicon -->
+  <link rel="canonical" href="https://davidru85.github.io/"/>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2338BDF8'/%3E%3Cstop offset='0.5' stop-color='%23818CF8'/%3E%3Cstop offset='1' stop-color='%23C084FC'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='%230A1328'/%3E%3Ctext x='50' y='68' font-family='Space Grotesk, Arial, sans-serif' font-size='44' font-weight='700' text-anchor='middle' fill='url(%23g)'%3EDRU%3C/text%3E%3C/svg%3E"/>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -33,6 +37,30 @@
   
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css"/>
+
+  <!-- Structured Data (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "David Ruiz Urraca",
+    "url": "https://davidru85.github.io/",
+    "image": "https://davidru85.github.io/profile.jpg",
+    "jobTitle": "Senior Mobile Engineer",
+    "email": "mailto:david@ruizurraca.com",
+    "telephone": "+34644627262",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ES"
+    },
+    "knowsLanguage": ["es", "en", "pt"],
+    "knowsAbout": ["Android", "Kotlin", "Jetpack Compose", "Flutter", "Dart", "Kotlin Multiplatform", "Clean Architecture", "Test-Driven Development"],
+    "sameAs": [
+      "https://linkedin.com/in/davidru85",
+      "https://github.com/davidru85"
+    ]
+  }
+  </script>
 </head>
 <body>
   
@@ -52,6 +80,7 @@
       <nav id="nav-menu" class="nav-links">
         <a href="#about" class="nav-item">About</a>
         <a href="#experience" class="nav-item">Experience</a>
+        <a href="#projects" class="nav-item">Projects</a>
         <a href="#skills" class="nav-item">Skills</a>
         <a href="#education" class="nav-item">Education</a>
         <a href="CV David Ruiz Urraca.pdf" download class="nav-item btn-contact btn-cv">Download CV</a>
@@ -371,6 +400,126 @@
       </div>
     </section>
 
+    <!-- Projects / Apps Section -->
+    <!--
+      ============================================================
+      TODO (David): swap the placeholders for real data.
+        • Screenshot: drop an image in screenshots/ and replace the
+          <div class="project-thumb">…</div> block with:
+            <img src="screenshots/your-app.png" alt="App name" class="project-thumb"/>
+        • Store links: replace href="#" (currently shown disabled).
+        • Metrics: replace any "—" with real numbers (downloads, rating, users).
+      Per-card accent is set by the project-card--{cyan,purple,green} class.
+      ============================================================
+    -->
+    <section id="projects" class="section-container scroll-offset">
+      <h2 class="section-title"><span class="gradient-text">Featured Projects</span></h2>
+      <p class="section-lead">Selected work where I owned the architecture and shipped to production.</p>
+      <div class="projects-grid">
+
+        <!-- Explora Prado -->
+        <article class="glass-card spotlight-card project-card project-card--cyan">
+          <div class="project-thumb" aria-hidden="true">
+            <span class="project-ribbon">Art-Tech 2025 · Santander X 2026</span>
+            <span class="project-monogram">EP</span>
+            <span class="project-thumb-platform">Flutter · iOS / Android / Web</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">CTO &amp; Lead Developer · 2026–present</span>
+            <h3 class="project-title">Explora Prado</h3>
+            <p class="project-desc">
+              A self-guided digital companion for the Museo del Prado that turns the permanent collection into an
+              interactive, multilingual tour with quizzes and multimedia guides. Sole developer and technical
+              owner — from Clean Architecture and in-app purchases to App Store and Google Play release.
+            </p>
+            <div class="project-metrics">
+              <!-- TODO: replace — with real figures -->
+              <span class="project-metric"><strong>—</strong>downloads</span>
+              <span class="project-metric"><strong>—</strong>store rating</span>
+              <span class="project-metric"><strong>3</strong>platforms</span>
+            </div>
+            <div class="tech-tags">
+              <span>Flutter</span>
+              <span>BLoC</span>
+              <span>Firebase</span>
+              <span>In-App Purchases</span>
+              <span>TDD</span>
+            </div>
+            <div class="project-links">
+              <a href="https://exploraprado.com" target="_blank" rel="noopener noreferrer" class="project-link">Website ↗</a>
+              <!-- TODO: add real store links -->
+              <a href="#" class="project-link" aria-disabled="true">App Store</a>
+              <a href="#" class="project-link" aria-disabled="true">Google Play</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- OLX Ads SDK -->
+        <article class="glass-card spotlight-card project-card project-card--purple">
+          <div class="project-thumb" aria-hidden="true">
+            <span class="project-monogram">OLX</span>
+            <span class="project-thumb-platform">Android · Kotlin Library</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Senior Android Engineer · 2021–26</span>
+            <h3 class="project-title">Internal Ads SDK</h3>
+            <p class="project-desc">
+              An internal monetisation SDK I architected and owned end-to-end, powering ads across three OLX
+              marketplace apps used by tens of millions. Strict <code>api/impl</code> module boundaries, GDPR
+              consent management, and a zero-regression TDD pipeline for safe partner-team integration.
+            </p>
+            <div class="project-metrics">
+              <span class="project-metric"><strong>10M+</strong>users reached</span>
+              <span class="project-metric"><strong>3</strong>consumer apps</span>
+              <span class="project-metric"><strong>Zero</strong>regressions</span>
+            </div>
+            <div class="tech-tags">
+              <span>Android SDK</span>
+              <span>Jetpack Compose</span>
+              <span>Coroutines &amp; Flow</span>
+              <span>GDPR</span>
+              <span>API Design</span>
+            </div>
+            <div class="project-links">
+              <span class="project-link project-link--note">Proprietary · internal</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Wegow -->
+        <article class="glass-card spotlight-card project-card project-card--green">
+          <div class="project-thumb" aria-hidden="true">
+            <span class="project-monogram">W</span>
+            <span class="project-thumb-platform">Android · Kotlin</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Sole Android Engineer · 2019–21</span>
+            <h3 class="project-title">Wegow</h3>
+            <p class="project-desc">
+              A live-music discovery and ticketing app I rebuilt from the ground up — migrating a legacy codebase
+              to Kotlin with MVVM / Clean Architecture, then adding Spotify streaming, in-app ticket payments,
+              and location-based event discovery.
+            </p>
+            <div class="project-metrics">
+              <span class="project-metric"><strong>100K+</strong>downloads</span>
+              <span class="project-metric"><strong>100%</strong>Kotlin rewrite</span>
+            </div>
+            <div class="tech-tags">
+              <span>Kotlin</span>
+              <span>MVVM</span>
+              <span>Spotify SDK</span>
+              <span>Payments</span>
+              <span>TDD</span>
+            </div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=com.wegow.wegow" target="_blank" rel="noopener noreferrer" class="project-link">Google Play ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="section-container scroll-offset">
       <h2 class="section-title"><span class="gradient-text">Technical Skills</span></h2>
@@ -383,8 +532,7 @@
             <span class="skill-badge highlight">Kotlin</span>
             <span class="skill-badge highlight">Dart</span>
             <span class="skill-badge">Java</span>
-            <span class="skill-badge">XML</span>
-            <span class="skill-badge">JSON</span>
+            <span class="skill-badge">SQL</span>
           </div>
         </div>
 
@@ -440,17 +588,11 @@
           <div class="skill-tags">
             <span class="skill-badge highlight">Claude Code (daily)</span>
             <span class="skill-badge highlight">Cursor</span>
-            <span class="skill-badge highlight">Codex</span>
-            <span class="skill-badge highlight">Ollama</span>
-            <span class="skill-badge">Windsurf</span>
-            <span class="skill-badge">Gemini</span>
-            <span class="skill-badge">Custom Skill Packages (FastAPI SSE, Flutter IAP, httpx, pytest)</span>
-            <span class="skill-badge">Terminal Command Loops</span>
-            <span class="skill-badge">Automated Test-Debug Cycles</span>
-            <span class="skill-badge">Workspace Rules (.cursorrules)</span>
-            <span class="skill-badge">AGENTS.md / DESIGN.md patterns</span>
-            <span class="skill-badge">Qwen</span>
+            <span class="skill-badge">Codex</span>
+            <span class="skill-badge">Ollama (local models)</span>
             <span class="skill-badge">MCP (Model Context Protocol)</span>
+            <span class="skill-badge">Custom Skill Packages</span>
+            <span class="skill-badge">AGENTS.md / DESIGN.md patterns</span>
           </div>
         </div>
 
@@ -522,7 +664,7 @@
             <div class="lang-item">
               <div class="lang-header">
                 <span class="lang-name">English</span>
-                <span class="lang-level">Upper-intermediate (C1 Proficiency)</span>
+                <span class="lang-level">Advanced (C1)</span>
               </div>
               <div class="lang-bar-container"><div class="lang-bar" style="width: 80%;"></div></div>
             </div>
