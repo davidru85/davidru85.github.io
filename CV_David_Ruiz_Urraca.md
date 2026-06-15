@@ -64,39 +64,48 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 ### Android Developer · Jul 2018 – Sep 2019
 **Instantgo** · Madrid (Remote)
 
-- Owned Android development with full technical autonomy in a fast-moving product team.
-- Delivered features end-to-end using MVVM / Clean Architecture with Kotlin, Dagger, and Firebase.
+- Built the Android app from scratch and brought it to feature parity with the existing iOS app, for a product (paid 1:1 video-call marketplace + job board) with a user base primarily in the US.
+- Integrated paid 1:1 video calls with Twilio, managing session and connection lifecycle.
+- Implemented the in-app payment flow with Stripe for booking paid video calls.
+- Integrated the Firebase ecosystem (authentication, push notifications, analytics, Crashlytics, Realtime Database, and App Distribution for build delivery) with Dagger 2 for dependency injection.
+- Sole Android developer — built the app from scratch with full technical autonomy in a fast-paced startup, using Kotlin + MVVM / Clean Architecture.
 
 ---
 
 ### Android TV Developer · Mar 2018 – Jul 2018
 **Telefónica** · Madrid
 
-- Developed features for the Movistar TV Android TV surface with focus on D-pad navigation, leanback UI, and backend integration.
-- Stack: MVP, Kotlin, Scrum.
+- Developed features for the Movistar TV Android TV surface with D-pad navigation and Leanback UI components.
+- Worked with ExoPlayer for video playback and integrated custom JavaScript components into the Android TV surface.
+- Worked in a Scrum team applying MVP and Kotlin within a large-organization delivery process.
 
 ---
 
 ### Android Developer · Dec 2017 – Mar 2018
 **UXSmobile** · Madrid
 
-- Built new modules for the BMI – Evo Banco app using Clean Architecture, MVP, Kotlin, Retrofit, and Room.
+- Built new modules for the BMI – Evo Banco app with Clean Architecture + MVP in Kotlin.
+- Implemented secure REST integrations with Retrofit and local persistence with Room.
+- Worked under banking-sector quality and security standards.
 
 ---
 
 ### Android Developer · Nov 2016 – Dec 2017
 **Mobile One2One** · Madrid
 
-- Designed and delivered Android applications for enterprise clients including Carrefour, Alsa, Iberostar, Baleària, and Meliá.
-- Stack: Material Design, MVP, Clean Architecture, Java, Kotlin, Retrofit, Realm.
+- Delivered native Android apps for enterprise clients in retail, transport, and hospitality (Carrefour, Alsa, Iberostar, Baleària, Meliá).
+- Built features end-to-end with MVP / Clean Architecture, primarily in Java while taking my first steps with Kotlin.
+- Integrated REST APIs (Retrofit) and offline persistence (Realm), implementing custom UI designs.
+- Adapted to differing requirements and codebases per client within an agency delivery model.
 
 ---
 
 ### Android Developer · Sep 2015 – Nov 2016
 **AvantGarde IT Services** · Madrid
 
-- Built and shipped client-facing Android apps for Indra, DGT, Atenzia, and Brightstar.
-- Stack: Java, XML, Retrofit, Dagger, database and repository integration.
+- Built and shipped client-facing Android apps in Java for public-sector and enterprise clients (Indra, DGT, Atenzia, Brightstar).
+- Developed in Java using mainly AsyncTasks, starting to incorporate libraries such as Retrofit, ButterKnife, and an early version of Dagger.
+- Built UIs in XML and contributed across the full feature lifecycle.
 
 ---
 
