@@ -4,6 +4,8 @@
 
 +34 644 627 262 · david@ruizurraca.com · [linkedin.com/in/davidru85](https://linkedin.com/in/davidru85)
 
+**Available for Remote Roles**
+
 ---
 
 ## PROFESSIONAL PROFILE
@@ -127,5 +129,5 @@ Universidad de La Rioja · Spain
 | Language | Level |
 |---|---|
 | Spanish | Native |
-| English | Upper-intermediate — professional working proficiency |
+| English | Upper-Intermediate — professional working proficiency |
 | Portuguese | Elementary |

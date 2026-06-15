@@ -6,6 +6,8 @@
 
 Welcome to my professional CV and portfolio repository! This project hosts my interactive, premium web CV, built with a modern glassmorphic UI, responsive layouts, and elegant micro-animations.
 
+**Available for Remote Roles**
+
 🔗 **View Live Web CV:** [davidru85.github.io](https://davidru85.github.io/)
 
 ---
@@ -66,7 +68,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 ## 🗣️ Languages
 
 -   **Spanish:** Native
--   **English:** C1 (Upper-Intermediate)
+-   **English:** Upper-Intermediate
 -   **Portuguese:** Elementary
 
 ---

@@ -73,7 +73,17 @@ When the user asks to **add or change information on the WebCV** (`index.html`),
 
 ## Known inconsistencies to reconcile
 
-- **English level** is stated three different ways: `CV_David_Ruiz_Urraca.md` says "Upper-intermediate", `index.html` says "Advanced (C1)", `README.md` says "C1 (Upper-Intermediate)". Pick one wording with the user and align all three.
+- **English level** — resolved. All three files now state "Upper-Intermediate":
+  - `index.html` says "Upper-Intermediate"
+  - `CV_David_Ruiz_Urraca.md` says "Upper-Intermediate — professional working proficiency"
+  - `README.md` says "Upper-Intermediate"
+
+## Resolved content decisions (June 2026)
+
+- **AI & Agentic Tooling stack** is canonical in the CV markdown; `index.html` mirrors it. Windsurf, Gemini, Qwen are included. `.cursorrules` is intentionally omitted from the web (too niche to surface as a public skill badge).
+- **"Available for Remote Roles"** is a status badge in the hero of `index.html` and is also stated explicitly in both `CV_David_Ruiz_Urraca.md` and `README.md`.
+- **Copyright** appears only in the `index.html` footer. `CV_David_Ruiz_Urraca.md` and `README.md` carry no copyright line.
+- **Hero lead paragraph** in `index.html` is intentionally exclusive to the web (the CV markdown profile section is the equivalent).
 
 ## Open TODOs (see comment block in `index.html` Projects section)
 
