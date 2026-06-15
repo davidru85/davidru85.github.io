@@ -115,7 +115,7 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 | **Languages** | Kotlin · Dart · Java · XML · JSON |
 | **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger 2 · Koin · Retrofit / Ktor · Coil · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · Material Design |
 | **Flutter** | BLoC · Clean Architecture · `in_app_purchase` · Firebase · Firestore · App Check · Flutter Web · Platform Channels |
-| **Exploring** | Kotlin Multiplatform (KMP) · Compose Multiplatform · SQLDelight · Ktor multiplatform |
+| **Exploring** | Kotlin Multiplatform (KMP) · Compose Multiplatform · SQLDelight · Ktor multiplatform · React Native (beginner) |
 | **AI Tooling** | Claude Code (daily) · Cursor · Codex · Ollama · Windsurf · Gemini · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns · Qwen · MCP |
 | **Cloud** | Firebase suite · Google Ads SDK · Amplitude · CleverTap · Crashlytics |
 | **Tools** | Android Studio · VS Code · Git · Gradle (Kotlin DSL / Groovy) · CI/CD |
