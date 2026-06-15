@@ -19,7 +19,7 @@ Senior Mobile Engineer with 10+ years building production Android applications a
 
 Award-winning Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Art-Tech 2025 Honorable Mention · Santander X Explorer 2026.
 
-- Sole owner of the full technical platform: architecture, implementation, release pipeline, and App Store / Google Play publication.
+- Sole owner of the full technical platform: architecture, implementation, release pipeline, and App Store / Google Play publication ([App Store](https://apps.apple.com/app/id6758626429) · [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado)).
 - Built the app end-to-end on Flutter/Dart with Clean Architecture + BLoC and a layered data model (DTO / Entity / Model) backed by Firebase and Firestore.
 - Implemented in-app purchases on both stores (`in_app_purchase`), including purchase verification flow and entitlement persistence — a non-trivial native integration on Android and iOS.
 - Built dynamic multi-language support and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.
