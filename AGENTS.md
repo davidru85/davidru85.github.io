@@ -52,6 +52,25 @@ Opening `index.html` directly works too, but a local server is closer to the Git
 - The `index.html` `<head>` contains SEO meta tags, Open Graph / Twitter cards, and `schema.org` Person JSON-LD. Keep job title, skills (`knowsAbout`), and links consistent with the visible content when you change them.
 - Don't invent metrics, dates, or achievements. If a number is unknown, leave the existing placeholder.
 
+## Command: "Add information to the WebCV"
+
+When the user asks to **add or change information on the WebCV** (`index.html`), follow this workflow — do not just edit `index.html` directly:
+
+1. **Validate against the canonical CV first.** Before making any edit, cross-check the requested information against `CV_David_Ruiz_Urraca.md` (the source of truth). Look for conflicts such as:
+   - Contradictory facts (different dates, titles, employers, metrics, or skill levels than what the CV states).
+   - Duplicates or overlaps with content already present.
+   - Claims that aren't supported anywhere in the CV and may be inaccurate.
+
+2. **If there's a problem, stop and ask for confirmation.** Do not add the information yet. Explain clearly *what* the conflict is and *why* it's a problem (e.g. "The CV lists OLX as ending Jan 2026, but you're adding 'present' — these contradict each other"). Wait for the user to confirm how to proceed before editing anything.
+
+3. **If there's no problem (or after the user confirms), apply the change in both places.** Any information added to the WebCV must also be reflected in `CV_David_Ruiz_Urraca.md` so the two never drift apart. Update:
+   - `index.html` (the visible content, plus SEO meta / JSON-LD if the change touches job title, skills, or links).
+   - `CV_David_Ruiz_Urraca.md` (mirror the same fact in the appropriate section).
+
+4. **Always check whether `README.md` needs updating.** `README.md` mirrors CV content (about, technical expertise, experience summary, education, languages). After any content change, check whether it covers the affected fact — if it does, update it too so it stays consistent. If the change is purely visual/structural (CSS, layout, JS behavior) and doesn't touch content `README.md` describes, no update is needed.
+
+5. **Confirm what changed.** Briefly tell the user which files were updated.
+
 ## Known inconsistencies to reconcile
 
 - **English level** is stated three different ways: `CV_David_Ruiz_Urraca.md` says "Upper-intermediate", `index.html` says "Advanced (C1)", `README.md` says "C1 (Upper-Intermediate)". Pick one wording with the user and align all three.
