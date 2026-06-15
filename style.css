@@ -1594,9 +1594,11 @@ img.project-thumb {
 
 .contact-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
+  grid-template-columns: 1fr;
+  gap: 16px;
   text-align: left;
+  max-width: 520px;
+  margin: 0 auto;
 }
 
 .contact-item {
@@ -1632,7 +1634,7 @@ img.project-thumb {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  overflow: hidden;
+  min-width: 0;
 }
 
 .contact-label {
@@ -1646,9 +1648,7 @@ img.project-thumb {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-primary);
-  text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .contact-value:hover {
