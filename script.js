@@ -66,6 +66,8 @@ function initMobileMenu() {
    3. Spotlight Mouse-Tracking Effect
    ----------------------------------------- */
 function initCardSpotlights() {
+  if (!window.matchMedia('(hover: hover)').matches) return;
+
   const cards = document.querySelectorAll('.spotlight-card');
   
   cards.forEach(card => {
@@ -89,12 +91,25 @@ function initTypingEffect() {
   const element = document.getElementById('typing-text');
   if (!element) return;
 
-  const roles = [
+  const isSpanish = document.documentElement.lang === 'es';
+  const roles = isSpanish ? [
+    "Ingeniero Android",
+    "Especialista en Flutter",
+    "Kotlin Multiplatform (KMP) Explorer",
+    "Desarrollador AI-First"
+  ] : [
     "Android Engineer",
     "Flutter Specialist",
     "Kotlin Multiplatform (KMP) Explorer",
     "AI-First Developer"
   ];
+  
+  // Disable typing animation if reduced motion is preferred
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReducedMotion) {
+    element.textContent = isSpanish ? "Desarrollador Android y Flutter" : "Android & Flutter Developer";
+    return;
+  }
   
   let roleIdx = 0;
   let charIdx = 0;
@@ -144,17 +159,19 @@ function initCollapsibleExperiences() {
   
   if (!toggleBtn || !olderContainer) return;
   
+  const isSpanish = document.documentElement.lang === 'es';
+  
   toggleBtn.addEventListener('click', () => {
     const isExpanded = olderContainer.classList.contains('expanded');
     const textSpan = toggleBtn.querySelector('span');
     
     if (isExpanded) {
       olderContainer.style.maxHeight = null;
-      textSpan.textContent = "Show Older Experience";
+      textSpan.textContent = isSpanish ? "Mostrar experiencia anterior" : "Show Older Experience";
     } else {
       // Programmatically set max-height based on content height for a smooth transition
       olderContainer.style.maxHeight = olderContainer.scrollHeight + "px";
-      textSpan.textContent = "Hide Older Experience";
+      textSpan.textContent = isSpanish ? "Ocultar experiencia anterior" : "Hide Older Experience";
     }
     
     olderContainer.classList.toggle('expanded');
@@ -172,22 +189,24 @@ function initCopyEmail() {
   
   if (!copyBtn || !tooltip) return;
   
+  const isSpanish = document.documentElement.lang === 'es';
+  
   copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(emailText)
       .then(() => {
         // Successful copy
-        tooltip.textContent = "Copied!";
+        tooltip.textContent = isSpanish ? "¡Copiado!" : "Copied!";
         copyBtn.classList.add('copied');
         
         // Reset after 2 seconds
         setTimeout(() => {
-          tooltip.textContent = "Copy";
+          tooltip.textContent = isSpanish ? "Copiar" : "Copy";
           copyBtn.classList.remove('copied');
         }, 2000);
       })
       .catch(err => {
         console.error("Failed to copy email: ", err);
-        tooltip.textContent = "Error";
+        tooltip.textContent = isSpanish ? "Error" : "Error";
       });
   });
 }

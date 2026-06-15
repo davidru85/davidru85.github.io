@@ -27,7 +27,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ### Core & Frameworks
 - **Languages:** Kotlin, Dart, Java, XML, SQL
-- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Room, Retrofit, Ktor, RxJava, Android TV, Health Connect API
+- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, Coil, RxJava, Android TV, Health Connect API
 - **Flutter Stack:** BLoC, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
 - **Exploring/KMP:** Kotlin Multiplatform (KMP), Compose Multiplatform, SQLDelight, Ktor Multiplatform
 
@@ -54,6 +54,14 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
     *   Integrated Spotify streaming, geolocation, and payment gateways.
 *   **Android Developer & Android TV Developer** | *Instantgo, Telefónica, UXSmobile, Mobile One2One, AvantGarde IT Services* (2015 – 2019)
     *   Developed enterprise and consumer apps (Movistar TV Android TV, Evo Banco, Carrefour, Alsa, Iberostar, Baleària, Meliá, DGT, Brightstar).
+
+---
+
+## 🗣️ Speaking &amp; Open Source
+
+*   **Android Development Instructor**: Led hands-on technical training as an instructor for professional Android development courses. Focused on Kotlin adoption, clean architecture frameworks, and modern Jetpack libraries.
+*   **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
+*   **SDK Guidelines &amp; Documentation**: Author of internal integration playbooks, GDPR consent management directives, and modular library architectures utilized by cross-platform developer teams.
 
 ---
 

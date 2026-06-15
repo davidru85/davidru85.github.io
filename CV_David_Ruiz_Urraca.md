@@ -100,12 +100,20 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 
 ---
 
+## SPEAKING & OPEN SOURCE
+
+- **Android Development Instructor**: Led hands-on technical training as an instructor for professional Android development courses. Focused on Kotlin adoption, clean architecture frameworks, and modern Jetpack libraries.
+- **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
+- **SDK Guidelines & Documentation**: Author of internal integration playbooks, GDPR consent management directives, and modular library architectures utilized by cross-platform developer teams.
+
+---
+
 ## TECHNICAL SKILLS
 
 | Area | Skills |
 |---|---|
 | **Languages** | Kotlin · Dart · Java · XML · JSON |
-| **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger · Retrofit / Ktor · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · Material Design |
+| **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger 2 · Koin · Retrofit / Ktor · Coil · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · Material Design |
 | **Flutter** | BLoC · Clean Architecture · `in_app_purchase` · Firebase · Firestore · App Check · Flutter Web · Platform Channels |
 | **Exploring** | Kotlin Multiplatform (KMP) · Compose Multiplatform · SQLDelight · Ktor multiplatform |
 | **AI Tooling** | Claude Code (daily) · Cursor · Codex · Ollama · Windsurf · Gemini · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns · Qwen · MCP |
