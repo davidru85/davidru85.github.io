@@ -5,30 +5,30 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --bg-primary: #F7F3EA;
+  --bg-secondary: #ECE2D4;
+  --text-primary: #17202A;
+  --text-secondary: #4B5563;
+  --text-muted: #7A7168;
   
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
+  --accent-color: #2563EB; /* Editorial Blue */
+  --accent-secondary: #C2410C; /* Terracotta */
+  --accent-green: #0F766E; /* Deep Teal */
+  --accent-cyan: #0891B2; /* Clear Cyan */
   
   /* Gradient Blends (Flutter + Kotlin / Android) */
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #0891B2 0%, #2563EB 48%, #C2410C 100%);
+  --gradient-text: linear-gradient(135deg, #0F766E 0%, #2563EB 48%, #C2410C 100%);
+  --gradient-glow: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 72%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-  --glass-blur: blur(20px);
+  --bg-glass: rgba(255, 255, 255, 0.68);
+  --bg-glass-hover: rgba(255, 255, 255, 0.84);
+  --border-glass: rgba(23, 32, 42, 0.12);
+  --border-glass-hover: rgba(37, 99, 235, 0.28);
+  --glass-shadow: 0 18px 48px rgba(55, 48, 39, 0.14);
+  --glass-blur: blur(18px);
   
   /* Typography */
   --font-title: 'Space Grotesk', sans-serif;
@@ -282,6 +282,99 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Porcelain Daylight */
+body {
+  background-image:
+    linear-gradient(rgba(23, 32, 42, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 32, 42, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 14% 12%, rgba(8, 145, 178, 0.13), transparent 32%),
+    radial-gradient(circle at 86% 18%, rgba(194, 65, 12, 0.1), transparent 34%);
+  background-size: 52px 52px, 52px 52px, auto, auto;
+}
+
+strong,
+.project-title,
+.skill-category-title,
+.edu-degree,
+.lang-name,
+.author-name,
+.contribution-title,
+.company-name a,
+.profile-highlight code,
+.project-desc code,
+#copy-tooltip {
+  color: var(--text-primary);
+}
+
+.glass-header {
+  background: rgba(247, 243, 234, 0.78);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer,
+#copy-tooltip {
+  background: rgba(247, 243, 234, 0.92);
+}
+
+.glass-card {
+  box-shadow: 0 18px 46px rgba(55, 48, 39, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.84);
+}
+
+.project-thumb::after {
+  background: linear-gradient(180deg, transparent 58%, rgba(247, 243, 234, 0.64) 100%);
+}
+
+.btn-primary,
+.skip-link {
+  color: #fff;
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.2);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 18px 38px rgba(194, 65, 12, 0.24);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item,
+.profile-highlight code,
+.project-desc code {
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.btn-contact,
+.skill-badge.highlight,
+.lang-switch-btn.active {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(37, 99, 235, 0.24);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(37, 99, 235, 0.14);
+  border-color: rgba(37, 99, 235, 0.42);
+}
+
+.project-card--cyan {
+  --proj-accent: #0891B2;
+  --proj-accent-soft: rgba(8, 145, 178, 0.12);
+}
+
+.project-card--purple {
+  --proj-accent: #C2410C;
+  --proj-accent-soft: rgba(194, 65, 12, 0.12);
+}
+
+.project-card--green {
+  --proj-accent: #0F766E;
+  --proj-accent-soft: rgba(15, 118, 110, 0.12);
 }
 
 @media (hover: hover) {
