@@ -18,7 +18,7 @@ There is **no build step, no framework, and no dependencies**. It is plain HTML5
 | `CV_David_Ruiz_Urraca.md` | **Canonical CV content.** The narrative, dates, bullets, and skills here are the source of truth that `index.html`, `README.md`, and the PDF should reflect. |
 | `CV David Ruiz Urraca.pdf` | Downloadable CV (linked from header + hero). Static asset — not generated here. Update manually when content changes. |
 | `README.md` | GitHub repo landing page. Mirrors CV content in a repo-friendly format. |
-| `profile.jpg` | Hero avatar + Open Graph / Twitter card image. |
+| `profile.png` | Hero avatar + Open Graph / Twitter card image. |
 
 ## Run locally
 
