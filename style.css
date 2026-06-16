@@ -5,29 +5,29 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
-  
+  --bg-primary: #0E0820;
+  --bg-secondary: #1A1033;
+  --text-primary: #F3EBFF;
+  --text-secondary: #C9B8E8;
+  --text-muted: #8C7AAA;
+
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
-  
-  /* Gradient Blends (Flutter + Kotlin / Android) */
+  --accent-color: #A855F7; /* Violet */
+  --accent-secondary: #EC4899; /* Rose */
+  --accent-green: #7C3AED; /* Deep Violet */
+  --accent-cyan: #C084FC; /* Light Violet */
+
+  /* Gradient Blends (Violet → Magenta → Rose) */
   --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-text: linear-gradient(135deg, #D8B4FE 0%, #C084FC 45%, #F0ABFC 100%);
+  --gradient-glow: radial-gradient(circle, rgba(168, 85, 247, 0.20) 0%, transparent 72%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --bg-glass: rgba(192, 132, 252, 0.05);
+  --bg-glass-hover: rgba(192, 132, 252, 0.09);
+  --border-glass: rgba(192, 132, 252, 0.14);
+  --border-glass-hover: rgba(236, 72, 153, 0.36);
+  --glass-shadow: 0 18px 56px rgba(7, 3, 18, 0.66);
   --glass-blur: blur(20px);
   
   /* Typography */
@@ -282,6 +282,72 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Midnight Violet */
+body {
+  background-image:
+    linear-gradient(rgba(192, 132, 252, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(236, 72, 153, 0.020) 1px, transparent 1px),
+    radial-gradient(circle at 12% 14%, rgba(168, 85, 247, 0.16), transparent 34%),
+    radial-gradient(circle at 88% 18%, rgba(236, 72, 153, 0.12), transparent 36%);
+  background-size: 50px 50px, 50px 50px, auto, auto;
+}
+
+.glass-header {
+  background: rgba(14, 8, 32, 0.74);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer {
+  background: rgba(14, 8, 32, 0.92);
+}
+
+.btn-primary,
+.skip-link {
+  box-shadow: 0 14px 34px rgba(168, 85, 247, 0.30);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 18px 44px rgba(236, 72, 153, 0.42);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item {
+  background: rgba(192, 132, 252, 0.05);
+}
+
+.btn-contact,
+.skill-badge.highlight {
+  background: rgba(168, 85, 247, 0.10);
+  border-color: rgba(192, 132, 252, 0.32);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(168, 85, 247, 0.20);
+  border-color: rgba(192, 132, 252, 0.55);
+}
+
+.project-card--cyan {
+  --proj-accent: #C084FC;
+  --proj-accent-soft: rgba(192, 132, 252, 0.18);
+}
+
+.project-card--purple {
+  --proj-accent: #EC4899;
+  --proj-accent-soft: rgba(236, 72, 153, 0.18);
+}
+
+.project-card--green {
+  --proj-accent: #A855F7;
+  --proj-accent-soft: rgba(168, 85, 247, 0.20);
 }
 
 @media (hover: hover) {
