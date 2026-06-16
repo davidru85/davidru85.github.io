@@ -5,30 +5,30 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --bg-primary: #170A12;
+  --bg-secondary: #26111C;
+  --text-primary: #FFF7FA;
+  --text-secondary: #D8AEBE;
+  --text-muted: #9B7283;
   
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
+  --accent-color: #F43F5E; /* Ruby Rose */
+  --accent-secondary: #F59E0B; /* Amber Pulse */
+  --accent-green: #84CC16; /* Lime Signal */
+  --accent-cyan: #22D3EE; /* Cyan Circuit */
   
   /* Gradient Blends (Flutter + Kotlin / Android) */
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #22D3EE 0%, #F43F5E 48%, #F59E0B 100%);
+  --gradient-text: linear-gradient(135deg, #FDA4AF 0%, #FDE68A 48%, #67E8F9 100%);
+  --gradient-glow: radial-gradient(circle, rgba(244, 63, 94, 0.17) 0%, transparent 72%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-  --glass-blur: blur(20px);
+  --bg-glass: rgba(255, 220, 230, 0.045);
+  --bg-glass-hover: rgba(255, 220, 230, 0.075);
+  --border-glass: rgba(253, 164, 175, 0.15);
+  --border-glass-hover: rgba(34, 211, 238, 0.28);
+  --glass-shadow: 0 18px 55px rgba(10, 0, 7, 0.52);
+  --glass-blur: blur(22px);
   
   /* Typography */
   --font-title: 'Space Grotesk', sans-serif;
@@ -282,6 +282,89 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Ruby Circuit */
+body {
+  background-image:
+    linear-gradient(rgba(253, 164, 175, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.012) 1px, transparent 1px),
+    radial-gradient(circle at 18% 10%, rgba(244, 63, 94, 0.13), transparent 30%),
+    radial-gradient(circle at 84% 24%, rgba(245, 158, 11, 0.1), transparent 34%);
+  background-size: 46px 46px, 46px 46px, auto, auto;
+}
+
+.glass-header {
+  background: rgba(23, 10, 18, 0.76);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer {
+  background: rgba(23, 10, 18, 0.9);
+}
+
+.glass-card {
+  box-shadow: 0 20px 58px rgba(10, 0, 7, 0.5), inset 0 1px 0 rgba(253, 164, 175, 0.05);
+}
+
+.spotlight-card::before {
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
+    rgba(34, 211, 238, 0.16),
+    transparent 40%
+  );
+}
+
+.btn-primary,
+.skip-link {
+  box-shadow: 0 14px 34px rgba(244, 63, 94, 0.26);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 18px 42px rgba(245, 158, 11, 0.32);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item {
+  background: rgba(255, 220, 230, 0.04);
+}
+
+.btn-contact,
+.skill-badge.highlight {
+  background: rgba(244, 63, 94, 0.08);
+  border-color: rgba(244, 63, 94, 0.3);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(244, 63, 94, 0.16);
+  border-color: rgba(34, 211, 238, 0.5);
+}
+
+.timeline::before,
+.lang-bar {
+  background: linear-gradient(to bottom, #22D3EE 0%, #F43F5E 55%, #F59E0B 100%);
+}
+
+.project-card--cyan {
+  --proj-accent: #22D3EE;
+  --proj-accent-soft: rgba(34, 211, 238, 0.16);
+}
+
+.project-card--purple {
+  --proj-accent: #F43F5E;
+  --proj-accent-soft: rgba(244, 63, 94, 0.16);
+}
+
+.project-card--green {
+  --proj-accent: #84CC16;
+  --proj-accent-soft: rgba(132, 204, 22, 0.14);
 }
 
 @media (hover: hover) {
