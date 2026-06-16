@@ -5,39 +5,39 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
-  
+  --bg-primary: #EEF2F7;
+  --bg-secondary: #DDE5EF;
+  --text-primary: #1B2733;
+  --text-secondary: #475467;
+  --text-muted: #7C8896;
+
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
-  
+  --accent-color: #2563EB; /* Royal Blue */
+  --accent-secondary: #6366F1; /* Indigo */
+  --accent-green: #0E7490; /* Deep Cyan */
+  --accent-cyan: #0EA5E9; /* Sky */
+
   /* Gradient Blends (Flutter + Kotlin / Android) */
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #0EA5E9 0%, #2563EB 48%, #6366F1 100%);
+  --gradient-text: linear-gradient(135deg, #0284C7 0%, #2563EB 48%, #4F46E5 100%);
+  --gradient-glow: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 72%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-  --glass-blur: blur(20px);
-  
+  --bg-glass: rgba(255, 255, 255, 0.70);
+  --bg-glass-hover: rgba(255, 255, 255, 0.86);
+  --border-glass: rgba(27, 39, 51, 0.10);
+  --border-glass-hover: rgba(37, 99, 235, 0.28);
+  --glass-shadow: 0 18px 48px rgba(30, 50, 80, 0.12);
+  --glass-blur: blur(18px);
+
   /* Typography */
   --font-title: 'Space Grotesk', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
-  
+
   /* Transitions */
   --transition-smooth: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
   --transition-fast: all 0.15s ease;
-  
+
   /* Spacing & Sizes */
   --header-height: 80px;
   --border-radius-lg: 16px;
@@ -282,6 +282,99 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Nordic Frost */
+body {
+  background-image:
+    linear-gradient(rgba(27, 39, 51, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 39, 51, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 14% 12%, rgba(14, 165, 233, 0.13), transparent 32%),
+    radial-gradient(circle at 86% 18%, rgba(99, 102, 241, 0.10), transparent 34%);
+  background-size: 52px 52px, 52px 52px, auto, auto;
+}
+
+strong,
+.project-title,
+.skill-category-title,
+.edu-degree,
+.lang-name,
+.author-name,
+.contribution-title,
+.company-name a,
+.profile-highlight code,
+.project-desc code,
+#copy-tooltip {
+  color: var(--text-primary);
+}
+
+.glass-header {
+  background: rgba(238, 242, 247, 0.80);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer,
+#copy-tooltip {
+  background: rgba(238, 242, 247, 0.93);
+}
+
+.glass-card {
+  box-shadow: 0 18px 46px rgba(30, 50, 80, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.86);
+}
+
+.project-thumb::after {
+  background: linear-gradient(180deg, transparent 58%, rgba(238, 242, 247, 0.66) 100%);
+}
+
+.btn-primary,
+.skip-link {
+  color: #fff;
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.22);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 18px 38px rgba(99, 102, 241, 0.26);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item,
+.profile-highlight code,
+.project-desc code {
+  background: rgba(255, 255, 255, 0.60);
+}
+
+.btn-contact,
+.skill-badge.highlight,
+.lang-switch-btn.active {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(37, 99, 235, 0.24);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(37, 99, 235, 0.14);
+  border-color: rgba(37, 99, 235, 0.42);
+}
+
+.project-card--cyan {
+  --proj-accent: #0EA5E9;
+  --proj-accent-soft: rgba(14, 165, 233, 0.12);
+}
+
+.project-card--purple {
+  --proj-accent: #6366F1;
+  --proj-accent-soft: rgba(99, 102, 241, 0.12);
+}
+
+.project-card--green {
+  --proj-accent: #0E7490;
+  --proj-accent-soft: rgba(14, 116, 144, 0.12);
 }
 
 @media (hover: hover) {
