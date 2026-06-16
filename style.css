@@ -5,29 +5,29 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --bg-primary: #08080A;
+  --bg-secondary: #111115;
+  --text-primary: #FFFFFF;
+  --text-secondary: #A1A1AA;
+  --text-muted: #52525B;
   
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
+  --accent-color: #FFFFFF; /* Pure White */
+  --accent-secondary: #E4E4E7; /* Platinum Gray */
+  --accent-green: #D4D4D8; /* Zinc Gray */
+  --accent-cyan: #F4F4F5; /* Soft Silver */
   
   /* Gradient Blends (Flutter + Kotlin / Android) */
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #FFFFFF 0%, #A1A1AA 100%);
+  --gradient-text: linear-gradient(135deg, #FFFFFF 0%, #D4D4D8 50%, #71717A 100%);
+  --gradient-glow: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
+  --bg-glass: rgba(255, 255, 255, 0.02);
+  --bg-glass-hover: rgba(255, 255, 255, 0.04);
   --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --border-glass-hover: rgba(255, 255, 255, 0.25);
+  --glass-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
   --glass-blur: blur(20px);
   
   /* Typography */
@@ -282,6 +282,81 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Monochrome Ink */
+body {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+    radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.05), transparent 35%),
+    radial-gradient(circle at 85% 25%, rgba(255, 255, 255, 0.03), transparent 35%);
+  background-size: 50px 50px, 50px 50px, auto, auto;
+}
+
+.orb-1, .orb-2, .orb-3 {
+  opacity: 0.05;
+  background: radial-gradient(circle, #FFFFFF 0%, transparent 80%);
+}
+
+.glass-header {
+  background: rgba(8, 8, 10, 0.80);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer {
+  background: rgba(8, 8, 10, 0.96);
+}
+
+.btn-primary,
+.skip-link {
+  color: #000000;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary:hover {
+  background: #E4E4E7;
+  box-shadow: 0 14px 30px rgba(255, 255, 255, 0.25);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.btn-contact,
+.skill-badge.highlight {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.project-card--cyan {
+  --proj-accent: #FFFFFF;
+  --proj-accent-soft: rgba(255, 255, 255, 0.08);
+}
+
+.project-card--purple {
+  --proj-accent: #E4E4E7;
+  --proj-accent-soft: rgba(228, 228, 231, 0.08);
+}
+
+.project-card--green {
+  --proj-accent: #A1A1AA;
+  --proj-accent-soft: rgba(161, 161, 170, 0.08);
 }
 
 @media (hover: hover) {
