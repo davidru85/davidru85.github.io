@@ -5,30 +5,30 @@
    ----------------------------------------- */
 :root {
   /* Colors */
-  --bg-primary: #0A1328;
-  --bg-secondary: #0D1A39;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --bg-primary: #06111F;
+  --bg-secondary: #0A1D31;
+  --text-primary: #F8FDFF;
+  --text-secondary: #A8C3D8;
+  --text-muted: #6E8CA3;
   
   /* Accents & Gradients */
-  --accent-color: #3B82F6; /* Electric Blue */
-  --accent-secondary: #8B5CF6; /* Kotlin Purple */
-  --accent-green: #10B981; /* Android Green */
-  --accent-cyan: #06B6D4; /* Flutter Cyan */
+  --accent-color: #4F8CFF; /* Arctic Blue */
+  --accent-secondary: #A78BFA; /* Frost Violet */
+  --accent-green: #34D399; /* Signal Green */
+  --accent-cyan: #22D3EE; /* Ice Cyan */
   
   /* Gradient Blends (Flutter + Kotlin / Android) */
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-color) 50%, var(--accent-secondary) 100%);
-  --gradient-text: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
-  --gradient-glow: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #22D3EE 0%, #4F8CFF 48%, #A78BFA 100%);
+  --gradient-text: linear-gradient(135deg, #A5F3FC 0%, #60A5FA 46%, #C4B5FD 100%);
+  --gradient-glow: radial-gradient(circle, rgba(34, 211, 238, 0.16) 0%, transparent 72%);
 
   /* Glassmorphism Configuration */
-  --bg-glass: rgba(255, 255, 255, 0.03);
-  --bg-glass-hover: rgba(255, 255, 255, 0.05);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-hover: rgba(255, 255, 255, 0.18);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-  --glass-blur: blur(20px);
+  --bg-glass: rgba(160, 220, 255, 0.055);
+  --bg-glass-hover: rgba(160, 220, 255, 0.085);
+  --border-glass: rgba(180, 235, 255, 0.14);
+  --border-glass-hover: rgba(180, 235, 255, 0.28);
+  --glass-shadow: 0 18px 55px rgba(1, 8, 18, 0.52);
+  --glass-blur: blur(24px);
   
   /* Typography */
   --font-title: 'Space Grotesk', sans-serif;
@@ -282,6 +282,72 @@ strong {
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: 1;
+}
+
+/* Theme Variant: Arctic Neon */
+body {
+  background-image:
+    linear-gradient(rgba(165, 243, 252, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(165, 243, 252, 0.018) 1px, transparent 1px),
+    radial-gradient(circle at 18% 12%, rgba(34, 211, 238, 0.09), transparent 30%),
+    radial-gradient(circle at 82% 20%, rgba(167, 139, 250, 0.08), transparent 32%);
+  background-size: 48px 48px, 48px 48px, auto, auto;
+}
+
+.glass-header {
+  background: rgba(4, 17, 31, 0.72);
+}
+
+.glass-header.scrolled,
+.project-thumb-platform,
+.footer {
+  background: rgba(4, 17, 31, 0.88);
+}
+
+.btn-primary,
+.skip-link {
+  box-shadow: 0 14px 34px rgba(34, 211, 238, 0.22);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 18px 42px rgba(79, 140, 255, 0.34);
+}
+
+.btn-secondary,
+.status-badge,
+.lang-switch-container,
+.tech-tags span,
+.skill-badge,
+.location-badge,
+.contact-item {
+  background: rgba(160, 220, 255, 0.045);
+}
+
+.btn-contact,
+.skill-badge.highlight {
+  background: rgba(34, 211, 238, 0.08);
+  border-color: rgba(34, 211, 238, 0.28);
+}
+
+.btn-contact:hover,
+.skill-badge.highlight:hover {
+  background: rgba(34, 211, 238, 0.16);
+  border-color: rgba(34, 211, 238, 0.52);
+}
+
+.project-card--cyan {
+  --proj-accent: #22D3EE;
+  --proj-accent-soft: rgba(34, 211, 238, 0.16);
+}
+
+.project-card--purple {
+  --proj-accent: #A78BFA;
+  --proj-accent-soft: rgba(167, 139, 250, 0.16);
+}
+
+.project-card--green {
+  --proj-accent: #34D399;
+  --proj-accent-soft: rgba(52, 211, 153, 0.15);
 }
 
 @media (hover: hover) {
