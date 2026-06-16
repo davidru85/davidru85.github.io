@@ -1545,6 +1545,11 @@ img.project-thumb {
   fill: var(--text-primary);
 }
 
+.radar-pct {
+  font-size: 0.82em;
+  fill: var(--text-muted);
+}
+
 .radar-polygon {
   animation: radarPulse 6s infinite ease-in-out;
   transform-origin: 160px 160px;
