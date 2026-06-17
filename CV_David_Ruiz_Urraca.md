@@ -1,8 +1,8 @@
 # DAVID RUIZ URRACA
 
-**Senior Mobile Engineer · Android · Flutter · KMP**
+**Senior Mobile Engineer · Android · Flutter · KMP · AI Engineering**
 
-+34 644 627 262 · david@ruizurraca.com · [linkedin.com/in/davidru85](https://linkedin.com/in/davidru85)
++34 644 627 262 · david@ruizurraca.com · [linkedin.com/in/davidru85](https://linkedin.com/in/davidru85) · [davidru85.github.io](https://davidru85.github.io/)
 
 **Available for Remote Roles**
 
