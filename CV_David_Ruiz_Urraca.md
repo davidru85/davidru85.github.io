@@ -10,24 +10,23 @@
 
 ## PROFESSIONAL PROFILE
 
-Senior Mobile Engineer with 10+ years building production Android applications at scale, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently CTO and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across three major consumer apps serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano) for private, local-first features.
+Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano) for private, local-first features.
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
-### CTO & Lead Mobile Developer · Jan 2026 – Present
+### Technical Lead · Jan 2026 – Present
 **Explora Prado** · Spain (Remote)
 
 Award-winning Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Art-Tech 2025 Honorable Mention · Santander X Explorer 2026.
 
 - Sole owner of the full technical platform: architecture, implementation, release pipeline, and the upcoming App Store / Google Play launch.
-- Built the app end-to-end on Flutter/Dart with Clean Architecture + BLoC and a layered data model (DTO / Entity / Model) backed by Firebase and Firestore.
-- Implemented in-app purchases on both stores (`in_app_purchase`), including purchase verification flow and entitlement persistence — a non-trivial native integration on Android and iOS.
-- Built dynamic multi-language support and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.
+- Built the app end-to-end on Flutter/Dart for both Android and iOS with Clean Architecture + BLoC and a layered data model (DTO / Entity / Model), backed by Firebase (Firestore, Storage, Authentication, Analytics, Crashlytics).
+- Implemented the in-app purchase layer for both stores (`in_app_purchase`) — purchase verification flow and entitlement persistence, a non-trivial native integration on Android and iOS; store-side product configuration in progress ahead of launch.
+- Built dynamic multi-language support (Spanish and English live, with Italian, French, and Portuguese planned) and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.
 - Developed core features (interactive quiz system, multimedia guides, and payment flows) using Test-Driven Development (TDD) to ensure robust offline synchronization and application reliability.
 - Scaled output as a solo developer through an AI-first workflow leveraging Claude Code and Cursor alongside custom skill packages, terminal command loops, and structured AGENTS.md / DESIGN.md patterns.
-- Represent the technical side in the Santander X Explorer 2026 programme.
 
 ---
 
@@ -36,12 +35,13 @@ Award-winning Flutter app turning Museo del Prado's permanent collection into a 
 
 Android development for a leading global marketplace operating in Poland, Portugal, Turkey, India, Indonesia, and LATAM.
 
-- Architected and maintained the internal Android Ads SDK powering monetisation across three major consumer apps in the OLX portfolio, serving tens of millions of active users.
-- Designed an `api/impl` module separation pattern enforcing strict dependency boundaries — improved build times and made partner-team integrations safer and more predictable.
-- Drove privacy-first decisions across the SDK: consent state management, scoped tracking, GDPR and Android Privacy Sandbox compliance.
+- Architected and maintained the internal Android Ads SDK powering monetisation across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users.
+- Technical lead for the Android Ads SDK — sole Android engineer for most of the project's life, and lead of a temporarily expanded Android team during higher-load periods.
+- Designed an `api/impl` module separation pattern enforcing strict dependency boundaries — improved build times and made partner-team integrations safer and more predictable; standardised the build with Gradle convention plugins, version catalogs (`libs.versions.toml`), and composite builds.
+- Drove privacy-first decisions across the SDK: consent state management (IAB TCF, Google UMP), scoped tracking, GDPR and Android Privacy Sandbox compliance (Topics API, Protected Audience, Attribution Reporting).
 - Led migration of critical SDK surfaces from XML to Jetpack Compose and from callback-based async to Kotlin Coroutines & Flow, while maintaining backward compatibility.
-- Leveraged Test-Driven Development (TDD) with JUnit and MockK to design the SDK APIs, ensuring zero regression across host apps.
-- Owned SDK lifecycle end-to-end: versioning strategy, integration documentation, and mentoring partner-app teams on consumption patterns.
+- Leveraged Test-Driven Development (TDD) with JUnit, MockK, Robolectric, Espresso, and MockWebServer to design the SDK APIs, ensuring zero regression across host apps — raised SDK test coverage from 14% to 70% (tracked with JaCoCo), with Detekt and ktlint enforcing code quality.
+- Owned SDK lifecycle end-to-end: versioning strategy, AAR packaging and publication via Maven Publish to Artifactory (JFrog) and Maven Central, integration documentation, and mentoring partner-app teams on consumption patterns.
 - Contributed cross-team feature work on consumer apps, reinforcing SDK integration patterns from the consumer side.
 - Led cross-platform coordination with the iOS SDK team to synchronize API designs, telemetry schemas, and release lifecycles, establishing a unified integration standard for client teams.
 - Tracking and analytics integration: Amplitude, CleverTap, Google Analytics, Crashlytics.
