@@ -51,12 +51,13 @@ Android development for a leading global marketplace operating in Poland, Portug
 ### Senior Android Developer · Sep 2019 – Jul 2021
 **Wegow** · Madrid (Remote)
 
-Sole Android engineer — owned the full app end-to-end: architecture, feature delivery, and production stability across a heterogeneous device base.
+Live-music events discovery and ticketing platform. Joined as the company's only Android developer and owned the full app end-to-end: architecture, feature delivery, and production stability across a heterogeneous device base.
 
-- Rebuilt the app from scratch on Kotlin + MVVM / Clean Architecture, migrating from a legacy codebase to a foundation ready for product growth.
-- Drove Java → Kotlin transition and Dagger 1 → Dagger 2 migration while keeping the app continuously shipping.
-- Integrated Spotify streaming, payment gateways for ticket purchases, and geolocation tooling for event discovery.
-- Implemented Test-Driven Development (TDD) as a core practice to ensure high reliability and a regression-free codebase during critical migrations.
+- Inherited a legacy Java codebase built on deprecated libraries (Dagger 1); stabilised it and shipped new features during an initial support phase.
+- Led and built a ground-up rebuild ("v2") in Kotlin with Dagger 2 on MVVM / Clean Architecture, replacing the legacy Java/Dagger 1 app — a foundation that still underpins the company's product today, 6 years after my departure.
+- Built with Room, LiveData, ViewModels, and Coroutines, with Glide for image loading and Firebase for push notifications, analytics, and Crashlytics.
+- Integrated Stripe and Redsys payment gateways for ticket purchases and the Google Maps SDK for event discovery and venue geolocation.
+- Implemented Test-Driven Development (TDD) as a core practice to ensure high reliability and a regression-free codebase during the rebuild.
 - Coordinated directly with the iOS developer to align feature contracts, analytics schemas, and release cycles, driving joint initiatives to unify product behavior across both platforms.
 
 ---
@@ -64,16 +65,20 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 ### Android Developer · Jul 2018 – Sep 2019
 **Instantgo** · Madrid (Remote)
 
-- Built the Android app from scratch and brought it to feature parity with the existing iOS app, for a product (paid 1:1 video-call marketplace + job board) with a user base primarily in the US.
+On-demand services marketplace where independent professionals offered paid sessions at an hourly rate — most delivered online via 1:1 video call, with support for in-person services too. User base concentrated in California, available across many countries.
+
+- Built the Android app from scratch and brought it to feature parity with the existing iOS app.
 - Integrated paid 1:1 video calls with Twilio, managing session and connection lifecycle.
 - Implemented the in-app payment flow with Stripe for booking paid video calls.
-- Integrated the Firebase ecosystem (authentication, push notifications, analytics, Crashlytics, Realtime Database, and App Distribution for build delivery) with Dagger 2 for dependency injection.
-- Sole Android developer — built the app from scratch with full technical autonomy in a fast-paced startup, using Kotlin + MVVM / Clean Architecture.
+- Integrated the Firebase ecosystem (Authentication, push notifications, analytics, Crashlytics, Realtime Database, Storage, Cloud Functions, and App Distribution for build delivery) with Dagger 2 for dependency injection.
+- Sole Android developer — built the app from scratch with full technical autonomy in a fast-paced startup, using Kotlin + MVVM / Clean Architecture with Retrofit, Room, LiveData, and Glide.
 
 ---
 
-### Android TV Developer · Mar 2018 – Jul 2018
+### Android Developer · Mar 2018 – Jul 2018
 **Telefónica** · Madrid
+
+Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 
 - Developed features for the Movistar TV Android TV surface with D-pad navigation and Leanback UI components.
 - Worked with ExoPlayer for video playback and integrated custom JavaScript components into the Android TV surface.
@@ -111,30 +116,38 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 
 ## SPEAKING & OPEN SOURCE
 
-- **Android Development Instructor (Internal)**: Led hands-on Android training internally within the company, upskilling engineering colleagues on Kotlin adoption, clean architecture, and modern Jetpack libraries.
-- **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
+- **Internal Talks & Training**: Delivered internal talks and hands-on training sessions at several companies I've worked for, sharing knowledge with engineering colleagues on Kotlin adoption, clean architecture, and modern Jetpack libraries.
+- **Open Source Contributions**: Small contributions to open-source projects — reviewing pull requests, helping with translations, and acting as a tester.
 - **Internal SDK Guidelines & Documentation**: Authored internal company playbooks for SDK integration, GDPR consent management, and modular library architecture, used by partner teams within the organisation.
 
 ---
 
 ## TECHNICAL SKILLS
 
+> **Proficiency:** (E) Expert · (F) Familiar · unmarked = Proficient
+
 | Area | Skills |
 |---|---|
-| **Languages** | Kotlin · Dart · Java · XML · JSON |
-| **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger 2 · Koin · Retrofit / Ktor · Coil · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · AICore (on-device Gemini Nano) · Material Design |
-| **Flutter** | BLoC · Clean Architecture · `in_app_purchase` · Firebase · Firestore · App Check · Flutter Web · Platform Channels |
-| **Exploring** | Kotlin Multiplatform (KMP) · Compose Multiplatform · SQLDelight · Ktor multiplatform · React Native (beginner) |
-| **AI Tooling** | Claude Code (daily) · Cursor · Codex · Ollama · Windsurf · Gemini · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns · Qwen · MCP |
-| **Cloud** | Firebase suite · Google Ads SDK · Amplitude · CleverTap · Crashlytics |
-| **Tools** | Android Studio · VS Code · Git · Gradle (Kotlin DSL / Groovy) · CI/CD |
-| **Methodologies** | Agile · Scrum · Kanban · JIRA |
+| **Languages** | Kotlin (E) · Java · Dart · XML · JSON |
+| **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager |
+| **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel |
+| **Dependency Injection** | Hilt (E) · Dagger 2 (E) · Koin · Dagger 1 (legacy) (F) |
+| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · Gson · kotlinx.serialization · Room (E) · Coil · Glide |
+| **Testing & Quality** | TDD (E) · JUnit (E) · MockK (E) · Espresso · Robolectric · MockWebServer · JaCoCo · Detekt · ktlint |
+| **SDK, Build & CI/CD** | Gradle (Kotlin DSL / Groovy) (E) · version catalogs (`libs.versions.toml`) · convention plugins · composite builds · R8 / ProGuard · build flavors / variants · Maven Publish (E) · Artifactory (JFrog) (E) · Maven Central · AAR packaging (E) · GitHub Actions (E) · Jenkins · Fastlane · Play Feature Delivery |
+| **Privacy & Consent** | GDPR (E) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
+| **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) |
+| **Flutter & Cross-platform** | BLoC · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
+| **Kotlin Multiplatform (Exploring)** | Kotlin Multiplatform (KMP) (F) · Compose Multiplatform (F) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
+| **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
+| **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ads SDK · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
+| **Tools & Methodologies** | Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
 
 ---
 
 ## EDUCATION
 
-**B.Sc. Computer Science (Information Systems Management)** · 2003–2006 / 2011–2012
+**B.Sc. Computer Science (Information Systems Management)** · Graduated 2012
 Universidad de La Rioja · Spain
 
 - Final Year Project on Android platform — Grade: 9/10
@@ -146,5 +159,5 @@ Universidad de La Rioja · Spain
 | Language | Level |
 |---|---|
 | Spanish | Native |
-| English | Upper-Intermediate — professional working proficiency |
+| English | Professional working proficiency — years of daily use as the working language in international teams |
 | Portuguese | Elementary |
