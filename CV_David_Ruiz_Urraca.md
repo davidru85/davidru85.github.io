@@ -10,7 +10,7 @@
 
 ## PROFESSIONAL PROFILE
 
-Senior Mobile Engineer with 10+ years building production Android applications at scale, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently CTO and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across three major consumer apps serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators.
+Senior Mobile Engineer with 10+ years building production Android applications at scale, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently CTO and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across three major consumer apps serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano) for private, local-first features.
 
 ---
 
@@ -122,7 +122,7 @@ Sole Android engineer — owned the full app end-to-end: architecture, feature d
 | Area | Skills |
 |---|---|
 | **Languages** | Kotlin · Dart · Java · XML · JSON |
-| **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger 2 · Koin · Retrofit / Ktor · Coil · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · Material Design |
+| **Android** | Jetpack Compose · MVVM / MVI / Clean Architecture · Coroutines & Flow · RxJava · Hilt · Dagger 2 · Koin · Retrofit / Ktor · Coil · Room · WorkManager · JUnit · MockK · GitHub Actions · Android TV · Health Connect API · AICore (on-device Gemini Nano) · Material Design |
 | **Flutter** | BLoC · Clean Architecture · `in_app_purchase` · Firebase · Firestore · App Check · Flutter Web · Platform Channels |
 | **Exploring** | Kotlin Multiplatform (KMP) · Compose Multiplatform · SQLDelight · Ktor multiplatform · React Native (beginner) |
 | **AI Tooling** | Claude Code (daily) · Cursor · Codex · Ollama · Windsurf · Gemini · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns · Qwen · MCP |
