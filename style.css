@@ -658,7 +658,10 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   font-weight: 400;
   color: var(--text-secondary);
   margin-bottom: 24px;
-  min-height: 36px;
+  line-height: 1.3;
+  /* Reserve space for up to 2 lines so a long dynamic role wrapping
+     to a second line never shifts the rest of the page down. */
+  min-height: calc(2 * 1.5rem * 1.3);
 }
 
 .cursor {
