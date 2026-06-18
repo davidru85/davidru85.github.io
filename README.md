@@ -27,8 +27,8 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ### Core & Frameworks
 - **Languages:** Kotlin, Dart, Java, XML, SQL
-- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, Coil, RxJava, Android TV, Health Connect API
-- **Flutter Stack:** BLoC, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
+- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
+- **Flutter Stack:** BLoC, Riverpod, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
 - **Exploring/KMP:** Kotlin Multiplatform (KMP), Compose Multiplatform, SQLDelight, Ktor Multiplatform, React Native (beginner)
 
 ### AI & Agentic Workflows
@@ -49,6 +49,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 *   **Senior Android Engineer** | *OLX / Letgo* (Jul 2021 – Jan 2026)
     *   Architected internal Ads SDK; led Kotlin, Coroutines, and Compose migrations.
     *   Managed strict privacy compliance (GDPR, Privacy Sandbox) and cross-platform alignment with the iOS SDK.
+    *   Integrated GraphQL APIs and wrote my first Flutter code here, alongside the native Android work.
 *   **Senior Android Developer** | *Wegow* (Sep 2019 – Jul 2021)
     *   Sole Android developer. Redesigned legacy codebase to modern MVVM/Clean Architecture in Kotlin.
     *   Integrated Spotify streaming, geolocation, and payment gateways.

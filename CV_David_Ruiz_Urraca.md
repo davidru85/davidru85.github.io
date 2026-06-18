@@ -10,7 +10,7 @@
 
 ## PROFESSIONAL PROFILE
 
-Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano) for private, local-first features.
+Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano), plus on-device TTS and STT, for private, local-first features.
 
 ---
 
@@ -44,6 +44,8 @@ Android development for a leading global marketplace operating in Poland, Portug
 - Owned SDK lifecycle end-to-end: versioning strategy, AAR packaging and publication via Maven Publish to Artifactory (JFrog) and Maven Central, integration documentation, and mentoring partner-app teams on consumption patterns.
 - Contributed cross-team feature work on consumer apps, reinforcing SDK integration patterns from the consumer side.
 - Led cross-platform coordination with the iOS SDK team to synchronize API designs, telemetry schemas, and release lifecycles, establishing a unified integration standard for client teams.
+- Integrated GraphQL-based APIs for data fetching in consumer-app feature work.
+- Wrote my first Flutter code here, building cross-platform features alongside the native Android work — the foundation later deepened on Explora Prado.
 - Tracking and analytics integration: Amplitude, CleverTap, Google Analytics, Crashlytics.
 
 ---
@@ -132,12 +134,12 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 | **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager |
 | **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel |
 | **Dependency Injection** | Hilt (E) · Dagger 2 (E) · Koin · Dagger 1 (legacy) (F) |
-| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · Gson · kotlinx.serialization · Room (E) · Coil · Glide |
+| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · kotlinx.serialization · Room (E) · Coil · Glide |
 | **Testing & Quality** | TDD (E) · JUnit (E) · MockK (E) · Espresso · Robolectric · MockWebServer · JaCoCo · Detekt · ktlint |
 | **SDK, Build & CI/CD** | Gradle (Kotlin DSL / Groovy) (E) · version catalogs (`libs.versions.toml`) · convention plugins · composite builds · R8 / ProGuard · build flavors / variants · Maven Publish (E) · Artifactory (JFrog) (E) · Maven Central · AAR packaging (E) · GitHub Actions (E) · Jenkins · Fastlane · Play Feature Delivery |
 | **Privacy & Consent** | GDPR (E) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
-| **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) |
-| **Flutter & Cross-platform** | BLoC · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
+| **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) · on-device TTS & STT (local AI) |
+| **Flutter & Cross-platform** | BLoC · Riverpod (F) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
 | **Kotlin Multiplatform (Exploring)** | Kotlin Multiplatform (KMP) (F) · Compose Multiplatform (F) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
 | **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ads SDK · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
