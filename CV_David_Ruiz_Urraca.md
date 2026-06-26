@@ -35,7 +35,7 @@ Award-winning Flutter app turning Museo del Prado's permanent collection into a 
 
 Android development for a leading global marketplace operating in Poland, Portugal, Turkey, India, Indonesia, and LATAM.
 
-- Architected and maintained the internal Android Ads SDK powering monetisation across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users.
+- Architected and maintained the internal Android Ads SDK powering monetisation across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users — integrating ad demand primarily through Google Ad Manager alongside additional third-party ad-network SDKs.
 - Technical lead for the Android Ads SDK — sole Android engineer for most of the project's life, and lead of a temporarily expanded Android team during higher-load periods.
 - Designed an `api/impl` module separation pattern enforcing strict dependency boundaries — improved build times and made partner-team integrations safer and more predictable; standardised the build with Gradle convention plugins, version catalogs (`libs.versions.toml`), and composite builds.
 - Drove privacy-first decisions across the SDK: consent state management (IAB TCF, Google UMP), scoped tracking, GDPR and Android Privacy Sandbox compliance (Topics API, Protected Audience, Attribution Reporting).
@@ -142,7 +142,7 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 | **Flutter & Cross-platform** | BLoC · Riverpod (F) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
 | **Kotlin Multiplatform (Exploring)** | Kotlin Multiplatform (KMP) (F) · Compose Multiplatform (F) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
-| **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ads SDK · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
+| **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ad Manager (primary ad demand) · third-party ad-network SDKs / mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
 | **Tools & Methodologies** | Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
 
 ---
