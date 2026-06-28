@@ -26,6 +26,7 @@ Award-winning Flutter app turning Museo del Prado's permanent collection into a 
 - Implemented the in-app purchase layer for both stores (`in_app_purchase`) — purchase verification flow and entitlement persistence, a non-trivial native integration on Android and iOS; store-side product configuration in progress ahead of launch.
 - Built dynamic multi-language support (Spanish and English live, with Italian, French, and Portuguese planned) and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.
 - Developed core features (interactive quiz system, multimedia guides, and payment flows) using Test-Driven Development (TDD) to ensure robust offline synchronization and application reliability.
+- Ran A/B tests via Firebase to experiment with onboarding, content presentation, and conversion flows.
 - Scaled output as a solo developer through an AI-first workflow leveraging Claude Code and Cursor alongside custom skill packages, terminal command loops, and structured AGENTS.md / DESIGN.md patterns.
 
 ---
@@ -47,6 +48,7 @@ Android development for a leading global marketplace operating in Poland, Portug
 - Integrated GraphQL-based APIs for data fetching in consumer-app feature work.
 - Wrote my first Flutter code here, building cross-platform features alongside the native Android work — the foundation later deepened on Explora Prado.
 - Tracking and analytics integration: Amplitude, CleverTap, Google Analytics, Crashlytics.
+- Ran A/B tests and experiments to validate ad placements, formats, and SDK changes against monetisation and engagement metrics.
 
 ---
 
@@ -61,6 +63,7 @@ Live-music events discovery and ticketing platform. Joined as the company's only
 - Integrated Stripe and Redsys payment gateways for ticket purchases and the Google Maps SDK for event discovery and venue geolocation.
 - Implemented Test-Driven Development (TDD) as a core practice to ensure high reliability and a regression-free codebase during the rebuild.
 - Coordinated directly with the iOS developer to align feature contracts, analytics schemas, and release cycles, driving joint initiatives to unify product behavior across both platforms.
+- Used A/B testing to validate UX and conversion changes across the ticketing and event-discovery flows.
 
 ---
 
@@ -74,6 +77,7 @@ On-demand services marketplace where independent professionals offered paid sess
 - Implemented the in-app payment flow with Stripe for booking paid video calls.
 - Integrated the Firebase ecosystem (Authentication, push notifications, analytics, Crashlytics, Realtime Database, Storage, Cloud Functions, and App Distribution for build delivery) with Dagger 2 for dependency injection.
 - Sole Android developer — built the app from scratch with full technical autonomy in a fast-paced startup, using Kotlin + MVVM / Clean Architecture with Retrofit, Room, LiveData, and Glide.
+- Ran A/B tests via Firebase to optimise booking and session-conversion flows.
 
 ---
 
@@ -85,6 +89,7 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 - Developed features for the Movistar TV Android TV surface with D-pad navigation and Leanback UI components.
 - Worked with ExoPlayer for video playback and integrated custom JavaScript components into the Android TV surface.
 - Worked in a Scrum team applying MVP and Kotlin within a large-organization delivery process.
+- A/B tested UI variants on the Movistar TV surface to refine navigation and engagement.
 
 ---
 
@@ -143,7 +148,7 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 | **Kotlin Multiplatform (Exploring)** | Kotlin Multiplatform (KMP) (F) · Compose Multiplatform (F) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
 | **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ad Manager (primary ad demand) · third-party ad-network SDKs / mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
-| **Tools & Methodologies** | Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
+| **Tools & Methodologies** | A/B testing / experimentation · Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
 
 ---
 
