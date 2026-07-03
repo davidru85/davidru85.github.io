@@ -10,7 +10,7 @@
 
 ## PROFESSIONAL PROFILE
 
-Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano), plus on-device TTS and STT, for private, local-first features.
+Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano), plus on-device TTS and STT, for private, local-first features. I'm currently building a personal Android health app that reads Health Connect data to generate personal health metrics and pairs on-device AI with cloud AI to help users understand and improve their health.
 
 ---
 
@@ -34,7 +34,7 @@ Award-winning Flutter app turning Museo del Prado's permanent collection into a 
 ### Senior Android Engineer · Jul 2021 – Jan 2026
 **OLX / Letgo** · Barcelona (Remote)
 
-Android development for a leading global marketplace operating in Poland, Portugal, Turkey, India, Indonesia, and LATAM.
+Android development for a leading global marketplace operating across Poland, Portugal, Turkey, Ukraine, Romania, India, Indonesia, South America, and other markets.
 
 - Architected and maintained the internal Android Ads SDK powering monetisation across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users — integrating ad demand primarily through Google Ad Manager alongside additional third-party ad-network SDKs.
 - Technical lead for the Android Ads SDK — sole Android engineer for most of the project's life, and lead of a temporarily expanded Android team during higher-load periods.
@@ -44,6 +44,7 @@ Android development for a leading global marketplace operating in Poland, Portug
 - Leveraged Test-Driven Development (TDD) with JUnit, MockK, Robolectric, Espresso, and MockWebServer to design the SDK APIs, ensuring zero regression across host apps — raised SDK test coverage from 14% to 70% (tracked with JaCoCo), with Detekt and ktlint enforcing code quality.
 - Owned SDK lifecycle end-to-end: versioning strategy, AAR packaging and publication via Maven Publish to Artifactory (JFrog) and Maven Central, integration documentation, and mentoring partner-app teams on consumption patterns.
 - Contributed cross-team feature work on consumer apps, reinforcing SDK integration patterns from the consumer side.
+- Worked across the organisation's international offices as it evolved: joined in the Letgo era collaborating with the Istanbul office; after Letgo was acquired by OLX, moved to the OLX New Delhi office; and following the sale of OLX Autos (the New Delhi division), joined OLX EU, collaborating with the Poznań and Lisbon offices — coordinating integration and delivery across time zones and markets throughout.
 - Led cross-platform coordination with the iOS SDK team to synchronize API designs, telemetry schemas, and release lifecycles, establishing a unified integration standard for client teams.
 - Integrated GraphQL-based APIs for data fetching in consumer-app feature work.
 - Wrote my first Flutter code here, building cross-platform features alongside the native Android work — the foundation later deepened on Explora Prado.
@@ -118,6 +119,17 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 - Built and shipped client-facing Android apps in Java for public-sector and enterprise clients (Indra, DGT, Atenzia, Brightstar).
 - Developed in Java using mainly AsyncTasks, starting to incorporate libraries such as Retrofit, ButterKnife, and an early version of Dagger.
 - Built UIs in XML and contributed across the full feature lifecycle.
+
+---
+
+## SIDE PROJECTS
+
+### Personal Health App (Android) · In Development
+Personal side project — a privacy-first Android app built around the Health Connect API.
+
+- Reads and aggregates Health Connect data to generate personal health metrics.
+- Pairs on-device AI (Android AICore / Gemini Nano) with cloud AI to help users interpret their metrics and get actionable guidance to improve their health.
+- Local-first by design: sensitive health data is processed on-device where possible, with cloud AI reserved for deeper analysis.
 
 ---
 
