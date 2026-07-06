@@ -180,3 +180,9 @@ Universidad de La Rioja · Spain
 | Spanish | Native |
 | English | Professional working proficiency — years of daily use as the working language in international teams |
 | Portuguese | Elementary |
+
+---
+
+## INTERESTS
+
+- **360° Photography & Video**: Passionate about immersive 360° capture and an active Insta360 X4 user — filming and photographing my motorcycle trips and vacations in full 360°.

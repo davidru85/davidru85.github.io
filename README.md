@@ -82,6 +82,12 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ---
 
+## 📸 Interests
+
+-   **360° Photography & Video:** Passionate about immersive 360° capture and an active Insta360 X4 user — filming and photographing my motorcycle trips and vacations in full 360°.
+
+---
+
 ## 🌐 Web CV Technology Stack
 
 This portfolio website is designed to demonstrate high-end frontend engineering using core web technologies:
