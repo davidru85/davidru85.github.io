@@ -1521,10 +1521,21 @@ img.project-thumb {
   padding: 40px;
 }
 
+.interests-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .interest-item {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.interests-list .interest-item + .interest-item {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .interest-icon {

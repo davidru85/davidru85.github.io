@@ -84,7 +84,12 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ## 📸 Interests
 
--   **360° Photography & Video:** Passionate about immersive 360° capture and an active Insta360 X4 user — filming and photographing my motorcycle trips and vacations in full 360°.
+-   **360° Photography & Video:** Passionate about immersive 360° capture and an active Insta360 X4 user — I love reliving my trips in full 360° and getting the angles a normal camera can't.
+-   **Motorcycling & Travel:** Happiest on two wheels and always up for a new road — most of my motorcycle trips and vacations end up being the reason I pick up the 360° camera.
+-   **Running & CrossFit:** Staying active with regular running and CrossFit — it keeps the discipline and energy that carry over into how I work.
+-   **Tech & Home Automation:** A tinkerer at heart — building and automating my smart home and playing with new gadgets, hardware, and anything I can take apart and improve.
+-   **Music:** A constant soundtrack to my day — always digging into new music and rarely code, ride, or travel without something playing.
+-   **Movies & Series:** Winding down with a good film or series — drawn equally to a gripping story and to anything with striking visuals.
 
 ---
 

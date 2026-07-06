@@ -185,4 +185,9 @@ Universidad de La Rioja · Spain
 
 ## INTERESTS
 
-- **360° Photography & Video**: Passionate about immersive 360° capture and an active Insta360 X4 user — filming and photographing my motorcycle trips and vacations in full 360°.
+- **360° Photography & Video**: Passionate about immersive 360° capture and an active Insta360 X4 user — I love reliving my trips in full 360° and getting the angles a normal camera can't.
+- **Motorcycling & Travel**: Happiest on two wheels and always up for a new road — most of my motorcycle trips and vacations end up being the reason I pick up the 360° camera in the first place.
+- **Running & CrossFit**: I stay active with regular running and CrossFit — it's how I keep the discipline and energy that carry over into how I work.
+- **Tech & Home Automation**: A tinkerer at heart — I enjoy building and automating my smart home and playing with new gadgets, hardware, and anything I can take apart and improve.
+- **Music**: A constant soundtrack to my day — I'm always digging into new music and rarely code, ride, or travel without something playing.
+- **Movies & Series**: I love winding down with a good film or series — drawn equally to a gripping story and to anything with striking visuals.
