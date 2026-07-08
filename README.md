@@ -20,6 +20,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 - **CTO & Lead Developer at [Explora Prado](https://exploraprado.com)**: Built a self-guided digital experience for Museo del Prado from scratch using Flutter. Recipient of the *Art-Tech 2025 Honorable Mention* and selected for *Santander X Explorer 2026*. Launching soon on the App Store and Google Play.
 - **Senior Android Engineer at OLX / Letgo**: Owned the internal Android Ads SDK powering monetization across three major consumer apps with tens of millions of active users.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
+- **Kotlin Multiplatform in Practice**: Building a cross-platform app for a real dog-boarding business — sharing the domain (and likely data) layer across native Android (Jetpack Compose) and iOS (SwiftUI) apps, with AI-powered pet recognition on the roadmap.
 
 ---
 
@@ -29,7 +30,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 - **Languages:** Kotlin, Dart, Java, XML, SQL
 - **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
 - **Flutter Stack:** BLoC, Riverpod, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
-- **Exploring/KMP:** Kotlin Multiplatform (KMP), Compose Multiplatform, SQLDelight, Ktor Multiplatform, React Native (beginner)
+- **KMP & Cross-platform:** Kotlin Multiplatform (KMP), shared domain/data layer, Compose Multiplatform, SwiftUI (native iOS), SQLDelight, Ktor Multiplatform, React Native (beginner)
 
 ### AI & Agentic Workflows
 - **Tooling:** Claude Code (daily), Cursor, Codex, Ollama, Windsurf

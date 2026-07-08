@@ -10,7 +10,7 @@
 
 ## PROFESSIONAL PROFILE
 
-Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano), plus on-device TTS and STT, for private, local-first features. I'm currently building a personal Android health app that reads Health Connect data to generate personal health metrics and pairs on-device AI with cloud AI to help users understand and improve their health.
+Product-minded Senior Mobile Engineer building production Android applications at scale since 2015, with a strong cross-platform track record in Flutter and active Kotlin Multiplatform adoption. Currently Technical Lead and sole developer of Explora Prado (Flutter), an app for Museo del Prado that received an Art-Tech 2025 Honorable Mention and was selected for Santander X Explorer 2026. Previously, owned an internal Android Ads SDK end-to-end at OLX Group — versioning strategy, backward compatibility, GDPR consent flows, and integration ergonomics for partner teams across OLX's three consumer verticals (Horizontals, Real Estate & Motors), each shipping market-specific builds, serving tens of millions of active users. I advocate for TDD (Test-Driven Development) and generative AI/agentic workflows as core engineering practices — leveraging Claude Code, Cursor, Codex, and Ollama alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured AGENTS.md/DESIGN.md patterns to keep AI-assisted development fast, reproducible, and team-ready across collaborators. On personal projects I also work hands-on with health and on-device AI integrations — building with the Health Connect API and Android's AICore (on-device Gemini Nano), plus on-device TTS and STT, for private, local-first features. I'm currently building a personal Android health app that reads Health Connect data to generate personal health metrics and pairs on-device AI with cloud AI to help users understand and improve their health. In parallel, I'm developing a Kotlin Multiplatform app for a real dog-boarding business — sharing the domain (and likely data) layer across native Android (Jetpack Compose) and iOS (SwiftUI) apps — with AI-powered pet recognition planned on the roadmap.
 
 ---
 
@@ -132,6 +132,13 @@ Personal side project — a privacy-first Android app built around the Health Co
 - Pairs on-device AI (Android AICore / Gemini Nano) with cloud AI to help users interpret their metrics and get actionable guidance to improve their health.
 - Local-first by design: sensitive health data is processed on-device where possible, with cloud AI reserved for deeper analysis.
 
+### Cross-Platform Pet-Hotel App (Kotlin Multiplatform) · In Development
+Personal side project — a Kotlin Multiplatform app for a real dog-boarding business, streamlining how staff share pets' photos and videos with owners and keeping clients connected.
+
+- Kotlin Multiplatform shares the domain layer (and likely the data layer) across native **Android (Jetpack Compose)** and **iOS (SwiftUI)** apps, each with a fully native presentation layer.
+- Centralises per-pet multimedia with role-based access — *admin* (hotel staff/owners) and *user* (clients) — plus booking management and a client-facing news feed with push notifications.
+- Firebase-backed for now (Auth with role-based security rules and media storage), with a custom backend planned as it grows — and on-device/cloud AI pet recognition on the roadmap.
+
 ---
 
 ## SPEAKING & OPEN SOURCE
@@ -159,7 +166,7 @@ Personal side project — a privacy-first Android app built around the Health Co
 | **Privacy & Consent** | GDPR (E) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
 | **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) · on-device TTS & STT (local AI) |
 | **Flutter & Cross-platform** | BLoC · Riverpod (F) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
-| **Kotlin Multiplatform (Exploring)** | Kotlin Multiplatform (KMP) (F) · Compose Multiplatform (F) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
+| **Kotlin Multiplatform & Cross-platform** | Kotlin Multiplatform (KMP) · shared domain / data layer · Compose Multiplatform · SwiftUI (native iOS) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
 | **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ad Manager (primary ad demand) · third-party ad-network SDKs / mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
 | **Tools & Methodologies** | A/B testing / experimentation · Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |

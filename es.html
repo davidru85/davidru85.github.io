@@ -59,7 +59,7 @@
     "knowsLanguage": ["es", "en", "pt"],
     "knowsAbout": [
       "Android", "Kotlin", "Jetpack Compose", "Flutter", "Dart",
-      "Kotlin Multiplatform", "Compose Multiplatform", "Ktor Multiplatform", "SQLDelight", "React Native",
+      "Kotlin Multiplatform", "Compose Multiplatform", "SwiftUI", "iOS", "Ktor Multiplatform", "SQLDelight", "React Native",
       "BLoC", "Riverpod", "Clean Architecture", "MVVM", "MVI", "Coroutines", "Flow",
       "Jetpack Hilt", "Dagger 2", "Retrofit", "Ktor", "GraphQL", "Room", "WorkManager",
       "Android TV", "Health Connect API", "AICore", "Gemini Nano", "On-device AI", "Cloud AI", "On-device TTS", "On-device STT", "Material Design",
@@ -205,7 +205,7 @@
             Defiendo el uso de TDD (Desarrollo Guiado por Pruebas) y flujos de trabajo con IA generativa/agentiva como prácticas de ingeniería clave, aprovechando herramientas como <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>Codex</strong> y <strong>Ollama</strong> junto con paquetes de habilidades personalizados, bucles de comandos integrados en terminal, ciclos automáticos de prueba-depuración y patrones estructurados de <code>AGENTS.md</code> / <code>DESIGN.md</code> para que el desarrollo asistido por IA sea rápido, reproducible y listo para el trabajo en equipo.
           </p>
           <p>
-            En proyectos personales también trabajo de forma práctica con integraciones de salud e IA en el dispositivo — desarrollando con la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), además de TTS y STT on-device, para funcionalidades privadas y locales. Actualmente desarrollo una app personal de salud para Android que lee datos de Health Connect para generar métricas de salud personales y combina <strong>IA on-device</strong> con <strong>IA en la nube</strong> para ayudar a los usuarios a entender y mejorar su salud.
+            En proyectos personales también trabajo de forma práctica con integraciones de salud e IA en el dispositivo — desarrollando con la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), además de TTS y STT on-device, para funcionalidades privadas y locales. Actualmente desarrollo una app personal de salud para Android que lee datos de Health Connect para generar métricas de salud personales y combina <strong>IA on-device</strong> con <strong>IA en la nube</strong> para ayudar a los usuarios a entender y mejorar su salud. En paralelo, desarrollo una app en <strong>Kotlin Multiplatform</strong> para un negocio real de hotel canino — compartiendo la capa de dominio (y probablemente de datos) entre apps nativas de <strong>Android (Jetpack Compose)</strong> e <strong>iOS (SwiftUI)</strong> — con reconocimiento de mascotas por IA previsto en el roadmap.
           </p>
         </div>
       </div>
@@ -599,6 +599,41 @@
           </div>
         </article>
 
+        <!-- Pet-Hotel App (KMP) -->
+        <article class="glass-card spotlight-card project-card project-card--cyan">
+          <div class="project-thumb project-thumb--placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:3.5rem;">
+            🐶
+            <span class="project-ribbon">En desarrollo</span>
+            <span class="project-thumb-platform">KMP · Android + iOS</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Proyecto personal · 2026</span>
+            <h3 class="project-title">App multiplataforma para hotel canino</h3>
+            <p class="project-desc">
+              Una app en <strong>Kotlin Multiplatform</strong> para un negocio real de hotel canino, que agiliza cómo el
+              personal comparte las fotos y vídeos de las mascotas con sus dueños. KMP comparte la
+              <strong>capa de dominio (y probablemente de datos)</strong> entre apps nativas de
+              <strong>Android (Jetpack Compose)</strong> e <strong>iOS (SwiftUI)</strong>, con acceso por roles para
+              personal y clientes, gestión de reservas y un feed de novedades con notificaciones push. Con Firebase por
+              ahora, y <strong>reconocimiento de mascotas por IA</strong> en el roadmap.
+            </p>
+            <div class="project-metrics">
+              <span class="project-metric"><strong>Android + iOS</strong>KMP compartido</span>
+              <span class="project-metric"><strong>UI nativa</strong>Compose + SwiftUI</span>
+            </div>
+            <div class="tech-tags">
+              <span>Kotlin Multiplatform</span>
+              <span>Jetpack Compose</span>
+              <span>SwiftUI</span>
+              <span>Firebase</span>
+              <span>Notificaciones push</span>
+            </div>
+            <div class="project-links">
+              <span class="project-link project-link--note">Proyecto personal · en desarrollo</span>
+            </div>
+          </div>
+        </article>
+
         <!-- OLX Ads SDK -->
         <article class="glass-card spotlight-card project-card project-card--purple">
           <div class="project-thumb" aria-hidden="true">
@@ -764,10 +799,12 @@
 
             <!-- Exploring -->
             <div class="glass-card spotlight-card skill-category-card">
-              <h3 class="skill-category-title">Explorando / KMP</h3>
+              <h3 class="skill-category-title">Kotlin Multiplatform y multiplataforma</h3>
               <div class="skill-tags">
                 <span class="skill-badge highlight">Kotlin Multiplatform (KMP)</span>
+                <span class="skill-badge highlight">Capa de dominio / datos compartida</span>
                 <span class="skill-badge">Compose Multiplatform</span>
+                <span class="skill-badge">SwiftUI (iOS nativo)</span>
                 <span class="skill-badge">SQLDelight</span>
                 <span class="skill-badge">Ktor Multiplatform</span>
                 <span class="skill-badge">React Native (principiante)</span>
