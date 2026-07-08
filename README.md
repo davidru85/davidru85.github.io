@@ -34,7 +34,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ### AI & Agentic Workflows
 - **Tooling:** Claude Code (daily), Cursor, Codex, Ollama, Windsurf
-- **Methodology:** MCP (Model Context Protocol), workspace rules (`.cursorrules`), automated test-debug cycles, custom skill packages (FastAPI SSE, pytest, httpx), and structured `AGENTS.md` / `DESIGN.md` patterns
+- **Methodology:** MCP Servers (Model Context Protocol), workspace rules (`.cursorrules`), automated test-debug cycles, AI Skills / custom skill packages (FastAPI SSE, pytest, httpx), and structured `AGENTS.md` / `DESIGN.md` patterns
 
 ### Ecosystem & Cloud
 - **Cloud/SDKs:** Firebase Suite (Auth, Firestore, App Check, Crashlytics), Google Ad Manager (primary ad demand), third-party ad-network SDKs / mediation, Amplitude, CleverTap

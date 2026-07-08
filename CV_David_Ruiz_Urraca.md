@@ -167,7 +167,7 @@ Personal side project — a Kotlin Multiplatform app for a real dog-boarding bus
 | **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) · on-device TTS & STT (local AI) |
 | **Flutter & Cross-platform** | BLoC · Riverpod (F) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
 | **Kotlin Multiplatform & Cross-platform** | Kotlin Multiplatform (KMP) · shared domain / data layer · Compose Multiplatform · SwiftUI (native iOS) · SQLDelight (F) · Ktor multiplatform (F) · React Native (F) |
-| **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP (F) · custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
+| **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP Servers (Model Context Protocol) (F) · AI Skills / custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
 | **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ad Manager (primary ad demand) · third-party ad-network SDKs / mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
 | **Tools & Methodologies** | A/B testing / experimentation · Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
 
