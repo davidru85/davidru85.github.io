@@ -41,6 +41,7 @@ Android development for a leading global marketplace operating across Poland, Po
 - Designed an `api/impl` module separation pattern enforcing strict dependency boundaries — improved build times and made partner-team integrations safer and more predictable; standardised the build with Gradle convention plugins, version catalogs (`libs.versions.toml`), and composite builds.
 - Drove privacy-first decisions across the SDK: consent state management (IAB TCF, Google UMP), scoped tracking, GDPR and Android Privacy Sandbox compliance (Topics API, Protected Audience, Attribution Reporting).
 - Led migration of critical SDK surfaces from XML to Jetpack Compose and from callback-based async to Kotlin Coroutines & Flow, while maintaining backward compatibility.
+- Applied Baseline Profiles to improve app startup and reduce jank on critical SDK-hosting surfaces, validating gains with Macrobenchmark.
 - Leveraged Test-Driven Development (TDD) with JUnit, MockK, Robolectric, Espresso, and MockWebServer to design the SDK APIs, ensuring zero regression across host apps — raised SDK test coverage from 14% to 70% (tracked with JaCoCo), with Detekt and ktlint enforcing code quality.
 - Owned SDK lifecycle end-to-end: versioning strategy, AAR packaging and publication via Maven Publish to Artifactory (JFrog) and Maven Central, integration documentation, and mentoring partner-app teams on consumption patterns.
 - Contributed cross-team feature work on consumer apps, reinforcing SDK integration patterns from the consumer side.
@@ -149,6 +150,7 @@ Personal side project — a privacy-first Android app built around the Health Co
 |---|---|
 | **Languages** | Kotlin (E) · Java · Dart · XML · JSON |
 | **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager |
+| **Performance** | Baseline Profiles · Macrobenchmark · app startup optimization · jank / frame-timing analysis · R8 |
 | **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel |
 | **Dependency Injection** | Hilt (E) · Dagger 2 (E) · Koin · Dagger 1 (legacy) (F) |
 | **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · kotlinx.serialization · Room (E) · Coil · Glide |

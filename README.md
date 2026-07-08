@@ -27,7 +27,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ### Core & Frameworks
 - **Languages:** Kotlin, Dart, Java, XML, SQL
-- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
+- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
 - **Flutter Stack:** BLoC, Riverpod, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
 - **Exploring/KMP:** Kotlin Multiplatform (KMP), Compose Multiplatform, SQLDelight, Ktor Multiplatform, React Native (beginner)
 
