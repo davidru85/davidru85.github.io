@@ -156,11 +156,11 @@ Personal side project — a Kotlin Multiplatform app for a real dog-boarding bus
 | Area | Skills |
 |---|---|
 | **Languages** | Kotlin (E) · Java · Dart · XML · JSON |
-| **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager |
+| **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager · Timber |
 | **Performance** | Baseline Profiles · Macrobenchmark · app startup optimization · jank / frame-timing analysis · R8 |
-| **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel |
+| **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel · EventBus (legacy) (F) |
 | **Dependency Injection** | Hilt (E) · Dagger 2 (E) · Koin · Dagger 1 (legacy) (F) |
-| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · kotlinx.serialization · Room (E) · Coil · Glide |
+| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · Jackson · kotlinx.serialization · Room (E) · Coil · Glide |
 | **Testing & Quality** | TDD (E) · JUnit (E) · MockK (E) · Espresso · Robolectric · MockWebServer · JaCoCo · Detekt · ktlint |
 | **SDK, Build & CI/CD** | Gradle (Kotlin DSL / Groovy) (E) · version catalogs (`libs.versions.toml`) · convention plugins · composite builds · R8 / ProGuard · build flavors / variants · Maven Publish (E) · Artifactory (JFrog) (E) · Maven Central · AAR packaging (E) · GitHub Actions (E) · Jenkins · Fastlane · Play Feature Delivery |
 | **Privacy & Consent** | GDPR (E) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
