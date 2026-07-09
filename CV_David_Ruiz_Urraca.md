@@ -118,7 +118,7 @@ Android TV development for Movistar TV, Telefónica's IPTV / streaming platform.
 **AvantGarde IT Services** · Madrid
 
 - Built and shipped client-facing Android apps in Java for public-sector and enterprise clients (Indra, DGT, Atenzia, Brightstar).
-- Developed in Java using mainly AsyncTasks, starting to incorporate libraries such as Retrofit, ButterKnife, and an early version of Dagger.
+- Developed in Java using mainly AsyncTasks, starting to incorporate libraries such as Retrofit, ButterKnife, EventBus, and an early version of Dagger.
 - Built UIs in XML and contributed across the full feature lifecycle.
 
 ---
