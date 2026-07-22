@@ -21,10 +21,10 @@ Product-minded Senior Mobile Engineer building production Android applications a
 
 Award-winning Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Art-Tech 2025 Honorable Mention · Santander X Explorer 2026.
 
-- Sole owner of the full technical platform: architecture, implementation, release pipeline, and the upcoming App Store / Google Play launch.
+- Sole owner of the full technical platform: architecture, implementation, release pipeline, and the live releases on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/apps/testing/com.explora.prado).
 - Built the app end-to-end on Flutter/Dart for both Android and iOS with Clean Architecture + BLoC and a layered data model (DTO / Entity / Model), backed by Firebase (Firestore, Storage, Authentication, Analytics, Crashlytics).
-- Implemented the in-app purchase layer for both stores (`in_app_purchase`) — purchase verification flow and entitlement persistence, a non-trivial native integration on Android and iOS; store-side product configuration in progress ahead of launch.
-- Built dynamic multi-language support (Spanish and English live, with Italian, French, and Portuguese planned) and adaptive UI for a content-heavy museum experience with SVG assets, custom typography, and Flutter Web.
+- Implemented the in-app purchase layer for both stores (`in_app_purchase`) — purchase verification flow and entitlement persistence, a non-trivial native integration on Android and iOS, with store-side product configuration live in both stores.
+- Built dynamic multi-language support (Spanish and English live, with Italian, French, and Portuguese planned) and adaptive UI for a content-heavy museum experience with SVG assets and custom typography. Also built the internal content-administration back-office in Flutter Web — an operator-only tool, never exposed to end users.
 - Developed core features (interactive quiz system, multimedia guides, and payment flows) using Test-Driven Development (TDD) to ensure robust offline synchronization and application reliability.
 - Ran A/B tests via Firebase to experiment with onboarding, content presentation, and conversion flows.
 - Scaled output as a solo developer through an AI-first workflow leveraging Claude Code and Cursor alongside custom skill packages, terminal command loops, and structured AGENTS.md / DESIGN.md patterns.
