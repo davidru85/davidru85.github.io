@@ -155,7 +155,7 @@ Personal side project — a Kotlin Multiplatform app for a real dog-boarding bus
 
 | Area | Skills |
 |---|---|
-| **Languages** | Kotlin (E) · Java · Dart · XML · JSON |
+| **Languages** | Kotlin (E) · Java · Dart · TypeScript (F) · JavaScript (F) · XML · JSON |
 | **Android — UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV (Leanback) · ExoPlayer · WorkManager · Timber |
 | **Performance** | Baseline Profiles · Macrobenchmark · app startup optimization · jank / frame-timing analysis · R8 |
 | **Architecture & Async** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel · EventBus (legacy) (F) |
@@ -170,6 +170,8 @@ Personal side project — a Kotlin Multiplatform app for a real dog-boarding bus
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP Servers (Model Context Protocol) (F) · AI Skills / custom skill packages (FastAPI SSE, Flutter IAP, httpx, pytest) · terminal command loops · automated test-debug cycles · .cursorrules · AGENTS.md / DESIGN.md patterns |
 | **Cloud & Services** | Firebase suite (E) (Auth · Firestore · Realtime DB · Storage · Cloud Functions · Analytics · Crashlytics · Remote Config · App Distribution) · Google Ad Manager (primary ad demand) · third-party ad-network SDKs / mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags / A-B testing |
 | **Tools & Methodologies** | A/B testing / experimentation · Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban |
+
+> **On React Native, JavaScript & TypeScript:** deliberately marked *Familiar* — a platform on-ramp, not on the level of Kotlin or Dart. What makes it usable in practice is the combination of app-development and architecture experience since 2015 with an AI-assisted workflow (Claude Code, Cursor): enough to take on React Native projects and become productive on them without a long ramp-up.
 
 ---
 
