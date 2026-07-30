@@ -16,7 +16,7 @@ Product-minded Senior Mobile Engineer building production Android applications a
 
 ## PROFESSIONAL EXPERIENCE
 
-### Technical Lead · Jan 2026 – Present
+### Technical Lead (Freelance) · Jan 2026 – Present
 **Explora Prado** · Spain (Remote)
 
 Award-winning Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Art-Tech 2025 Honorable Mention · Santander X Explorer 2026.
