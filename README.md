@@ -1,4 +1,4 @@
-# David Ruiz Urraca | Senior Mobile Engineer
+# David Ruiz Urraca | Senior Mobile Engineer — SDK & Platform Architecture
 
 [![GitHub Pages](https://img.shields.io/badge/Live-Web%20CV-blue?style=for-the-badge&logo=github&logoColor=white)](https://davidru85.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/davidru85)
@@ -14,11 +14,11 @@ Welcome to my professional CV and portfolio repository! This project hosts my in
 
 ## 🚀 About Me
 
-I am a **Senior Mobile Engineer** with **10+ years of experience** specializing in native **Android** (Jetpack Compose, Kotlin), cross-platform **Flutter** (Dart, BLoC), and **Kotlin Multiplatform (KMP)**. I am passionate about clean architecture, test-driven development (TDD), and leveraging generative AI/agentic tooling to accelerate engineering workflows.
+I am a **Senior Mobile Engineer** building **production mobile systems since 2015** — native **Android** applications, **Android SDKs**, cross-platform **Flutter** products, and **Kotlin Multiplatform** shared layers. I own delivery end to end: architecture, API and SDK contracts, backward compatibility, privacy and consent, testing, CI/CD, release engineering, analytics, payments, and experimentation — with TDD and generative AI/agentic tooling as core engineering practices.
 
 ### Key Highlights:
-- **CTO & Lead Developer at [Explora Prado](https://exploraprado.com)**: Built a self-guided digital experience for Museo del Prado from scratch using Flutter. Recipient of the *Art-Tech 2025 Honorable Mention* and selected for *Santander X Explorer 2026*. Available on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado).
-- **Senior Android Engineer at OLX / Letgo**: Owned the internal Android Ads SDK powering monetization across three major consumer apps with tens of millions of active users.
+- **Mobile platform ownership at OLX / Letgo**: Owned the internal Android Ads SDK lifecycle — architecture, API and versioning strategy, backward compatibility, privacy and consent, AAR packaging, Maven publication, integration docs, and partner-team enablement — across three consumer verticals serving tens of millions of active users. Raised SDK test coverage from **14% to 70%**.
+- **Technical Lead at [Explora Prado](https://exploraprado.com)**: Sole developer of the full technical platform for a self-guided Museo del Prado experience built in Flutter — a recognised project (*Art-Tech 2025 Honorable Mention*, selected for *Santander X Explorer 2026*), live on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado) and in active development.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
 - **Kotlin Multiplatform in Practice**: Building [carApp](https://github.com/davidru85/carApp) — a cross-platform Android/iOS vehicle-cost tracker developed as a public portfolio project, sharing domain, data, synchronization and presentation logic via KMP while keeping the UI native (Jetpack Compose + SwiftUI), on SQLDelight persistence with Firebase/Firestore backup, TDD and protected GitHub Actions CI.
 
@@ -34,35 +34,36 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 
 ### AI & Agentic Workflows
 - **Tooling:** Claude Code (daily), Cursor, Codex, Ollama, Windsurf
-- **Methodology:** MCP Servers (Model Context Protocol), workspace rules (`.cursorrules`), automated test-debug cycles, AI Skills / custom skill packages (FastAPI SSE, pytest, httpx), and structured `AGENTS.md` / `DESIGN.md` patterns
+- **Methodology:** MCP Servers (Model Context Protocol), automated test-debug cycles, AI Skills / custom skill packages, and structured `AGENTS.md` / `DESIGN.md` patterns
 
 ### Ecosystem & Cloud
 - **Cloud/SDKs:** Firebase Suite (Auth, Firestore, App Check, Crashlytics), Google Ad Manager (primary ad demand), third-party ad-network SDKs / mediation, Amplitude, CleverTap
-- **CI/CD & Tooling:** Git, Gradle (Kotlin DSL / Groovy), GitHub Actions, Android Studio, VS Code
+- **SDK & Platform:** API and SDK design, versioning and backward compatibility, `api`/`impl` modularisation, Gradle convention plugins, version catalogs, composite builds, AAR packaging, Maven Publish, Artifactory (JFrog) / Maven Central, release engineering
+- **CI/CD & Tooling:** Git, Gradle (Kotlin DSL / Groovy), GitHub Actions, Jenkins, Fastlane, Android Studio, VS Code
 
 ---
 
 ## 💼 Professional Experience (Summary)
 
-*   **CTO & Lead Mobile Developer** | *Explora Prado* (Jan 2026 – Present)
-    *   Designed and built the full technical platform on Flutter/Dart.
-    *   Implemented secure double-store in-app purchases, localization, offline synchronization, and dynamic CMS.
+*   **Technical Lead (Freelance)** | *Explora Prado* (Jan 2026 – Present)
+    *   Own the full technical platform as the sole developer: architecture, implementation, release pipeline, and live store releases.
+    *   Built double-store in-app purchases with entitlement persistence, dynamic localisation, offline synchronization, and the internal Flutter Web back office.
 *   **Senior Android Engineer** | *OLX / Letgo* (Jul 2021 – Jan 2026)
-    *   Architected internal Ads SDK; led Kotlin, Coroutines, and Compose migrations.
-    *   Managed strict privacy compliance (GDPR, Privacy Sandbox) and cross-platform alignment with the iOS SDK.
+    *   Owned the internal Android Ads SDK as a mobile platform: `api`/`impl` module boundary, versioning and backward compatibility, AAR packaging and Maven publication, integration docs and partner-team enablement.
+    *   Led Compose and Coroutines/Flow migrations of critical SDK surfaces, and privacy compliance (GDPR, IAB TCF, Google UMP, Privacy Sandbox), aligning API and release lifecycles with the iOS SDK team.
     *   Integrated GraphQL APIs and wrote my first Flutter code here, alongside the native Android work.
 *   **Senior Android Developer** | *Wegow* (Sep 2019 – Jul 2021)
-    *   Sole Android developer. Redesigned legacy codebase to modern MVVM/Clean Architecture in Kotlin.
-    *   Integrated Spotify streaming, geolocation, and payment gateways.
+    *   Sole Android developer. Led a ground-up Kotlin/Dagger 2 rebuild on MVVM/Clean Architecture; that v2 still underpins the product six years later.
+    *   Integrated Stripe and Redsys payment gateways and the Google Maps SDK for event discovery.
 *   **Android Developer & Android TV Developer** | *Instantgo, Telefónica, UXSmobile, Mobile One2One, AvantGarde IT Services* (2015 – 2019)
     *   Developed enterprise and consumer apps (Movistar TV Android TV, Evo Banco, Carrefour, Alsa, Iberostar, Baleària, Meliá, DGT, Brightstar).
 
 ---
 
-## 🗣️ Speaking &amp; Open Source
+## 🗣️ Leadership, Knowledge Sharing &amp; Open Source
 
-*   **Android Development Instructor (Internal)**: Led hands-on Android training internally within the company, upskilling engineering colleagues on Kotlin adoption, clean architecture, and modern Jetpack libraries.
-*   **Open Source Contributor**: Active contributor to community projects (such as Organic Maps), resolving platform-specific synchronization bugs and mapping inconsistencies between Android and iOS surfaces.
+*   **Internal Talks & Training**: Delivered internal talks and hands-on training at several companies, helping engineering colleagues adopt Kotlin, Clean Architecture, and modern Jetpack libraries.
+*   **Open Source Contributions**: Small contributions to open-source projects through pull-request reviews, translation support, and testing.
 *   **Internal SDK Guidelines &amp; Documentation**: Authored internal company playbooks for SDK integration, GDPR consent management, and modular library architecture, used by partner teams within the organisation.
 
 ---
@@ -78,7 +79,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 ## 🗣️ Languages
 
 -   **Spanish:** Native
--   **English:** Upper-Intermediate
+-   **English:** Professional working proficiency — years of daily use as the working language in international teams
 -   **Portuguese:** Elementary
 
 ---

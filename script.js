@@ -93,11 +93,15 @@ function initTypingEffect() {
 
   const isSpanish = document.documentElement.lang === 'es';
   const roles = isSpanish ? [
+    "Ingeniero de Plataforma Móvil",
+    "Arquitecto de SDKs",
     "Ingeniero Android",
     "Especialista en Flutter",
     "Kotlin Multiplatform (KMP) Explorer",
     "Desarrollador AI-First"
   ] : [
+    "Mobile Platform Engineer",
+    "SDK Architect",
     "Android Engineer",
     "Flutter Specialist",
     "Kotlin Multiplatform (KMP) Explorer",
