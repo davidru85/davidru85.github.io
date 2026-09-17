@@ -14,7 +14,7 @@ Product-minded Senior Mobile Engineer building production mobile systems since 2
 
 At OLX Group, I owned an internal Android Ads SDK across the Horizontals, Real Estate, and Motors verticals, serving tens of millions of active users across market-specific builds. I led its architecture, lifecycle, publication, integration standards, and partner-team enablement, while raising SDK test coverage from 14% to 70%. At Explora Prado, I am the Technical Lead and sole developer of a live Flutter product for Museo del Prado, released on both the App Store and Google Play and still in active development.
 
-My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture. I am building an Android health app around Health Connect and Android AICore (on-device Gemini Nano), alongside a Kotlin Multiplatform application for a real dog-boarding business. I also use generative AI and agentic development workflows to accelerate implementation while preserving reproducibility, testing discipline, and engineering quality.
+My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture. I am building an Android health app around Health Connect and Android AICore (on-device Gemini Nano), alongside carApp — a comprehensive Kotlin Multiplatform Android/iOS vehicle-cost tracker developed as a public portfolio project. I also use generative AI and agentic development workflows to accelerate implementation while preserving reproducibility, testing discipline, and engineering quality.
 
 ## SELECTED IMPACT
 
@@ -131,12 +131,13 @@ Personal side project — a privacy-first Android app built around the Health Co
 - Pairs on-device AI (Android AICore / Gemini Nano) with cloud AI to help users interpret their metrics and get actionable guidance to improve their health.
 - Local-first by design: sensitive health data is processed on-device where possible, with cloud AI reserved for deeper analysis.
 
-### Cross-Platform Pet-Hotel App (Kotlin Multiplatform) · In Development
-Personal side project — a Kotlin Multiplatform app for a real dog-boarding business, streamlining how staff share pets' photos and videos with owners and keeping clients connected.
+### carApp (Kotlin Multiplatform) · In Development
+Personal side project and public portfolio piece — a cross-platform **Android and iOS** app for tracking vehicle costs, with an offline-first MVP focused on fuel expenses.
 
-- Kotlin Multiplatform shares the domain layer (and likely the data layer) across native **Android (Jetpack Compose)** and **iOS (SwiftUI)** apps, each with a fully native presentation layer.
-- Centralises per-pet multimedia with role-based access — *admin* (hotel staff/owners) and *user* (clients) — plus booking management and a client-facing news feed with push notifications.
-- Firebase-backed for now (Auth with role-based security rules and media storage), with a custom backend planned as it grows — and on-device/cloud AI pet recognition on the roadmap.
+- Shares domain, data, synchronization, and presentation state-holder logic through **Kotlin Multiplatform**, while keeping the user interfaces native with **Jetpack Compose** on Android and **SwiftUI** on iOS.
+- Covers vehicle management, refuelling history, and real-world fuel-consumption calculations using the full-to-full method and distance-weighted averages.
+- Built as a comprehensive, modular project with **SQLDelight** local persistence, Firebase/Firestore backup and recovery, anonymous-first authentication, test-driven development, architecture and contract checks, and protected GitHub Actions CI.
+- **Repository:** [github.com/davidru85/carApp](https://github.com/davidru85/carApp)
 
 ---
 
