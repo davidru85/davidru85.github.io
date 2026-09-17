@@ -1384,6 +1384,13 @@ img.project-thumb {
 }
 
 /* -----------------------------------------
+   Selected Impact Section Styles
+   ----------------------------------------- */
+.impact-card {
+  padding: 40px;
+}
+
+/* -----------------------------------------
    Testimonials Section Styles
    ----------------------------------------- */
 .testimonials-grid {
@@ -1880,7 +1887,7 @@ img.project-thumb {
     gap: 15px;
   }
   
-  #about-card, .edu-card, .lang-card {
+  #about-card, .edu-card, .lang-card, .now-card, .impact-card {
     padding: 24px;
   }
 }
