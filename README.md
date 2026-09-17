@@ -20,7 +20,7 @@ I am a **Senior Mobile Engineer** with **10+ years of experience** specializing 
 - **CTO & Lead Developer at [Explora Prado](https://exploraprado.com)**: Built a self-guided digital experience for Museo del Prado from scratch using Flutter. Recipient of the *Art-Tech 2025 Honorable Mention* and selected for *Santander X Explorer 2026*. Available on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado).
 - **Senior Android Engineer at OLX / Letgo**: Owned the internal Android Ads SDK powering monetization across three major consumer apps with tens of millions of active users.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
-- **Kotlin Multiplatform in Practice**: Building a cross-platform app for a real dog-boarding business — sharing the domain (and likely data) layer across native Android (Jetpack Compose) and iOS (SwiftUI) apps, with AI-powered pet recognition on the roadmap.
+- **Kotlin Multiplatform in Practice**: Building [carApp](https://github.com/davidru85/carApp) — a cross-platform Android/iOS vehicle-cost tracker developed as a public portfolio project, sharing domain, data, synchronization and presentation logic via KMP while keeping the UI native (Jetpack Compose + SwiftUI), on SQLDelight persistence with Firebase/Firestore backup, TDD and protected GitHub Actions CI.
 
 ---
 

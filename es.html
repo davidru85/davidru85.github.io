@@ -205,7 +205,7 @@
             Defiendo el uso de TDD (Desarrollo Guiado por Pruebas) y flujos de trabajo con IA generativa/agentiva como prácticas de ingeniería clave, aprovechando herramientas como <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>Codex</strong> y <strong>Ollama</strong> junto con paquetes de habilidades personalizados, bucles de comandos integrados en terminal, ciclos automáticos de prueba-depuración y patrones estructurados de <code>AGENTS.md</code> / <code>DESIGN.md</code> para que el desarrollo asistido por IA sea rápido, reproducible y listo para el trabajo en equipo.
           </p>
           <p>
-            En proyectos personales también trabajo de forma práctica con integraciones de salud e IA en el dispositivo — desarrollando con la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), además de TTS y STT on-device, para funcionalidades privadas y locales. Actualmente desarrollo una app personal de salud para Android que lee datos de Health Connect para generar métricas de salud personales y combina <strong>IA on-device</strong> con <strong>IA en la nube</strong> para ayudar a los usuarios a entender y mejorar su salud. En paralelo, desarrollo una app en <strong>Kotlin Multiplatform</strong> para un negocio real de hotel canino — compartiendo la capa de dominio (y probablemente de datos) entre apps nativas de <strong>Android (Jetpack Compose)</strong> e <strong>iOS (SwiftUI)</strong> — con reconocimiento de mascotas por IA previsto en el roadmap.
+            En proyectos personales también trabajo de forma práctica con integraciones de salud e IA en el dispositivo — desarrollando con la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), además de TTS y STT on-device, para funcionalidades privadas y locales. Actualmente desarrollo una app personal de salud para Android que lee datos de Health Connect para generar métricas de salud personales y combina <strong>IA on-device</strong> con <strong>IA en la nube</strong> para ayudar a los usuarios a entender y mejorar su salud. En paralelo, desarrollo <strong>carApp</strong>, una app de control de gastos del vehículo en <strong>Kotlin Multiplatform</strong> para <strong>Android e iOS</strong>, creada como proyecto público de portfolio: comparte dominio, datos, sincronización y lógica de presentación, manteniendo la UI nativa con <strong>Jetpack Compose</strong> y <strong>SwiftUI</strong>.
           </p>
         </div>
       </div>
@@ -593,36 +593,40 @@
           </div>
         </article>
 
-        <!-- Pet-Hotel App (KMP) -->
+        <!-- carApp (KMP) -->
         <article class="glass-card spotlight-card project-card project-card--cyan">
           <div class="project-thumb project-thumb--placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:3.5rem;">
-            🐶
+            🚗
             <span class="project-ribbon">En desarrollo</span>
             <span class="project-thumb-platform">KMP · Android + iOS</span>
           </div>
           <div class="project-body">
             <span class="project-meta">Proyecto personal · 2026</span>
-            <h3 class="project-title">App multiplataforma para hotel canino</h3>
+            <h3 class="project-title">carApp — Control de gastos del vehículo</h3>
             <p class="project-desc">
-              Una app en <strong>Kotlin Multiplatform</strong> para un negocio real de hotel canino, que agiliza cómo el
-              personal comparte las fotos y vídeos de las mascotas con sus dueños. KMP comparte la
-              <strong>capa de dominio (y probablemente de datos)</strong> entre apps nativas de
-              <strong>Android (Jetpack Compose)</strong> e <strong>iOS (SwiftUI)</strong>, con acceso por roles para
-              personal y clientes, gestión de reservas y un feed de novedades con notificaciones push. Con Firebase por
-              ahora, y <strong>reconocimiento de mascotas por IA</strong> en el roadmap.
+              Una app multiplataforma para <strong>Android e iOS</strong> para controlar los gastos del vehículo,
+              desarrollada como proyecto público de portfolio con un MVP offline-first centrado en el combustible.
+              <strong>Kotlin Multiplatform</strong> comparte el dominio, los datos, la sincronización y la lógica de
+              presentación, manteniendo la UI nativa con <strong>Jetpack Compose</strong> y <strong>SwiftUI</strong>.
+              Cubre gestión de vehículos, historial de repostajes y consumos reales (método full-to-full y medias
+              ponderadas por distancia), con persistencia local en <strong>SQLDelight</strong>, copia y recuperación en
+              Firebase/Firestore, TDD, verificaciones de arquitectura y contratos, y CI protegida con GitHub Actions.
             </p>
             <div class="project-metrics">
               <span class="project-metric"><strong>Android + iOS</strong>KMP compartido</span>
               <span class="project-metric"><strong>UI nativa</strong>Compose + SwiftUI</span>
+              <span class="project-metric"><strong>Offline-first</strong>SQLDelight</span>
             </div>
             <div class="tech-tags">
               <span>Kotlin Multiplatform</span>
               <span>Jetpack Compose</span>
               <span>SwiftUI</span>
-              <span>Firebase</span>
-              <span>Notificaciones push</span>
+              <span>SQLDelight</span>
+              <span>Firebase / Firestore</span>
+              <span>GitHub Actions</span>
             </div>
             <div class="project-links">
+              <a href="https://github.com/davidru85/carApp" target="_blank" rel="noopener noreferrer" class="project-link" title="Código fuente de carApp en GitHub">GitHub ↗</a>
               <span class="project-link project-link--note">Proyecto personal · en desarrollo</span>
             </div>
           </div>
