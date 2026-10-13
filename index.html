@@ -60,12 +60,12 @@
     "knowsAbout": [
       "Mobile Platform Engineering", "SDK Architecture", "Android SDK Development", "API Design", "Backward Compatibility", "Release Engineering", "Maven Publish", "Gradle Convention Plugins",
       "Android", "Kotlin", "Jetpack Compose", "Flutter", "Dart",
-      "Kotlin Multiplatform", "Compose Multiplatform", "SwiftUI", "iOS", "Ktor Multiplatform", "SQLDelight", "React Native", "JavaScript", "TypeScript",
+      "Kotlin Multiplatform", "Compose Multiplatform", "SwiftUI", "Swift", "iOS", "Liquid Glass", "Ktor Multiplatform", "SQLDelight", "React Native", "JavaScript", "TypeScript",
       "BLoC", "Riverpod", "Clean Architecture", "MVVM", "MVI", "Coroutines", "Flow",
       "Jetpack Hilt", "Dagger 2", "Retrofit", "Ktor", "GraphQL", "Room", "WorkManager",
-      "Android TV", "Health Connect API", "AICore", "Gemini Nano", "On-device AI", "Cloud AI", "On-device TTS", "On-device STT", "Material Design",
+      "Android TV", "Health Connect API", "AICore", "Gemini Nano", "On-device AI", "Cloud AI", "On-device TTS", "On-device STT", "Material Design", "Material 3 Expressive", "Accessibility",
       "Baseline Profiles", "Macrobenchmark", "App Startup Optimization",
-      "Test-Driven Development", "API Design", "Privacy Sandbox", "GDPR",
+      "Test-Driven Development", "Screenshot Testing", "API Design", "Privacy Sandbox", "GDPR",
       "Firebase", "Firestore", "App Check", "In-App Purchases", "Flutter Web",
       "Claude Code", "Cursor", "Ollama", "Model Context Protocol",
       "GitHub Actions", "Gradle", "CI/CD"
@@ -203,7 +203,7 @@
             At <strong>Explora Prado</strong> I am the Technical Lead and sole developer of a live Flutter product for Museo del Prado — a recognised project that received an <em>Art-Tech 2025 Honorable Mention</em> and was selected for <em>Santander X Explorer 2026</em> — released on both the App Store and Google Play and still in active development.
           </p>
           <p>
-            My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture: an Android health app built around the <strong>Health Connect API</strong> and Android's <strong>AICore</strong> (on-device Gemini Nano), alongside <strong>carApp</strong> — a <strong>Kotlin Multiplatform</strong> vehicle-cost tracker for <strong>Android and iOS</strong>, developed as a public portfolio project — sharing domain, data, synchronisation and presentation logic while keeping the UI native with <strong>Jetpack Compose</strong> and <strong>SwiftUI</strong>.
+            My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture: an Android health app built around the <strong>Health Connect API</strong> and Android's <strong>AICore</strong> (on-device Gemini Nano), and two public <strong>Kotlin Multiplatform</strong> portfolio projects for <strong>Android and iOS</strong> — <strong>carApp</strong>, an offline-first vehicle-cost tracker, and <strong>Multiverse Explorer</strong>, a Rick and Morty API client — both sharing domain, data and presentation logic while keeping the UI native with <strong>Jetpack Compose</strong> and <strong>SwiftUI</strong>, with Multiverse Explorer following <strong>Material 3 Expressive</strong> and <strong>Liquid Glass</strong>.
           </p>
           <p>
             I use TDD and generative AI/agentic workflows as core engineering practices — <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>Codex</strong>, and <strong>Ollama</strong> alongside custom skill packages, terminal-integrated command loops, automated test-debug cycles, and structured <code>AGENTS.md</code> / <code>DESIGN.md</code> patterns — to accelerate implementation while preserving reproducibility, testing discipline, and engineering quality.
@@ -654,6 +654,43 @@
           </div>
         </article>
 
+        <!-- Multiverse Explorer (KMP) -->
+        <article class="glass-card spotlight-card project-card project-card--cyan">
+          <div class="project-thumb" aria-hidden="true">
+            <img src="screenshots/multiverse_explorer.jpg" alt="Multiverse Explorer on Android (Material 3 Expressive) and iOS (Liquid Glass)" class="project-thumb-img"/>
+            <span class="project-thumb-platform">KMP · Android + iOS</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Personal Project · 2026</span>
+            <h3 class="project-title">Multiverse Explorer — Rick and Morty API Client</h3>
+            <p class="project-desc">
+              One shared <strong>Kotlin Multiplatform</strong> core behind two fully native UIs that follow each
+              platform's design guidelines: <strong>Jetpack Compose with Material 3 Expressive</strong> on Android and
+              <strong>SwiftUI with Liquid Glass</strong> on iOS. 13 Clean Architecture modules, REST and GraphQL over Ktor,
+              offline-ready caching, Figma design tokens verified by tests, and accessibility built in.
+            </p>
+            <div class="project-metrics">
+              <span class="project-metric"><strong>1,550+</strong>automated tests</span>
+              <span class="project-metric"><strong>13</strong>Gradle modules</span>
+              <span class="project-metric"><strong>REST + GraphQL</strong>Ktor</span>
+            </div>
+            <div class="tech-tags">
+              <span>Kotlin Multiplatform</span>
+              <span>Jetpack Compose</span>
+              <span>Material 3 Expressive</span>
+              <span>SwiftUI</span>
+              <span>Liquid Glass</span>
+              <span>Ktor</span>
+              <span>Screenshot testing</span>
+              <span>GitHub Actions</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/davidru85/RickAndMorty" target="_blank" rel="noopener noreferrer" class="project-link" title="Multiverse Explorer source code on GitHub">GitHub ↗</a>
+              <span class="project-link project-link--note">Personal project</span>
+            </div>
+          </div>
+        </article>
+
         <!-- OLX Ads SDK -->
         <article class="glass-card spotlight-card project-card project-card--purple">
           <div class="project-thumb" aria-hidden="true">
@@ -773,6 +810,7 @@
                 <span class="skill-badge highlight">Kotlin</span>
                 <span class="skill-badge highlight">Dart</span>
                 <span class="skill-badge">Java</span>
+                <span class="skill-badge">Swift (familiar)</span>
                 <span class="skill-badge">TypeScript</span>
                 <span class="skill-badge">JavaScript</span>
                 <span class="skill-badge">SQL</span>
@@ -797,6 +835,7 @@
                 <span class="skill-badge">Coil</span>
                 <span class="skill-badge">Jackson</span>
                 <span class="skill-badge">Room</span>
+                <span class="skill-badge">DataStore</span>
                 <span class="skill-badge">WorkManager</span>
                 <span class="skill-badge">Timber</span>
                 <span class="skill-badge">Baseline Profiles</span>
@@ -808,6 +847,8 @@
                 <span class="skill-badge">AICore (Gemini Nano)</span>
                 <span class="skill-badge">On-device TTS / STT</span>
                 <span class="skill-badge">Material Design</span>
+                <span class="skill-badge">Material 3 Expressive</span>
+                <span class="skill-badge">Accessibility</span>
               </div>
             </div>
 
@@ -831,9 +872,10 @@
               <h3 class="skill-category-title">Kotlin Multiplatform &amp; Cross-platform</h3>
               <div class="skill-tags">
                 <span class="skill-badge highlight">Kotlin Multiplatform (KMP)</span>
-                <span class="skill-badge highlight">Shared domain / data layer</span>
+                <span class="skill-badge highlight">Shared domain / data / presentation layers</span>
                 <span class="skill-badge">Compose Multiplatform</span>
-                <span class="skill-badge">SwiftUI (native iOS)</span>
+                <span class="skill-badge">SwiftUI (native iOS, familiar)</span>
+                <span class="skill-badge">Liquid Glass (familiar)</span>
                 <span class="skill-badge">SQLDelight</span>
                 <span class="skill-badge">Ktor Multiplatform</span>
                 <span class="skill-badge">React Native (familiar)</span>
@@ -851,6 +893,7 @@
                 <span class="skill-badge">Gradle convention plugins</span>
                 <span class="skill-badge">Version catalogs</span>
                 <span class="skill-badge">Composite builds</span>
+                <span class="skill-badge">Enforced module boundaries</span>
                 <span class="skill-badge">AAR packaging</span>
                 <span class="skill-badge">Maven Publish</span>
                 <span class="skill-badge">Artifactory / Maven Central</span>
@@ -897,7 +940,9 @@
               <h3 class="skill-category-title">Engineering Tools</h3>
               <div class="skill-tags">
                 <span class="skill-badge">Android Studio</span>
+                <span class="skill-badge">Xcode (familiar)</span>
                 <span class="skill-badge">VS Code</span>
+                <span class="skill-badge">Figma (design handoff)</span>
                 <span class="skill-badge">Git</span>
                 <span class="skill-badge">Gradle (Kotlin DSL / Groovy)</span>
                 <span class="skill-badge">Version Catalogs</span>
@@ -918,9 +963,13 @@
                 <span class="skill-badge">MockK</span>
                 <span class="skill-badge">Espresso</span>
                 <span class="skill-badge">Robolectric</span>
+                <span class="skill-badge">Compose UI testing</span>
+                <span class="skill-badge">Roborazzi (screenshot testing)</span>
+                <span class="skill-badge">Contract testing</span>
                 <span class="skill-badge">MockWebServer</span>
                 <span class="skill-badge">JaCoCo</span>
                 <span class="skill-badge">Detekt / ktlint</span>
+                <span class="skill-badge">Android Lint</span>
               </div>
             </div>
 
@@ -940,6 +989,7 @@
               <h3 class="skill-category-title">Methodologies</h3>
               <div class="skill-tags">
                 <span class="skill-badge">A/B Testing</span>
+                <span class="skill-badge">Architecture Decision Records (ADRs)</span>
                 <span class="skill-badge">Agile</span>
                 <span class="skill-badge">Scrum</span>
                 <span class="skill-badge">Kanban</span>

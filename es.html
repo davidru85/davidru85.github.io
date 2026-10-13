@@ -60,12 +60,12 @@
     "knowsAbout": [
       "Mobile Platform Engineering", "SDK Architecture", "Android SDK Development", "API Design", "Backward Compatibility", "Release Engineering", "Maven Publish", "Gradle Convention Plugins",
       "Android", "Kotlin", "Jetpack Compose", "Flutter", "Dart",
-      "Kotlin Multiplatform", "Compose Multiplatform", "SwiftUI", "iOS", "Ktor Multiplatform", "SQLDelight", "React Native", "JavaScript", "TypeScript",
+      "Kotlin Multiplatform", "Compose Multiplatform", "SwiftUI", "Swift", "iOS", "Liquid Glass", "Ktor Multiplatform", "SQLDelight", "React Native", "JavaScript", "TypeScript",
       "BLoC", "Riverpod", "Clean Architecture", "MVVM", "MVI", "Coroutines", "Flow",
       "Jetpack Hilt", "Dagger 2", "Retrofit", "Ktor", "GraphQL", "Room", "WorkManager",
-      "Android TV", "Health Connect API", "AICore", "Gemini Nano", "On-device AI", "Cloud AI", "On-device TTS", "On-device STT", "Material Design",
+      "Android TV", "Health Connect API", "AICore", "Gemini Nano", "On-device AI", "Cloud AI", "On-device TTS", "On-device STT", "Material Design", "Material 3 Expressive", "Accessibility",
       "Baseline Profiles", "Macrobenchmark", "App Startup Optimization",
-      "Test-Driven Development", "API Design", "Privacy Sandbox", "GDPR",
+      "Test-Driven Development", "Screenshot Testing", "API Design", "Privacy Sandbox", "GDPR",
       "Firebase", "Firestore", "App Check", "In-App Purchases", "Flutter Web",
       "Claude Code", "Cursor", "Ollama", "Model Context Protocol",
       "GitHub Actions", "Gradle", "CI/CD"
@@ -203,7 +203,7 @@
             En <strong>Explora Prado</strong> soy el Technical Lead y único desarrollador de un producto Flutter en vivo para el Museo del Prado — un proyecto reconocido con una <em>Mención de Honor Art-Tech 2025</em> y seleccionado para el programa <em>Santander X Explorer 2026</em> — publicado en App Store y Google Play y en desarrollo activo.
           </p>
           <p>
-            Mi trabajo de producto actual combina datos de salud con enfoque privacy-first, IA on-device, IA en la nube y arquitectura multiplataforma: una app de salud para Android construida sobre la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), junto a <strong>carApp</strong>, un control de gastos del vehículo en <strong>Kotlin Multiplatform</strong> para <strong>Android e iOS</strong> creado como proyecto público de portfolio: comparte dominio, datos, sincronización y lógica de presentación, manteniendo la UI nativa con <strong>Jetpack Compose</strong> y <strong>SwiftUI</strong>.
+            Mi trabajo de producto actual combina datos de salud con enfoque privacy-first, IA on-device, IA en la nube y arquitectura multiplataforma: una app de salud para Android construida sobre la <strong>Health Connect API</strong> y <strong>AICore</strong> de Android (Gemini Nano on-device), y dos proyectos públicos de portfolio en <strong>Kotlin Multiplatform</strong> para <strong>Android e iOS</strong>: <strong>carApp</strong>, un control de gastos del vehículo offline-first, y <strong>Multiverse Explorer</strong>, un cliente de la API de Rick and Morty. Ambos comparten dominio, datos y lógica de presentación, manteniendo la UI nativa con <strong>Jetpack Compose</strong> y <strong>SwiftUI</strong>; Multiverse Explorer sigue además <strong>Material 3 Expressive</strong> y <strong>Liquid Glass</strong>.
           </p>
           <p>
             Uso TDD (Desarrollo Guiado por Pruebas) y flujos de trabajo con IA generativa/agentiva como prácticas de ingeniería clave — <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>Codex</strong> y <strong>Ollama</strong> junto con paquetes de habilidades personalizados, bucles de comandos integrados en terminal, ciclos automáticos de prueba-depuración y patrones estructurados de <code>AGENTS.md</code> / <code>DESIGN.md</code> — para acelerar la implementación preservando reproducibilidad, disciplina de testing y calidad de ingeniería.
@@ -653,6 +653,44 @@
           </div>
         </article>
 
+        <!-- Multiverse Explorer (KMP) -->
+        <article class="glass-card spotlight-card project-card project-card--cyan">
+          <div class="project-thumb" aria-hidden="true">
+            <img src="screenshots/multiverse_explorer.jpg" alt="Multiverse Explorer en Android (Material 3 Expressive) e iOS (Liquid Glass)" class="project-thumb-img"/>
+            <span class="project-thumb-platform">KMP · Android + iOS</span>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Proyecto personal · 2026</span>
+            <h3 class="project-title">Multiverse Explorer — Cliente de la API de Rick and Morty</h3>
+            <p class="project-desc">
+              Un núcleo compartido en <strong>Kotlin Multiplatform</strong> detrás de dos interfaces totalmente nativas que
+              siguen las guías de diseño de cada plataforma: <strong>Jetpack Compose con Material 3 Expressive</strong> en
+              Android y <strong>SwiftUI con Liquid Glass</strong> en iOS. 13 módulos con Clean Architecture, REST y GraphQL
+              sobre Ktor, caché preparada para funcionar offline, tokens de diseño de Figma verificados por tests y
+              accesibilidad de serie.
+            </p>
+            <div class="project-metrics">
+              <span class="project-metric"><strong>1.550+</strong>tests automatizados</span>
+              <span class="project-metric"><strong>13</strong>módulos Gradle</span>
+              <span class="project-metric"><strong>REST + GraphQL</strong>Ktor</span>
+            </div>
+            <div class="tech-tags">
+              <span>Kotlin Multiplatform</span>
+              <span>Jetpack Compose</span>
+              <span>Material 3 Expressive</span>
+              <span>SwiftUI</span>
+              <span>Liquid Glass</span>
+              <span>Ktor</span>
+              <span>Tests de capturas</span>
+              <span>GitHub Actions</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/davidru85/RickAndMorty" target="_blank" rel="noopener noreferrer" class="project-link" title="Código fuente de Multiverse Explorer en GitHub">GitHub ↗</a>
+              <span class="project-link project-link--note">Proyecto personal</span>
+            </div>
+          </div>
+        </article>
+
         <!-- OLX Ads SDK -->
         <article class="glass-card spotlight-card project-card project-card--purple">
           <div class="project-thumb" aria-hidden="true">
@@ -768,6 +806,7 @@
                 <span class="skill-badge highlight">Kotlin</span>
                 <span class="skill-badge highlight">Dart</span>
                 <span class="skill-badge">Java</span>
+                <span class="skill-badge">Swift (nivel familiar)</span>
                 <span class="skill-badge">TypeScript</span>
                 <span class="skill-badge">JavaScript</span>
                 <span class="skill-badge">SQL</span>
@@ -792,6 +831,7 @@
                 <span class="skill-badge">Coil</span>
                 <span class="skill-badge">Jackson</span>
                 <span class="skill-badge">Room</span>
+                <span class="skill-badge">DataStore</span>
                 <span class="skill-badge">WorkManager</span>
                 <span class="skill-badge">Timber</span>
                 <span class="skill-badge">Baseline Profiles</span>
@@ -803,6 +843,8 @@
                 <span class="skill-badge">AICore (Gemini Nano)</span>
                 <span class="skill-badge">TTS / STT on-device</span>
                 <span class="skill-badge">Material Design</span>
+                <span class="skill-badge">Material 3 Expressive</span>
+                <span class="skill-badge">Accesibilidad</span>
               </div>
             </div>
 
@@ -826,9 +868,10 @@
               <h3 class="skill-category-title">Kotlin Multiplatform y multiplataforma</h3>
               <div class="skill-tags">
                 <span class="skill-badge highlight">Kotlin Multiplatform (KMP)</span>
-                <span class="skill-badge highlight">Capa de dominio / datos compartida</span>
+                <span class="skill-badge highlight">Capas de dominio / datos / presentación compartidas</span>
                 <span class="skill-badge">Compose Multiplatform</span>
-                <span class="skill-badge">SwiftUI (iOS nativo)</span>
+                <span class="skill-badge">SwiftUI (iOS nativo, nivel familiar)</span>
+                <span class="skill-badge">Liquid Glass (nivel familiar)</span>
                 <span class="skill-badge">SQLDelight</span>
                 <span class="skill-badge">Ktor Multiplatform</span>
                 <span class="skill-badge">React Native (nivel familiar)</span>
@@ -846,6 +889,7 @@
                 <span class="skill-badge">Convention plugins de Gradle</span>
                 <span class="skill-badge">Version catalogs</span>
                 <span class="skill-badge">Composite builds</span>
+                <span class="skill-badge">Fronteras de módulos verificadas</span>
                 <span class="skill-badge">Empaquetado AAR</span>
                 <span class="skill-badge">Maven Publish</span>
                 <span class="skill-badge">Artifactory / Maven Central</span>
@@ -892,7 +936,9 @@
               <h3 class="skill-category-title">Herramientas de Ingeniería</h3>
               <div class="skill-tags">
                 <span class="skill-badge">Android Studio</span>
+                <span class="skill-badge">Xcode (nivel familiar)</span>
                 <span class="skill-badge">VS Code</span>
+                <span class="skill-badge">Figma (handoff de diseño)</span>
                 <span class="skill-badge">Git</span>
                 <span class="skill-badge">Gradle (Kotlin DSL / Groovy)</span>
                 <span class="skill-badge">Version Catalogs</span>
@@ -913,9 +959,13 @@
                 <span class="skill-badge">MockK</span>
                 <span class="skill-badge">Espresso</span>
                 <span class="skill-badge">Robolectric</span>
+                <span class="skill-badge">Tests de UI con Compose</span>
+                <span class="skill-badge">Roborazzi (tests de capturas)</span>
+                <span class="skill-badge">Tests de contrato</span>
                 <span class="skill-badge">MockWebServer</span>
                 <span class="skill-badge">JaCoCo</span>
                 <span class="skill-badge">Detekt / ktlint</span>
+                <span class="skill-badge">Android Lint</span>
               </div>
             </div>
 
@@ -935,6 +985,7 @@
               <h3 class="skill-category-title">Metodologías</h3>
               <div class="skill-tags">
                 <span class="skill-badge">A/B Testing</span>
+                <span class="skill-badge">Architecture Decision Records (ADRs)</span>
                 <span class="skill-badge">Agile</span>
                 <span class="skill-badge">Scrum</span>
                 <span class="skill-badge">Kanban</span>
