@@ -21,16 +21,18 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 - **Technical Lead at [Explora Prado](https://exploraprado.com)**: Sole developer of the full technical platform for a self-guided Museo del Prado experience built in Flutter — a recognised project (*Art-Tech 2025 Honorable Mention*, selected for *Santander X Explorer 2026*), live on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado) and in active development.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
 - **Kotlin Multiplatform in Practice**: Building [carApp](https://github.com/davidru85/carApp) — a cross-platform Android/iOS vehicle-cost tracker developed as a public portfolio project, sharing domain, data, synchronization and presentation logic via KMP while keeping the UI native (Jetpack Compose + SwiftUI), on SQLDelight persistence with Firebase/Firestore backup, TDD and protected GitHub Actions CI.
+- **Native UI on a shared KMP core**: Built [Multiverse Explorer](https://github.com/davidru85/RickAndMorty) — a personal Android/iOS client for the public Rick and Morty API with one shared Kotlin core behind fully native UIs that follow each platform's design guidelines: Jetpack Compose with Material 3 Expressive on Android and SwiftUI with Liquid Glass on iOS. 13 Clean Architecture modules with enforced boundaries, REST and GraphQL over Ktor, offline-ready response and image caching, Figma design tokens verified by tests on both platforms, built-in accessibility, and 1,550+ automated tests behind a GitHub Actions gate.
 
 ---
 
 ## 🛠️ Technical Expertise
 
 ### Core & Frameworks
-- **Languages:** Kotlin, Dart, Java, TypeScript (familiar), JavaScript (familiar), XML, SQL
-- **Android Stack:** Jetpack Compose, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
+- **Languages:** Kotlin, Dart, Java, Swift (familiar), TypeScript (familiar), JavaScript (familiar), XML, SQL
+- **Android Stack:** Jetpack Compose, Material 3 Expressive, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, DataStore, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, accessibility, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
 - **Flutter Stack:** BLoC, Riverpod, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
-- **KMP & Cross-platform:** Kotlin Multiplatform (KMP), shared domain/data layer, Compose Multiplatform, SwiftUI (native iOS), SQLDelight, Ktor Multiplatform, React Native + JavaScript/TypeScript (familiar — a platform on-ramp rather than a primary stack; app architecture experience plus an AI-assisted workflow make React Native projects approachable)
+- **Testing & Quality:** TDD, JUnit, MockK, Espresso, Robolectric, Compose UI testing, Roborazzi (screenshot testing), contract testing, MockWebServer, JaCoCo, Detekt, ktlint, Android Lint
+- **KMP & Cross-platform:** Kotlin Multiplatform (KMP), shared domain/data/presentation layers, Compose Multiplatform, SwiftUI (native iOS, familiar), Liquid Glass (familiar), SQLDelight, Ktor Multiplatform, React Native + JavaScript/TypeScript (familiar — a platform on-ramp rather than a primary stack; app architecture experience plus an AI-assisted workflow make React Native projects approachable)
 
 ### AI & Agentic Workflows
 - **Tooling:** Claude Code (daily), Cursor, Codex, Ollama, Windsurf
@@ -38,8 +40,8 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 
 ### Ecosystem & Cloud
 - **Cloud/SDKs:** Firebase Suite (Auth, Firestore, App Check, Crashlytics), Google Ad Manager (primary ad demand), third-party ad-network SDKs / mediation, Amplitude, CleverTap
-- **SDK & Platform:** API and SDK design, versioning and backward compatibility, `api`/`impl` modularisation, Gradle convention plugins, version catalogs, composite builds, AAR packaging, Maven Publish, Artifactory (JFrog) / Maven Central, release engineering
-- **CI/CD & Tooling:** Git, Gradle (Kotlin DSL / Groovy), GitHub Actions, Jenkins, Fastlane, Android Studio, VS Code
+- **SDK & Platform:** API and SDK design, versioning and backward compatibility, `api`/`impl` modularisation, enforced module boundaries, Gradle convention plugins, version catalogs, composite builds, AAR packaging, Maven Publish, Artifactory (JFrog) / Maven Central, release engineering, Architecture Decision Records (ADRs)
+- **CI/CD & Tooling:** Git, Gradle (Kotlin DSL / Groovy), GitHub Actions, Jenkins, Fastlane, Android Studio, Xcode (familiar), VS Code, Figma (design handoff)
 
 ---
 

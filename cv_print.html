@@ -124,37 +124,37 @@
   <table class="skills">
     <tr>
       <td class="label">Languages</td>
-      <td class="val"><b>Kotlin (Expert)</b>, Java, Dart, TypeScript (F), JavaScript (F), XML, JSON</td>
+      <td class="val"><b>Kotlin (Expert)</b>, Java, Dart, Swift (Familiar), TypeScript (Familiar), JavaScript (Familiar), XML, JSON</td>
       <td class="label">Architecture &amp; DI</td>
-      <td class="val"><b>Clean Architecture (E)</b>, MVVM (E), MVI, MVP, Coroutines &amp; Flow (E), Hilt (E), Dagger 2 (E), Koin</td>
+      <td class="val"><b>Clean Architecture (Expert)</b>, MVVM (Expert), MVI, MVP, Coroutines &amp; Flow (Expert), Hilt (Expert), Dagger 2 (Expert), Koin</td>
     </tr>
     <tr>
       <td class="label">Android UI &amp; Performance</td>
-      <td class="val"><b>Jetpack Compose (E)</b>, Material Design, XML layouts, Android TV (Leanback), ExoPlayer, WorkManager, Timber, Baseline Profiles, Macrobenchmark, startup optimization, R8</td>
+      <td class="val"><b>Jetpack Compose (Expert)</b>, Material Design, Material 3 Expressive, accessibility, XML layouts, Android TV (Leanback), ExoPlayer, WorkManager, Timber, Baseline Profiles, Macrobenchmark, startup optimization, R8</td>
       <td class="label">Networking &amp; Data</td>
-      <td class="val">Retrofit (E), OkHttp, GraphQL, Ktor, Gson, Jackson, kotlinx.serialization, Room (E)</td>
+      <td class="val">Retrofit (Expert), OkHttp, GraphQL, Ktor, Gson, Jackson, kotlinx.serialization, Room (Expert)</td>
     </tr>
     <tr>
       <td class="label">SDK &amp; Platform</td>
-      <td class="val"><b>API &amp; SDK design (E)</b>, versioning &amp; backward compatibility, api/impl modularisation, Gradle (Kotlin DSL, E), version catalogs, convention plugins, composite builds, AAR, Maven Publish (E), Artifactory, GitHub Actions, Fastlane</td>
+      <td class="val"><b>API &amp; SDK design (Expert)</b>, versioning &amp; backward compatibility, api/impl modularisation, Gradle (Kotlin DSL) (Expert), version catalogs, convention plugins, composite builds, AAR, Maven Publish (Expert), Artifactory, GitHub Actions, Fastlane</td>
       <td class="label">Testing &amp; Quality</td>
-      <td class="val"><b>TDD (E)</b>, JUnit (E), MockK (E), Espresso, Robolectric, MockWebServer, JaCoCo, Detekt, ktlint</td>
+      <td class="val"><b>TDD (Expert)</b>, JUnit (Expert), MockK (Expert), Espresso, Robolectric, Roborazzi (screenshot testing), contract testing, MockWebServer, JaCoCo, Detekt, ktlint</td>
     </tr>
     <tr>
       <td class="label">Privacy &amp; Consent</td>
-      <td class="val">GDPR (E), IAB TCF, Google UMP, Android Privacy Sandbox (Topics, Protected Audience, Attribution Reporting)</td>
+      <td class="val">GDPR (Expert), IAB TCF, Google UMP, Android Privacy Sandbox (Topics, Protected Audience, Attribution Reporting)</td>
       <td class="label">Cross-platform &amp; On-device</td>
-      <td class="val">Flutter / BLoC, Kotlin Multiplatform, Compose Multiplatform, SwiftUI, React Native (F), Health Connect API, AICore (on-device Gemini Nano), on-device TTS &amp; STT</td>
+      <td class="val">Flutter / BLoC, Kotlin Multiplatform, Compose Multiplatform, SwiftUI (Familiar), Liquid Glass (Familiar), React Native (Familiar), Health Connect API, AICore (on-device Gemini Nano), on-device TTS &amp; STT</td>
     </tr>
     <tr>
       <td class="label">Cloud, Payments &amp; Analytics</td>
-      <td class="val">Firebase suite (E), <span class="chip">in_app_purchase</span> <span class="chip">Stripe</span> <span class="chip">Redsys</span> (purchase verification &amp; entitlement persistence), Amplitude, CleverTap, Google Analytics, Crashlytics, Twilio</td>
+      <td class="val">Firebase suite (Expert), <span class="chip">in_app_purchase</span> <span class="chip">Stripe</span> <span class="chip">Redsys</span> (purchase verification &amp; entitlement persistence), Amplitude, CleverTap, Google Analytics, Crashlytics, Twilio</td>
       <td class="label">AI-Assisted Dev</td>
       <td class="val"><b>Claude Code (daily)</b>, Cursor, Codex, Ollama, MCP Servers, AI Skills / custom skill packages, AGENTS.md / DESIGN.md patterns</td>
     </tr>
     <tr>
       <td class="label">Tools &amp; Methods</td>
-      <td class="val">Git (E), CI/CD, JIRA, Agile / Scrum / Kanban, A/B testing, Remote Config, feature flags, Android Studio, VS Code</td>
+      <td class="val">Git (Expert), CI/CD, JIRA, Agile / Scrum / Kanban, A/B testing, Remote Config, feature flags, Android Studio, Xcode (Familiar), VS Code, Figma, ADRs</td>
       <td class="label"></td>
       <td class="val"></td>
     </tr>
@@ -240,13 +240,14 @@
   <div class="proj">
     <div class="proj-title">Personal Health App (Android) — In Development</div>
     <ul class="bullets">
-      <li>Privacy-first app on the <b>Health Connect API</b>, pairing <b>on-device AI</b> (AICore / Gemini Nano) with cloud AI for actionable guidance — local-first by design.</li>
+      <li>Privacy-first <b>Health Connect</b> app pairing <b>on-device AI</b> (AICore / Gemini Nano) with cloud AI — local-first by design.</li>
     </ul>
   </div>
   <div class="proj">
-    <div class="proj-title">carApp — Vehicle Cost Tracker (Kotlin Multiplatform) — In Development</div>
+    <div class="proj-title">Kotlin Multiplatform Portfolio Projects — Android &amp; iOS, public on GitHub</div>
     <ul class="bullets">
-      <li>Public portfolio project: <b>Kotlin Multiplatform</b> shares domain, data, sync and presentation logic across <b>Android &amp; iOS</b> with native UI (Jetpack Compose + SwiftUI). Offline-first MVP on <b>SQLDelight</b> with Firebase/Firestore backup, TDD, architecture/contract checks and protected GitHub Actions CI — github.com/davidru85/carApp</li>
+      <li><b>carApp</b> (in development): offline-first vehicle-cost tracker; KMP shares domain, data, sync and presentation logic behind native <b>Jetpack Compose + SwiftUI</b>, on <b>SQLDelight</b> with Firebase backup, TDD and protected CI — github.com/davidru85/carApp</li>
+      <li><b>Multiverse Explorer</b>: Rick and Morty API client — one shared Kotlin core behind <b>Compose + Material 3 Expressive</b> and <b>SwiftUI + Liquid Glass</b>; 13 Clean Architecture modules, REST + GraphQL (Ktor), 1,550+ tests — github.com/davidru85/RickAndMorty</li>
     </ul>
   </div>
 </div>
