@@ -14,7 +14,7 @@ Product-minded Senior Mobile Engineer building production mobile systems since 2
 
 At OLX Group, I owned an internal Android Ads SDK across the Horizontals, Real Estate, and Motors verticals, serving tens of millions of active users across market-specific builds. I led its architecture, lifecycle, publication, integration standards, and partner-team enablement, while raising SDK test coverage from 14% to 70%. At Explora Prado, I am the Technical Lead and sole developer of a live Flutter product for Museo del Prado, released on both the App Store and Google Play and still in active development.
 
-My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture. I am building an Android health app around Health Connect and Android AICore (on-device Gemini Nano), alongside carApp — a comprehensive Kotlin Multiplatform Android/iOS vehicle-cost tracker developed as a public portfolio project. I also use generative AI and agentic development workflows to accelerate implementation while preserving reproducibility, testing discipline, and engineering quality.
+My current product work combines privacy-first health data, on-device AI, cloud AI, and cross-platform architecture. I am building an Android health app around Health Connect and Android AICore (on-device Gemini Nano), and I maintain two public Kotlin Multiplatform portfolio projects for Android and iOS: carApp, an offline-first vehicle-cost tracker, and Multiverse Explorer, a Rick and Morty API client that pairs a shared Kotlin core with fully native UIs — Jetpack Compose with Material 3 Expressive and SwiftUI with Liquid Glass. I also use generative AI and agentic development workflows to accelerate implementation while preserving reproducibility, testing discipline, and engineering quality.
 
 ## SELECTED IMPACT
 
@@ -139,6 +139,18 @@ Personal side project and public portfolio piece — a cross-platform **Android 
 - Built as a comprehensive, modular project with **SQLDelight** local persistence, Firebase/Firestore backup and recovery, anonymous-first authentication, test-driven development, architecture and contract checks, and protected GitHub Actions CI.
 - **Repository:** [github.com/davidru85/carApp](https://github.com/davidru85/carApp)
 
+### Multiverse Explorer (Kotlin Multiplatform) · 2026
+Personal project and public portfolio piece — a cross-platform **Android and iOS** client for the public Rick and Morty API to browse every character, inspect character details, and keep favourites, built on one shared Kotlin core with two fully native UIs that follow each platform's own design guidelines.
+
+- Shares domain, data, and presentation logic (state holders, reducers, and UI-state contracts with unidirectional data flow) through **Kotlin Multiplatform**, exported to iOS as a single Kotlin framework, while keeping the UIs native: **Jetpack Compose with Material 3 Expressive** on Android and **SwiftUI with Liquid Glass** on iOS (with a material fallback below iOS 26).
+- Structured as 13 Gradle modules under Clean Architecture, with inward-only dependencies enforced on every build and an `api` / `impl` boundary that keeps networking and storage types out of feature code; architectural decisions are recorded in 15 ADRs.
+- Built from a Figma design specification kept in sync with the code through a committed design-token export that both platforms' test suites verify against. Android cards take a dynamic accent colour extracted from each character's portrait, iOS uses native glass surfaces (`glassEffect`, `GlassEffectContainer`) with Reduce Transparency fallbacks, and both apps ship screen-reader semantics, scalable text, measured 4.5:1 text contrast, and platform-minimum touch targets.
+- Implements REST and GraphQL data sources over a single Ktor client, switchable at runtime, plus response caching with an explicit freshness and offline-fallback policy, memory and disk image caching, and a typed failure model with designed empty, stale, error, and partial-data states.
+- Delivers paginated character discovery with debounced search and status filtering, locally persisted favourites, a card-to-detail shared-element transition with Reduce Motion support, predictive back on Android, and English/Spanish localisation.
+- Built test-first with 1,550+ automated tests across shared Kotlin, Android, and iOS code, screenshot testing on both platforms (Roborazzi and swift-snapshot-testing), and REST/GraphQL contract tests against recorded fixtures plus a weekly live-API probe.
+- Enforces quality through a GitHub Actions pull-request gate with per-module checks, an iOS job, ktlint, Android Lint, SwiftLint, swift-format, dependency analysis, and repository-hygiene checks, with builds standardised through Gradle convention plugins and a version catalog.
+- **Repository:** [github.com/davidru85/RickAndMorty](https://github.com/davidru85/RickAndMorty)
+
 ---
 
 ## LEADERSHIP, KNOWLEDGE SHARING & OPEN SOURCE
@@ -151,25 +163,25 @@ Personal side project and public portfolio piece — a cross-platform **Android 
 
 ## TECHNICAL SKILLS
 
-> **Proficiency:** (E) Expert · (F) Familiar · unmarked = Proficient
+> **Proficiency:** (Expert) · (Familiar) · unmarked = Proficient
 
 | Area | Skills |
 |---|---|
-| **Languages** | Kotlin (E) · Java · Dart · TypeScript (F) · JavaScript (F) · XML · JSON |
-| **Android Platform, UI & Core** | Jetpack Compose (E) · Material Design · View system / XML layouts · Android TV / Leanback · ExoPlayer · WorkManager · Timber |
-| **Architecture & Asynchronous Programming** | Clean Architecture (E) · MVVM (E) · MVI · MVP · Coroutines & Flow (E) · RxJava · LiveData · ViewModel · EventBus (legacy) (F) |
-| **Dependency Injection** | Hilt (E) · Dagger 2 (E) · Koin · Dagger 1 (legacy) (F) |
-| **Networking & Data** | Retrofit (E) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · Jackson · kotlinx.serialization · Room (E) · Coil · Glide |
+| **Languages** | Kotlin (Expert) · Java · Dart · Swift (Familiar) · TypeScript (Familiar) · JavaScript (Familiar) · XML · JSON |
+| **Android Platform, UI & Core** | Jetpack Compose (Expert) · Material Design · Material 3 Expressive · Navigation Compose · shared-element transitions · predictive back · accessibility (screen-reader semantics, scalable text, contrast) · View system / XML layouts · Android TV / Leanback · ExoPlayer · WorkManager · Timber |
+| **Architecture & Asynchronous Programming** | Clean Architecture (Expert) · MVVM (Expert) · MVI · Unidirectional Data Flow · MVP · enforced module boundaries · Coroutines & Flow (Expert) · RxJava · LiveData · ViewModel · EventBus (legacy) (Familiar) |
+| **Dependency Injection** | Hilt (Expert) · Dagger 2 (Expert) · Koin · Dagger 1 (legacy) (Familiar) |
+| **Networking & Data** | Retrofit (Expert) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · Jackson · kotlinx.serialization · Room (Expert) · DataStore · HTTP response caching (stale-while-revalidate, offline fallback) · Coil · Glide |
 | **Performance Engineering** | Baseline Profiles · Macrobenchmark · application startup optimisation · jank and frame-timing analysis · R8 |
-| **Testing & Code Quality** | TDD (E) · JUnit (E) · MockK (E) · Espresso · Robolectric · MockWebServer · JaCoCo · Detekt · ktlint |
-| **SDK, Build & CI/CD** | Gradle (Kotlin DSL / Groovy) (E) · version catalogs (`libs.versions.toml`) · convention plugins · composite builds · R8 / ProGuard · build flavors / variants · Maven Publish (E) · Artifactory (JFrog) (E) · Maven Central · AAR packaging (E) · GitHub Actions (E) · Jenkins · Fastlane · Play Feature Delivery |
-| **Privacy & Consent** | GDPR (E) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
+| **Testing & Code Quality** | TDD (Expert) · JUnit (Expert) · MockK (Expert) · Espresso · Robolectric · Compose UI testing · Roborazzi (screenshot testing) · contract testing (recorded REST / GraphQL fixtures) · MockWebServer · JaCoCo · Detekt · ktlint · Android Lint · XCTest (Familiar) · swift-snapshot-testing (Familiar) · SwiftLint (Familiar) · swift-format (Familiar) |
+| **SDK, Build & CI/CD** | Gradle (Kotlin DSL / Groovy) (Expert) · version catalogs (`libs.versions.toml`) · convention plugins · composite builds · custom Gradle verification tasks (module-boundary and dependency policies) · Dependency Analysis Gradle Plugin · R8 / ProGuard · build flavors / variants · Maven Publish (Expert) · Artifactory (JFrog) (Expert) · Maven Central · AAR packaging (Expert) · GitHub Actions (Expert) · Jenkins · Fastlane · XcodeGen (Familiar) · Play Feature Delivery |
+| **Privacy & Consent** | GDPR (Expert) · Android Privacy Sandbox (Topics API · Protected Audience · Attribution Reporting) · IAB TCF · Google UMP |
 | **On-device & Health** | Health Connect API · AICore (on-device Gemini Nano) · on-device TTS & STT (local AI) |
-| **Flutter & Cross-Platform** | BLoC · Riverpod (F) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
-| **Kotlin Multiplatform** | Kotlin Multiplatform · shared domain and data layers · Compose Multiplatform · SwiftUI (native iOS) · SQLDelight (F) · Ktor Multiplatform (F) · React Native (F) |
-| **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (F) · Ollama (F) · Windsurf (F) · Gemini · Qwen (F) · MCP Servers (F) · AI skills and custom skill packages · terminal command loops · automated test-debug cycles · `AGENTS.md` / `DESIGN.md` patterns |
-| **Cloud & Product Services** | Firebase suite (E): Authentication, Firestore, Realtime Database, Storage, Cloud Functions, Analytics, Crashlytics, Remote Config, App Distribution · Google Ad Manager · third-party ad-network SDKs and mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags · A/B testing |
-| **Tools & Methodologies** | Android Studio · VS Code · Git (E) · CI/CD · JIRA · Agile · Scrum · Kanban · A/B testing and experimentation |
+| **Flutter & Cross-Platform** | BLoC · Riverpod (Familiar) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
+| **Kotlin Multiplatform** | Kotlin Multiplatform · shared domain, data, and presentation layers · Kotlin/Native framework export to iOS · Compose Multiplatform · SwiftUI (native iOS) (Familiar) · Liquid Glass (Familiar) · SQLDelight (Familiar) · Ktor Multiplatform · React Native (Familiar) |
+| **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (Familiar) · Ollama (Familiar) · Windsurf (Familiar) · Gemini · Qwen (Familiar) · MCP Servers (Familiar) · AI skills and custom skill packages · terminal command loops · automated test-debug cycles · `AGENTS.md` / `DESIGN.md` patterns |
+| **Cloud & Product Services** | Firebase suite (Expert): Authentication, Firestore, Realtime Database, Storage, Cloud Functions, Analytics, Crashlytics, Remote Config, App Distribution · Google Ad Manager · third-party ad-network SDKs and mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags · A/B testing |
+| **Tools & Methodologies** | Android Studio · Xcode (Familiar) · VS Code · Figma (design handoff) · Git (Expert) · CI/CD · Architecture Decision Records (ADRs) · JIRA · Agile · Scrum · Kanban · A/B testing and experimentation |
 
 > **On React Native, JavaScript & TypeScript:** deliberately marked *Familiar* — a platform on-ramp, not on the level of Kotlin or Dart. What makes it usable in practice is the combination of app-development and architecture experience since 2015 with an AI-assisted workflow (Claude Code, Cursor): enough to take on React Native projects and become productive on them without a long ramp-up.
 
