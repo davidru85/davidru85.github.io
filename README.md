@@ -50,11 +50,11 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 *   **Technical Lead (Freelance)** | *Explora Prado* (Jan 2026 – Present)
     *   Own the full technical platform as the sole developer: architecture, implementation, release pipeline, and live store releases.
     *   Built double-store in-app purchases with entitlement persistence, dynamic localisation, offline synchronization, and the internal Flutter Web back office.
-*   **Senior Android Engineer** | *OLX / Letgo* (Jul 2021 – Jan 2026)
+*   **Senior Android Engineer** | *OLX / Letgo* (Jun 2021 – Jan 2026)
     *   Owned the internal Android Ads SDK as a mobile platform: `api`/`impl` module boundary, versioning and backward compatibility, AAR packaging and Maven publication, integration docs and partner-team enablement.
     *   Led Compose and Coroutines/Flow migrations of critical SDK surfaces, and privacy compliance (GDPR, IAB TCF, Google UMP, Privacy Sandbox), aligning API and release lifecycles with the iOS SDK team.
     *   Integrated GraphQL APIs and wrote my first Flutter code here, alongside the native Android work.
-*   **Senior Android Developer** | *Wegow* (Sep 2019 – Jul 2021)
+*   **Senior Android Developer** | *Wegow* (Sep 2019 – Jun 2021)
     *   Sole Android developer. Led a ground-up Kotlin/Dagger 2 rebuild on MVVM/Clean Architecture; that v2 still underpins the product six years later.
     *   Integrated Stripe and Redsys payment gateways and the Google Maps SDK for event discovery.
 *   **Android Developer & Android TV Developer** | *Instantgo, Telefónica, UXSmobile, Mobile One2One, AvantGarde IT Services* (2015 – 2019)
