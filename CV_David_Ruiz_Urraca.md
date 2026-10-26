@@ -45,7 +45,7 @@ Recognised Flutter app turning Museo del Prado's permanent collection into a sel
 
 ---
 
-### Senior Android Engineer · Jul 2021 – Jan 2026
+### Senior Android Engineer · Jun 2021 – Jan 2026
 **OLX / Letgo** · Barcelona (Remote)
 
 Android platform engineering for a global marketplace operating across Poland, Portugal, Turkey, Ukraine, Romania, India, Indonesia, South America, and other markets.
@@ -65,7 +65,7 @@ Android platform engineering for a global marketplace operating across Poland, P
 
 ---
 
-### Senior Android Developer · Sep 2019 – Jul 2021
+### Senior Android Developer · Sep 2019 – Jun 2021
 **Wegow** · Madrid (Remote)
 
 Live-music events discovery and ticketing platform. Joined as the company's only Android developer and owned the application end to end across architecture, feature delivery, and production stability.
