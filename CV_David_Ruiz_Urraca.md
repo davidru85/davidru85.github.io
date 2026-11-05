@@ -4,13 +4,15 @@
 
 +34 644 627 262 · david@ruizurraca.com · [linkedin.com/in/davidru85](https://linkedin.com/in/davidru85) · [davidru85.github.io](https://davidru85.github.io/)
 
-**Available for Remote Roles**
+**Spain · Available for 100% Remote Work**
 
 ---
 
 ## PROFESSIONAL PROFILE
 
 Product-minded Senior Mobile Engineer building production mobile systems since 2015 across native Android applications, Android SDKs, Flutter products, and Kotlin Multiplatform shared layers. I own delivery end to end across architecture, API and SDK contracts, backward compatibility, privacy and consent, testing, CI/CD, release engineering, analytics, payments, and experimentation.
+
+As an Android Product Engineer with Kotlin as my main language, I stay long-term where I work — 4.5 years at OLX Group and nearly 2 years at Wegow — owning features from problem definition with product, design and QA through release, measurement and iteration. I modernise legacy code incrementally without slowing product delivery, I use AI tools naturally in my daily work, and I am comfortable proposing, questioning and defending technical decisions.
 
 At OLX Group, I owned an internal Android Ads SDK across the Horizontals, Real Estate, and Motors verticals, serving tens of millions of active users across market-specific builds. I led its architecture, lifecycle, publication, integration standards, and partner-team enablement, while raising SDK test coverage from 14% to 70%. At Explora Prado, I am the Technical Lead and sole developer of a live Flutter product for Museo del Prado, released on both the App Store and Google Play and still in active development.
 
@@ -23,6 +25,7 @@ My current product work combines privacy-first health data, on-device AI, cloud 
 - **Quality improvement:** Raised Android Ads SDK test coverage from 14% to 70% using JUnit, MockK, Robolectric, Espresso, MockWebServer, and JaCoCo, with Detekt and ktlint enforcing code quality.
 - **End-to-end product delivery:** Built and operate the full technical platform for Explora Prado, including Flutter applications for Android and iOS, Firebase services, in-app purchases, release pipelines, and live store releases.
 - **Long-term technical impact:** Led the ground-up Kotlin/Dagger 2 rebuild of Wegow's Android product; the resulting v2 still underpins the company's product six years after my departure.
+- **Legacy modernisation without slowing product:** Reduced technical debt incrementally at OLX — XML to Jetpack Compose and callbacks to Coroutines & Flow with zero regressions — while product delivery continued.
 - **AI product engineering:** Building a privacy-first Health Connect product that combines on-device Gemini Nano/AICore with cloud AI, with local-first handling of sensitive health data.
 
 ---
@@ -34,10 +37,10 @@ My current product work combines privacy-first health data, on-device AI, cloud 
 
 Recognised Flutter app turning Museo del Prado's permanent collection into a self-guided digital experience. Art-Tech 2025 Honorable Mention · Santander X Explorer 2026 selection.
 
-- Own the full technical platform as the sole developer, including architecture, implementation, release pipeline, and live releases on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado).
+- Own the product end to end as the sole developer, from problem definition to architecture, implementation, release pipeline, and live releases on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado).
 - Built the Android and iOS applications end to end with Flutter/Dart, Clean Architecture, BLoC, and a layered DTO / Entity / Model data structure backed by Firebase (Firestore, Storage, Authentication, Analytics, and Crashlytics).
 - Implemented the in-app purchase platform for both stores with `in_app_purchase`, including purchase verification and entitlement persistence; store-side products are live on both platforms.
-- Built dynamic localisation with Spanish and English live, plus Italian, French, and Portuguese planned, and delivered adaptive UI for a content-heavy museum experience using SVG assets and custom typography.
+- Implemented the Figma design specifications and built dynamic localisation with Spanish and English live, plus Italian, French, and Portuguese planned, and delivered adaptive UI for a content-heavy museum experience using SVG assets and custom typography.
 - Built the internal content-administration back office in Flutter Web for operator use, separate from the consumer-facing application.
 - Developed interactive quizzes, multimedia guides, payment flows, and offline synchronisation using Test-Driven Development (TDD) to support application reliability.
 - Run Firebase A/B tests across onboarding, content presentation, and conversion flows.
@@ -48,20 +51,22 @@ Recognised Flutter app turning Museo del Prado's permanent collection into a sel
 ### Senior Android Engineer · Jun 2021 – Jan 2026
 **OLX / Letgo** · Barcelona (Remote)
 
-Android platform engineering for a global marketplace operating across Poland, Portugal, Turkey, Ukraine, Romania, India, Indonesia, South America, and other markets.
+Android platform engineering for 4.5 years at a global marketplace operating across Poland, Portugal, Turkey, Ukraine, Romania, India, Indonesia, South America, and other markets.
 
 - Owned the internal Android Ads SDK as a mobile platform, powering monetisation across OLX's Horizontals, Real Estate, and Motors verticals. Each vertical shipped market-specific builds serving tens of millions of active users, with ad demand integrated primarily through Google Ad Manager and additional third-party ad-network SDKs.
 - Served as the SDK's technical lead and sole Android engineer for most of its lifecycle, leading a temporarily expanded Android team during higher-load periods.
 - Designed the `api` / `impl` module boundary to enforce dependency isolation, make partner integrations safer and more predictable, and improve build performance. Standardised builds with Gradle convention plugins, version catalogs (`libs.versions.toml`), and composite builds.
 - Led privacy-first SDK decisions covering consent-state management, IAB TCF, Google UMP, scoped tracking, GDPR, and Android Privacy Sandbox technologies including Topics API, Protected Audience, and Attribution Reporting.
-- Led migration of critical SDK surfaces from XML to Jetpack Compose and from callback-based asynchronous code to Kotlin Coroutines and Flow while maintaining backward compatibility.
+- Reduced technical debt incrementally without stopping product delivery: led migration of critical SDK surfaces from XML to Jetpack Compose and from callback-based asynchronous code to Kotlin Coroutines and Flow with zero regressions, while maintaining backward compatibility for partner teams.
 - Applied Baseline Profiles and Macrobenchmark to improve startup performance and reduce jank on critical SDK-hosting surfaces.
 - Used TDD and automated testing with JUnit, MockK, Robolectric, Espresso, and MockWebServer; raised SDK test coverage from 14% to 70% as tracked by JaCoCo, with Detekt and ktlint enforcing code quality.
 - Owned the SDK lifecycle from versioning and AAR packaging through Maven Publish distribution to Artifactory (JFrog) and Maven Central, integration documentation, and partner-team enablement.
 - Coordinated with the iOS SDK team to align API designs, telemetry schemas, and release lifecycles, establishing a unified integration standard for client teams.
+- Challenged recurring bug patching and proposed an explicit integration contract with documented trade-offs for partner teams.
+- Aligned product, design, backend and QA stakeholders during the merge of two OLX apps for India and Indonesia, using a phased plan and clear communication.
 - Worked across OLX's international organisation as it evolved, collaborating with teams in Istanbul, New Delhi, Poznań, and Lisbon to coordinate integration and delivery across time zones and markets.
 - Contributed to consumer-app feature work, including GraphQL-based data fetching, and wrote Flutter code alongside native Android development.
-- Integrated Amplitude, CleverTap, Google Analytics, and Crashlytics; ran A/B tests and experiments to validate ad placements, formats, and SDK changes against monetisation and engagement metrics.
+- Integrated Amplitude, CleverTap, Google Analytics, and Crashlytics with analytics events decoupled behind provider abstractions; ran A/B tests and experiments to validate ad placements, formats, and SDK changes against monetisation and engagement metrics.
 
 ---
 
@@ -71,7 +76,7 @@ Android platform engineering for a global marketplace operating across Poland, P
 Live-music events discovery and ticketing platform. Joined as the company's only Android developer and owned the application end to end across architecture, feature delivery, and production stability.
 
 - Stabilised the inherited Java application built on deprecated libraries, including Dagger 1, while continuing feature delivery.
-- Led and built a ground-up Android v2 in Kotlin with Dagger 2, MVVM, and Clean Architecture; this foundation still underpins the company's product six years after my departure.
+- Led and built a ground-up Android v2 in Kotlin with Dagger 2, MVVM, and Clean Architecture, keeping the legacy version running during the transition; this foundation still underpins the company's product six years after my departure.
 - Built core functionality with Room, LiveData, ViewModels, Coroutines, and Glide, and integrated Firebase for push notifications, analytics, and Crashlytics.
 - Integrated Stripe and Redsys payment gateways for ticket purchases and the Google Maps SDK for event discovery and venue geolocation.
 - Applied TDD as a core engineering practice to support a reliable, regression-resistant rebuild.
@@ -168,7 +173,7 @@ Personal project and public portfolio piece — a cross-platform **Android and i
 | Area | Skills |
 |---|---|
 | **Languages** | Kotlin (Expert) · Java · Dart · Swift (Familiar) · TypeScript (Familiar) · JavaScript (Familiar) · XML · JSON |
-| **Android Platform, UI & Core** | Jetpack Compose (Expert) · Material Design · Material 3 Expressive · Navigation Compose · shared-element transitions · predictive back · accessibility (screen-reader semantics, scalable text, contrast) · View system / XML layouts · Android TV / Leanback · ExoPlayer · WorkManager · Timber |
+| **Android Platform, UI & Core** | Jetpack Compose (Expert) · Material Design · Material 3 Expressive · Navigation Compose · shared-element transitions · predictive back · accessibility (screen-reader semantics, scalable text, contrast) · View system / XML layouts · Android TV / Leanback · ExoPlayer · WorkManager · Timber · multi-module architecture · design systems and design tokens · Glide |
 | **Architecture & Asynchronous Programming** | Clean Architecture (Expert) · MVVM (Expert) · MVI · Unidirectional Data Flow · MVP · enforced module boundaries · Coroutines & Flow (Expert) · RxJava · LiveData · ViewModel · EventBus (legacy) (Familiar) |
 | **Dependency Injection** | Hilt (Expert) · Dagger 2 (Expert) · Koin · Dagger 1 (legacy) (Familiar) |
 | **Networking & Data** | Retrofit (Expert) · Ktor · OkHttp (+ interceptors) · GraphQL · Gson · Jackson · kotlinx.serialization · Room (Expert) · DataStore · HTTP response caching (stale-while-revalidate, offline fallback) · Coil · Glide |
@@ -180,8 +185,8 @@ Personal project and public portfolio piece — a cross-platform **Android and i
 | **Flutter & Cross-Platform** | BLoC · Riverpod (Familiar) · Clean Architecture · `in_app_purchase` · Platform Channels · Flutter Web · Firebase · Firestore · App Check |
 | **Kotlin Multiplatform** | Kotlin Multiplatform · shared domain, data, and presentation layers · Kotlin/Native framework export to iOS · Compose Multiplatform · SwiftUI (native iOS) (Familiar) · Liquid Glass (Familiar) · SQLDelight (Familiar) · Ktor Multiplatform · React Native (Familiar) |
 | **AI & Agentic Tooling** | Claude Code (daily) · Cursor · Codex (Familiar) · Ollama (Familiar) · Windsurf (Familiar) · Gemini · Qwen (Familiar) · MCP Servers (Familiar) · AI skills and custom skill packages · terminal command loops · automated test-debug cycles · `AGENTS.md` / `DESIGN.md` patterns |
-| **Cloud & Product Services** | Firebase suite (Expert): Authentication, Firestore, Realtime Database, Storage, Cloud Functions, Analytics, Crashlytics, Remote Config, App Distribution · Google Ad Manager · third-party ad-network SDKs and mediation · Amplitude · CleverTap · Google Analytics · Twilio · Stripe · Redsys · feature flags · A/B testing |
-| **Tools & Methodologies** | Android Studio · Xcode (Familiar) · VS Code · Figma (design handoff) · Git (Expert) · CI/CD · Architecture Decision Records (ADRs) · JIRA · Agile · Scrum · Kanban · A/B testing and experimentation |
+| **Cloud & Product Services** | Firebase suite (Expert): Authentication, Firestore, Realtime Database, Storage, Cloud Functions, Analytics, Crashlytics, Remote Config, App Distribution · Google Ad Manager · third-party ad-network SDKs and mediation · Amplitude · CleverTap · Google Analytics · Firebase Analytics · event tracking behind provider abstractions · Twilio · Stripe · Redsys · feature flags · A/B testing |
+| **Tools & Methodologies** | Android Studio · Xcode (Familiar) · VS Code · Figma (design handoff) · Git (Expert) · CI/CD · Architecture Decision Records (ADRs) · JIRA · Agile · Scrum · Kanban · A/B testing and experimentation · close collaboration with PM, UX, QA and iOS teams |
 
 > **On React Native, JavaScript & TypeScript:** deliberately marked *Familiar* — a platform on-ramp, not on the level of Kotlin or Dart. What makes it usable in practice is the combination of app-development and architecture experience since 2015 with an AI-assisted workflow (Claude Code, Cursor): enough to take on React Native projects and become productive on them without a long ramp-up.
 

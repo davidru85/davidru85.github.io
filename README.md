@@ -6,7 +6,7 @@
 
 Welcome to my professional CV and portfolio repository! This project hosts my interactive, premium web CV, built with a modern glassmorphic UI, responsive layouts, and elegant micro-animations.
 
-**Available for Remote Roles**
+**Spain · Available for 100% Remote Work**
 
 🔗 **View Live Web CV:** [davidru85.github.io](https://davidru85.github.io/)
 
@@ -14,11 +14,12 @@ Welcome to my professional CV and portfolio repository! This project hosts my in
 
 ## 🚀 About Me
 
-I am a **Senior Mobile Engineer** building **production mobile systems since 2015** — native **Android** applications, **Android SDKs**, cross-platform **Flutter** products, and **Kotlin Multiplatform** shared layers. I own delivery end to end: architecture, API and SDK contracts, backward compatibility, privacy and consent, testing, CI/CD, release engineering, analytics, payments, and experimentation — with TDD and generative AI/agentic tooling as core engineering practices.
+I am a **Senior Mobile Engineer** building **production mobile systems since 2015** — native **Android** applications, **Android SDKs**, cross-platform **Flutter** products, and **Kotlin Multiplatform** shared layers. I own delivery end to end: architecture, API and SDK contracts, backward compatibility, privacy and consent, testing, CI/CD, release engineering, analytics, payments, and experimentation — with TDD and generative AI/agentic tooling as core engineering practices. As an **Android Product Engineer** with Kotlin as my main language, I stay long-term where I work (**4.5 years at OLX Group**, nearly 2 years at Wegow), own features from problem definition with product, design and QA through release and iteration, and modernise legacy code incrementally without slowing product delivery.
 
 ### Key Highlights:
 - **Mobile platform ownership at OLX / Letgo**: Owned the internal Android Ads SDK lifecycle — architecture, API and versioning strategy, backward compatibility, privacy and consent, AAR packaging, Maven publication, integration docs, and partner-team enablement — across three consumer verticals serving tens of millions of active users. Raised SDK test coverage from **14% to 70%**.
 - **Technical Lead at [Explora Prado](https://exploraprado.com)**: Sole developer of the full technical platform for a self-guided Museo del Prado experience built in Flutter — a recognised project (*Art-Tech 2025 Honorable Mention*, selected for *Santander X Explorer 2026*), live on the [App Store](https://apps.apple.com/app/id6758626429) and [Google Play](https://play.google.com/store/apps/details?id=com.explora.prado) and in active development.
+- **Legacy modernisation without slowing product**: Reduced technical debt incrementally at OLX — XML to Jetpack Compose and callbacks to Coroutines & Flow with zero regressions — while product delivery continued; proposed an explicit integration contract with documented trade-offs instead of patching recurring bugs.
 - **AI-Driven Engineering**: Pioneer in integrating terminal-integrated agentic loops (Claude Code), AI editors (Cursor), and customized Model Context Protocol (MCP) servers into the daily engineering cycle.
 - **Kotlin Multiplatform in Practice**: Building [carApp](https://github.com/davidru85/carApp) — a cross-platform Android/iOS vehicle-cost tracker developed as a public portfolio project, sharing domain, data, synchronization and presentation logic via KMP while keeping the UI native (Jetpack Compose + SwiftUI), on SQLDelight persistence with Firebase/Firestore backup, TDD and protected GitHub Actions CI.
 - **Native UI on a shared KMP core**: Built [Multiverse Explorer](https://github.com/davidru85/RickAndMorty) — a personal Android/iOS client for the public Rick and Morty API with one shared Kotlin core behind fully native UIs that follow each platform's design guidelines: Jetpack Compose with Material 3 Expressive on Android and SwiftUI with Liquid Glass on iOS. 13 Clean Architecture modules with enforced boundaries, REST and GraphQL over Ktor, offline-ready response and image caching, Figma design tokens verified by tests on both platforms, built-in accessibility, and 1,550+ automated tests behind a GitHub Actions gate.
@@ -29,7 +30,7 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 
 ### Core & Frameworks
 - **Languages:** Kotlin, Dart, Java, Swift (familiar), TypeScript (familiar), JavaScript (familiar), XML, SQL
-- **Android Stack:** Jetpack Compose, Material 3 Expressive, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, DataStore, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, accessibility, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
+- **Android Stack:** Jetpack Compose, Material 3 Expressive, Coroutines & Flow, Hilt/Dagger 2, Koin, Room, DataStore, Retrofit, Ktor, GraphQL, Coil, RxJava, Android TV, Baseline Profiles, Macrobenchmark, accessibility, multi-module architecture, design systems and design tokens, Glide, Health Connect API, AICore (on-device Gemini Nano), on-device TTS/STT
 - **Flutter Stack:** BLoC, Riverpod, Clean Architecture, In-App Purchases, Firestore, Flutter Web, Platform Channels
 - **Testing & Quality:** TDD, JUnit, MockK, Espresso, Robolectric, Compose UI testing, Roborazzi (screenshot testing), contract testing, MockWebServer, JaCoCo, Detekt, ktlint, Android Lint
 - **KMP & Cross-platform:** Kotlin Multiplatform (KMP), shared domain/data/presentation layers, Compose Multiplatform, SwiftUI (native iOS, familiar), Liquid Glass (familiar), SQLDelight, Ktor Multiplatform, React Native + JavaScript/TypeScript (familiar — a platform on-ramp rather than a primary stack; app architecture experience plus an AI-assisted workflow make React Native projects approachable)
@@ -39,7 +40,7 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 - **Methodology:** MCP Servers (Model Context Protocol), automated test-debug cycles, AI Skills / custom skill packages, and structured `AGENTS.md` / `DESIGN.md` patterns
 
 ### Ecosystem & Cloud
-- **Cloud/SDKs:** Firebase Suite (Auth, Firestore, App Check, Crashlytics), Google Ad Manager (primary ad demand), third-party ad-network SDKs / mediation, Amplitude, CleverTap
+- **Cloud/SDKs:** Firebase Suite (Auth, Firestore, App Check, Crashlytics), Google Ad Manager (primary ad demand), third-party ad-network SDKs / mediation, Amplitude, CleverTap, Google Analytics / Firebase Analytics, event tracking behind provider abstractions
 - **SDK & Platform:** API and SDK design, versioning and backward compatibility, `api`/`impl` modularisation, enforced module boundaries, Gradle convention plugins, version catalogs, composite builds, AAR packaging, Maven Publish, Artifactory (JFrog) / Maven Central, release engineering, Architecture Decision Records (ADRs)
 - **CI/CD & Tooling:** Git, Gradle (Kotlin DSL / Groovy), GitHub Actions, Jenkins, Fastlane, Android Studio, Xcode (familiar), VS Code, Figma (design handoff)
 
@@ -48,14 +49,15 @@ I am a **Senior Mobile Engineer** building **production mobile systems since 201
 ## 💼 Professional Experience (Summary)
 
 *   **Technical Lead (Freelance)** | *Explora Prado* (Jan 2026 – Present)
-    *   Own the full technical platform as the sole developer: architecture, implementation, release pipeline, and live store releases.
+    *   Own the product end to end as the sole developer, from problem definition to architecture, implementation, release pipeline, and live store releases.
     *   Built double-store in-app purchases with entitlement persistence, dynamic localisation, offline synchronization, and the internal Flutter Web back office.
 *   **Senior Android Engineer** | *OLX / Letgo* (Jun 2021 – Jan 2026)
     *   Owned the internal Android Ads SDK as a mobile platform: `api`/`impl` module boundary, versioning and backward compatibility, AAR packaging and Maven publication, integration docs and partner-team enablement.
-    *   Led Compose and Coroutines/Flow migrations of critical SDK surfaces, and privacy compliance (GDPR, IAB TCF, Google UMP, Privacy Sandbox), aligning API and release lifecycles with the iOS SDK team.
+    *   Reduced technical debt incrementally without stopping product delivery: Compose and Coroutines/Flow migrations of critical SDK surfaces with zero regressions, and privacy compliance (GDPR, IAB TCF, Google UMP, Privacy Sandbox), aligning API and release lifecycles with the iOS SDK team.
+    *   Challenged recurring bug patching and proposed an explicit integration contract; aligned product, design, backend and QA stakeholders during the merge of two OLX apps for India and Indonesia.
     *   Integrated GraphQL APIs and wrote my first Flutter code here, alongside the native Android work.
 *   **Senior Android Developer** | *Wegow* (Sep 2019 – Jun 2021)
-    *   Sole Android developer. Led a ground-up Kotlin/Dagger 2 rebuild on MVVM/Clean Architecture; that v2 still underpins the product six years later.
+    *   Sole Android developer. Led a ground-up Kotlin/Dagger 2 rebuild on MVVM/Clean Architecture, keeping the legacy version running during the transition; that v2 still underpins the product six years later.
     *   Integrated Stripe and Redsys payment gateways and the Google Maps SDK for event discovery.
 *   **Android Developer & Android TV Developer** | *Instantgo, Telefónica, UXSmobile, Mobile One2One, AvantGarde IT Services* (2015 – 2019)
     *   Developed enterprise and consumer apps (Movistar TV Android TV, Evo Banco, Carrefour, Alsa, Iberostar, Baleària, Meliá, DGT, Brightstar).
