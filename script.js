@@ -93,6 +93,7 @@ function initTypingEffect() {
 
   const isSpanish = document.documentElement.lang === 'es';
   const roles = isSpanish ? [
+    "Android Product Engineer",
     "Ingeniero de Plataforma Móvil",
     "Arquitecto de SDKs",
     "Ingeniero Android",
@@ -100,6 +101,7 @@ function initTypingEffect() {
     "Kotlin Multiplatform (KMP) Explorer",
     "Desarrollador AI-First"
   ] : [
+    "Android Product Engineer",
     "Mobile Platform Engineer",
     "SDK Architect",
     "Android Engineer",
